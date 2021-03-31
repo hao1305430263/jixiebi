@@ -1,0 +1,2 @@
+wpm2/demo1:wpm2/wpm2_bringup:wpm2/wpm2_moveit_config:wpm2/wpm2_tutorials
+-DCATKIN_DEVEL_PREFIX=/home/haouanbo/Projects/jixiebi/ws2/devel -DCMAKE_INSTALL_PREFIX=/home/haouanbo/Projects/jixiebi/ws2/install -G Unix Makefiles
