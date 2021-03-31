@@ -1,6 +1,6 @@
 # generated from genmsg/cmake/pkg-genmsg.cmake.em
 
-message(STATUS "demo1: 1 messages, 0 services")
+message(STATUS "demo1: 2 messages, 0 services")
 
 set(MSG_I_FLAGS "-Idemo1:/home/haouanbo/Projects/jixiebi/ws2/src/wpm2/demo1/msg;-Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg")
 
@@ -22,6 +22,11 @@ add_custom_target(_demo1_generate_messages_check_deps_${_filename}
   COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "demo1" "/home/haouanbo/Projects/jixiebi/ws2/src/wpm2/demo1/msg/sign_position.msg" ""
 )
 
+get_filename_component(_filename "/home/haouanbo/Projects/jixiebi/ws2/src/wpm2/demo1/msg/node_position.msg" NAME_WE)
+add_custom_target(_demo1_generate_messages_check_deps_${_filename}
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "demo1" "/home/haouanbo/Projects/jixiebi/ws2/src/wpm2/demo1/msg/node_position.msg" ""
+)
+
 #
 #  langs = gencpp;geneus;genlisp;gennodejs;genpy
 #
@@ -30,6 +35,12 @@ add_custom_target(_demo1_generate_messages_check_deps_${_filename}
 ### Generating Messages
 _generate_msg_cpp(demo1
   "/home/haouanbo/Projects/jixiebi/ws2/src/wpm2/demo1/msg/sign_position.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/demo1
+)
+_generate_msg_cpp(demo1
+  "/home/haouanbo/Projects/jixiebi/ws2/src/wpm2/demo1/msg/node_position.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/demo1
@@ -51,6 +62,8 @@ add_dependencies(demo1_generate_messages demo1_generate_messages_cpp)
 # add dependencies to all check dependencies targets
 get_filename_component(_filename "/home/haouanbo/Projects/jixiebi/ws2/src/wpm2/demo1/msg/sign_position.msg" NAME_WE)
 add_dependencies(demo1_generate_messages_cpp _demo1_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/haouanbo/Projects/jixiebi/ws2/src/wpm2/demo1/msg/node_position.msg" NAME_WE)
+add_dependencies(demo1_generate_messages_cpp _demo1_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
 add_custom_target(demo1_gencpp)
@@ -63,6 +76,12 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS demo1_generate_messages_cpp)
 ### Generating Messages
 _generate_msg_eus(demo1
   "/home/haouanbo/Projects/jixiebi/ws2/src/wpm2/demo1/msg/sign_position.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/demo1
+)
+_generate_msg_eus(demo1
+  "/home/haouanbo/Projects/jixiebi/ws2/src/wpm2/demo1/msg/node_position.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/demo1
@@ -84,6 +103,8 @@ add_dependencies(demo1_generate_messages demo1_generate_messages_eus)
 # add dependencies to all check dependencies targets
 get_filename_component(_filename "/home/haouanbo/Projects/jixiebi/ws2/src/wpm2/demo1/msg/sign_position.msg" NAME_WE)
 add_dependencies(demo1_generate_messages_eus _demo1_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/haouanbo/Projects/jixiebi/ws2/src/wpm2/demo1/msg/node_position.msg" NAME_WE)
+add_dependencies(demo1_generate_messages_eus _demo1_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
 add_custom_target(demo1_geneus)
@@ -96,6 +117,12 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS demo1_generate_messages_eus)
 ### Generating Messages
 _generate_msg_lisp(demo1
   "/home/haouanbo/Projects/jixiebi/ws2/src/wpm2/demo1/msg/sign_position.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/demo1
+)
+_generate_msg_lisp(demo1
+  "/home/haouanbo/Projects/jixiebi/ws2/src/wpm2/demo1/msg/node_position.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/demo1
@@ -117,6 +144,8 @@ add_dependencies(demo1_generate_messages demo1_generate_messages_lisp)
 # add dependencies to all check dependencies targets
 get_filename_component(_filename "/home/haouanbo/Projects/jixiebi/ws2/src/wpm2/demo1/msg/sign_position.msg" NAME_WE)
 add_dependencies(demo1_generate_messages_lisp _demo1_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/haouanbo/Projects/jixiebi/ws2/src/wpm2/demo1/msg/node_position.msg" NAME_WE)
+add_dependencies(demo1_generate_messages_lisp _demo1_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
 add_custom_target(demo1_genlisp)
@@ -129,6 +158,12 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS demo1_generate_messages_lisp)
 ### Generating Messages
 _generate_msg_nodejs(demo1
   "/home/haouanbo/Projects/jixiebi/ws2/src/wpm2/demo1/msg/sign_position.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/demo1
+)
+_generate_msg_nodejs(demo1
+  "/home/haouanbo/Projects/jixiebi/ws2/src/wpm2/demo1/msg/node_position.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/demo1
@@ -150,6 +185,8 @@ add_dependencies(demo1_generate_messages demo1_generate_messages_nodejs)
 # add dependencies to all check dependencies targets
 get_filename_component(_filename "/home/haouanbo/Projects/jixiebi/ws2/src/wpm2/demo1/msg/sign_position.msg" NAME_WE)
 add_dependencies(demo1_generate_messages_nodejs _demo1_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/haouanbo/Projects/jixiebi/ws2/src/wpm2/demo1/msg/node_position.msg" NAME_WE)
+add_dependencies(demo1_generate_messages_nodejs _demo1_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
 add_custom_target(demo1_gennodejs)
@@ -162,6 +199,12 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS demo1_generate_messages_nodejs)
 ### Generating Messages
 _generate_msg_py(demo1
   "/home/haouanbo/Projects/jixiebi/ws2/src/wpm2/demo1/msg/sign_position.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/demo1
+)
+_generate_msg_py(demo1
+  "/home/haouanbo/Projects/jixiebi/ws2/src/wpm2/demo1/msg/node_position.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/demo1
@@ -182,6 +225,8 @@ add_dependencies(demo1_generate_messages demo1_generate_messages_py)
 
 # add dependencies to all check dependencies targets
 get_filename_component(_filename "/home/haouanbo/Projects/jixiebi/ws2/src/wpm2/demo1/msg/sign_position.msg" NAME_WE)
+add_dependencies(demo1_generate_messages_py _demo1_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/haouanbo/Projects/jixiebi/ws2/src/wpm2/demo1/msg/node_position.msg" NAME_WE)
 add_dependencies(demo1_generate_messages_py _demo1_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility

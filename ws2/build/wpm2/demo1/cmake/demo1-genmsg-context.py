@@ -1,6 +1,6 @@
 # generated from genmsg/cmake/pkg-genmsg.context.in
 
-messages_str = "/home/haouanbo/Projects/jixiebi/ws2/src/wpm2/demo1/msg/sign_position.msg"
+messages_str = "/home/haouanbo/Projects/jixiebi/ws2/src/wpm2/demo1/msg/sign_position.msg;/home/haouanbo/Projects/jixiebi/ws2/src/wpm2/demo1/msg/node_position.msg"
 services_str = ""
 pkg_name = "demo1"
 dependencies_str = "std_msgs"

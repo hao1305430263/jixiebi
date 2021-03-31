@@ -54,6 +54,7 @@ CMAKE_BINARY_DIR = /home/haouanbo/Projects/jixiebi/ws2/build
 include wpm2/demo1/CMakeFiles/demo1_generate_messages_eus.dir/progress.make
 
 wpm2/demo1/CMakeFiles/demo1_generate_messages_eus: /home/haouanbo/Projects/jixiebi/ws2/devel/share/roseus/ros/demo1/msg/sign_position.l
+wpm2/demo1/CMakeFiles/demo1_generate_messages_eus: /home/haouanbo/Projects/jixiebi/ws2/devel/share/roseus/ros/demo1/msg/node_position.l
 wpm2/demo1/CMakeFiles/demo1_generate_messages_eus: /home/haouanbo/Projects/jixiebi/ws2/devel/share/roseus/ros/demo1/manifest.l
 
 
@@ -62,12 +63,18 @@ wpm2/demo1/CMakeFiles/demo1_generate_messages_eus: /home/haouanbo/Projects/jixie
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/haouanbo/Projects/jixiebi/ws2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating EusLisp code from demo1/sign_position.msg"
 	cd /home/haouanbo/Projects/jixiebi/ws2/build/wpm2/demo1 && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/haouanbo/Projects/jixiebi/ws2/src/wpm2/demo1/msg/sign_position.msg -Idemo1:/home/haouanbo/Projects/jixiebi/ws2/src/wpm2/demo1/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p demo1 -o /home/haouanbo/Projects/jixiebi/ws2/devel/share/roseus/ros/demo1/msg
 
+/home/haouanbo/Projects/jixiebi/ws2/devel/share/roseus/ros/demo1/msg/node_position.l: /opt/ros/melodic/lib/geneus/gen_eus.py
+/home/haouanbo/Projects/jixiebi/ws2/devel/share/roseus/ros/demo1/msg/node_position.l: /home/haouanbo/Projects/jixiebi/ws2/src/wpm2/demo1/msg/node_position.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/haouanbo/Projects/jixiebi/ws2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating EusLisp code from demo1/node_position.msg"
+	cd /home/haouanbo/Projects/jixiebi/ws2/build/wpm2/demo1 && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/haouanbo/Projects/jixiebi/ws2/src/wpm2/demo1/msg/node_position.msg -Idemo1:/home/haouanbo/Projects/jixiebi/ws2/src/wpm2/demo1/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p demo1 -o /home/haouanbo/Projects/jixiebi/ws2/devel/share/roseus/ros/demo1/msg
+
 /home/haouanbo/Projects/jixiebi/ws2/devel/share/roseus/ros/demo1/manifest.l: /opt/ros/melodic/lib/geneus/gen_eus.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/haouanbo/Projects/jixiebi/ws2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating EusLisp manifest code for demo1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/haouanbo/Projects/jixiebi/ws2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating EusLisp manifest code for demo1"
 	cd /home/haouanbo/Projects/jixiebi/ws2/build/wpm2/demo1 && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py -m -o /home/haouanbo/Projects/jixiebi/ws2/devel/share/roseus/ros/demo1 demo1 std_msgs
 
 demo1_generate_messages_eus: wpm2/demo1/CMakeFiles/demo1_generate_messages_eus
 demo1_generate_messages_eus: /home/haouanbo/Projects/jixiebi/ws2/devel/share/roseus/ros/demo1/msg/sign_position.l
+demo1_generate_messages_eus: /home/haouanbo/Projects/jixiebi/ws2/devel/share/roseus/ros/demo1/msg/node_position.l
 demo1_generate_messages_eus: /home/haouanbo/Projects/jixiebi/ws2/devel/share/roseus/ros/demo1/manifest.l
 demo1_generate_messages_eus: wpm2/demo1/CMakeFiles/demo1_generate_messages_eus.dir/build.make
 

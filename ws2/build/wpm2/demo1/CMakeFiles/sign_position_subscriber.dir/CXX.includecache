@@ -6,6 +6,22 @@
 
 #IncludeRegexTransform: 
 
+/home/haouanbo/Projects/jixiebi/ws2/devel/include/demo1/node_position.h
+string
+-
+vector
+-
+map
+-
+ros/types.h
+-
+ros/serialization.h
+-
+ros/builtin_message_traits.h
+-
+ros/message_operations.h
+-
+
 /home/haouanbo/Projects/jixiebi/ws2/devel/include/demo1/sign_position.h
 string
 -
@@ -27,6 +43,8 @@ ros/ros.h
 -
 demo1/sign_position.h
 /home/haouanbo/Projects/jixiebi/ws2/src/wpm2/demo1/src/demo1/sign_position.h
+demo1/node_position.h
+/home/haouanbo/Projects/jixiebi/ws2/src/wpm2/demo1/src/demo1/node_position.h
 
 /opt/ros/melodic/include/ros/advertise_options.h
 ros/forwards.h

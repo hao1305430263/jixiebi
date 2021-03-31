@@ -54,6 +54,7 @@ CMAKE_BINARY_DIR = /home/haouanbo/Projects/jixiebi/ws2/build
 include wpm2/demo1/CMakeFiles/demo1_generate_messages_nodejs.dir/progress.make
 
 wpm2/demo1/CMakeFiles/demo1_generate_messages_nodejs: /home/haouanbo/Projects/jixiebi/ws2/devel/share/gennodejs/ros/demo1/msg/sign_position.js
+wpm2/demo1/CMakeFiles/demo1_generate_messages_nodejs: /home/haouanbo/Projects/jixiebi/ws2/devel/share/gennodejs/ros/demo1/msg/node_position.js
 
 
 /home/haouanbo/Projects/jixiebi/ws2/devel/share/gennodejs/ros/demo1/msg/sign_position.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
@@ -61,8 +62,14 @@ wpm2/demo1/CMakeFiles/demo1_generate_messages_nodejs: /home/haouanbo/Projects/ji
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/haouanbo/Projects/jixiebi/ws2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Javascript code from demo1/sign_position.msg"
 	cd /home/haouanbo/Projects/jixiebi/ws2/build/wpm2/demo1 && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/haouanbo/Projects/jixiebi/ws2/src/wpm2/demo1/msg/sign_position.msg -Idemo1:/home/haouanbo/Projects/jixiebi/ws2/src/wpm2/demo1/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p demo1 -o /home/haouanbo/Projects/jixiebi/ws2/devel/share/gennodejs/ros/demo1/msg
 
+/home/haouanbo/Projects/jixiebi/ws2/devel/share/gennodejs/ros/demo1/msg/node_position.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/haouanbo/Projects/jixiebi/ws2/devel/share/gennodejs/ros/demo1/msg/node_position.js: /home/haouanbo/Projects/jixiebi/ws2/src/wpm2/demo1/msg/node_position.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/haouanbo/Projects/jixiebi/ws2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Javascript code from demo1/node_position.msg"
+	cd /home/haouanbo/Projects/jixiebi/ws2/build/wpm2/demo1 && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/haouanbo/Projects/jixiebi/ws2/src/wpm2/demo1/msg/node_position.msg -Idemo1:/home/haouanbo/Projects/jixiebi/ws2/src/wpm2/demo1/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p demo1 -o /home/haouanbo/Projects/jixiebi/ws2/devel/share/gennodejs/ros/demo1/msg
+
 demo1_generate_messages_nodejs: wpm2/demo1/CMakeFiles/demo1_generate_messages_nodejs
 demo1_generate_messages_nodejs: /home/haouanbo/Projects/jixiebi/ws2/devel/share/gennodejs/ros/demo1/msg/sign_position.js
+demo1_generate_messages_nodejs: /home/haouanbo/Projects/jixiebi/ws2/devel/share/gennodejs/ros/demo1/msg/node_position.js
 demo1_generate_messages_nodejs: wpm2/demo1/CMakeFiles/demo1_generate_messages_nodejs.dir/build.make
 
 .PHONY : demo1_generate_messages_nodejs

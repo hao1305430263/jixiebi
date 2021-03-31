@@ -91,6 +91,7 @@ link_directories(${catkin_LIBRARY_DIRS})
 # )
 
 add_message_files(FILES sign_position.msg)
+add_message_files(FILES node_position.msg)
 generate_messages(DEPENDENCIES std_msgs)
 
 ################################################
@@ -301,6 +302,18 @@ target_link_libraries(sign_position_subscriber
 	${catkin_LIBRARIES}
 	)
 
+add_executable(wpm2_plan_execute_demo
+  src/wpm2_plan_execute_demo.cpp
+)
+add_dependencies(wpm2_plan_execute_demo 
+	${${PROJECT_NAME}_EXPORTED_TARGETS} 
+	${catkin_EXPORTED_TARGETS}
+	${PROJECT_NAME}_generate_messages_cpp
+)
+target_link_libraries(wpm2_plan_execute_demo
+  ${catkin_LIBRARIES}
+)
+ 
 # add_executable(mobile_mani_control
 #   src/mobile_mani_control.cpp
 # )

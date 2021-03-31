@@ -54,6 +54,7 @@ CMAKE_BINARY_DIR = /home/haouanbo/Projects/jixiebi/ws2/build
 include wpm2/demo1/CMakeFiles/demo1_generate_messages_py.dir/progress.make
 
 wpm2/demo1/CMakeFiles/demo1_generate_messages_py: /home/haouanbo/Projects/jixiebi/ws2/devel/lib/python2.7/dist-packages/demo1/msg/_sign_position.py
+wpm2/demo1/CMakeFiles/demo1_generate_messages_py: /home/haouanbo/Projects/jixiebi/ws2/devel/lib/python2.7/dist-packages/demo1/msg/_node_position.py
 wpm2/demo1/CMakeFiles/demo1_generate_messages_py: /home/haouanbo/Projects/jixiebi/ws2/devel/lib/python2.7/dist-packages/demo1/msg/__init__.py
 
 
@@ -62,13 +63,20 @@ wpm2/demo1/CMakeFiles/demo1_generate_messages_py: /home/haouanbo/Projects/jixieb
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/haouanbo/Projects/jixiebi/ws2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python from MSG demo1/sign_position"
 	cd /home/haouanbo/Projects/jixiebi/ws2/build/wpm2/demo1 && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/haouanbo/Projects/jixiebi/ws2/src/wpm2/demo1/msg/sign_position.msg -Idemo1:/home/haouanbo/Projects/jixiebi/ws2/src/wpm2/demo1/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p demo1 -o /home/haouanbo/Projects/jixiebi/ws2/devel/lib/python2.7/dist-packages/demo1/msg
 
+/home/haouanbo/Projects/jixiebi/ws2/devel/lib/python2.7/dist-packages/demo1/msg/_node_position.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
+/home/haouanbo/Projects/jixiebi/ws2/devel/lib/python2.7/dist-packages/demo1/msg/_node_position.py: /home/haouanbo/Projects/jixiebi/ws2/src/wpm2/demo1/msg/node_position.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/haouanbo/Projects/jixiebi/ws2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python from MSG demo1/node_position"
+	cd /home/haouanbo/Projects/jixiebi/ws2/build/wpm2/demo1 && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/haouanbo/Projects/jixiebi/ws2/src/wpm2/demo1/msg/node_position.msg -Idemo1:/home/haouanbo/Projects/jixiebi/ws2/src/wpm2/demo1/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p demo1 -o /home/haouanbo/Projects/jixiebi/ws2/devel/lib/python2.7/dist-packages/demo1/msg
+
 /home/haouanbo/Projects/jixiebi/ws2/devel/lib/python2.7/dist-packages/demo1/msg/__init__.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
 /home/haouanbo/Projects/jixiebi/ws2/devel/lib/python2.7/dist-packages/demo1/msg/__init__.py: /home/haouanbo/Projects/jixiebi/ws2/devel/lib/python2.7/dist-packages/demo1/msg/_sign_position.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/haouanbo/Projects/jixiebi/ws2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python msg __init__.py for demo1"
+/home/haouanbo/Projects/jixiebi/ws2/devel/lib/python2.7/dist-packages/demo1/msg/__init__.py: /home/haouanbo/Projects/jixiebi/ws2/devel/lib/python2.7/dist-packages/demo1/msg/_node_position.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/haouanbo/Projects/jixiebi/ws2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Python msg __init__.py for demo1"
 	cd /home/haouanbo/Projects/jixiebi/ws2/build/wpm2/demo1 && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/haouanbo/Projects/jixiebi/ws2/devel/lib/python2.7/dist-packages/demo1/msg --initpy
 
 demo1_generate_messages_py: wpm2/demo1/CMakeFiles/demo1_generate_messages_py
 demo1_generate_messages_py: /home/haouanbo/Projects/jixiebi/ws2/devel/lib/python2.7/dist-packages/demo1/msg/_sign_position.py
+demo1_generate_messages_py: /home/haouanbo/Projects/jixiebi/ws2/devel/lib/python2.7/dist-packages/demo1/msg/_node_position.py
 demo1_generate_messages_py: /home/haouanbo/Projects/jixiebi/ws2/devel/lib/python2.7/dist-packages/demo1/msg/__init__.py
 demo1_generate_messages_py: wpm2/demo1/CMakeFiles/demo1_generate_messages_py.dir/build.make
 

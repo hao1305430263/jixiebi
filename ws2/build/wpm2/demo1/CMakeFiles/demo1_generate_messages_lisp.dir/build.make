@@ -54,6 +54,7 @@ CMAKE_BINARY_DIR = /home/haouanbo/Projects/jixiebi/ws2/build
 include wpm2/demo1/CMakeFiles/demo1_generate_messages_lisp.dir/progress.make
 
 wpm2/demo1/CMakeFiles/demo1_generate_messages_lisp: /home/haouanbo/Projects/jixiebi/ws2/devel/share/common-lisp/ros/demo1/msg/sign_position.lisp
+wpm2/demo1/CMakeFiles/demo1_generate_messages_lisp: /home/haouanbo/Projects/jixiebi/ws2/devel/share/common-lisp/ros/demo1/msg/node_position.lisp
 
 
 /home/haouanbo/Projects/jixiebi/ws2/devel/share/common-lisp/ros/demo1/msg/sign_position.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
@@ -61,8 +62,14 @@ wpm2/demo1/CMakeFiles/demo1_generate_messages_lisp: /home/haouanbo/Projects/jixi
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/haouanbo/Projects/jixiebi/ws2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Lisp code from demo1/sign_position.msg"
 	cd /home/haouanbo/Projects/jixiebi/ws2/build/wpm2/demo1 && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/haouanbo/Projects/jixiebi/ws2/src/wpm2/demo1/msg/sign_position.msg -Idemo1:/home/haouanbo/Projects/jixiebi/ws2/src/wpm2/demo1/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p demo1 -o /home/haouanbo/Projects/jixiebi/ws2/devel/share/common-lisp/ros/demo1/msg
 
+/home/haouanbo/Projects/jixiebi/ws2/devel/share/common-lisp/ros/demo1/msg/node_position.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
+/home/haouanbo/Projects/jixiebi/ws2/devel/share/common-lisp/ros/demo1/msg/node_position.lisp: /home/haouanbo/Projects/jixiebi/ws2/src/wpm2/demo1/msg/node_position.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/haouanbo/Projects/jixiebi/ws2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Lisp code from demo1/node_position.msg"
+	cd /home/haouanbo/Projects/jixiebi/ws2/build/wpm2/demo1 && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/haouanbo/Projects/jixiebi/ws2/src/wpm2/demo1/msg/node_position.msg -Idemo1:/home/haouanbo/Projects/jixiebi/ws2/src/wpm2/demo1/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p demo1 -o /home/haouanbo/Projects/jixiebi/ws2/devel/share/common-lisp/ros/demo1/msg
+
 demo1_generate_messages_lisp: wpm2/demo1/CMakeFiles/demo1_generate_messages_lisp
 demo1_generate_messages_lisp: /home/haouanbo/Projects/jixiebi/ws2/devel/share/common-lisp/ros/demo1/msg/sign_position.lisp
+demo1_generate_messages_lisp: /home/haouanbo/Projects/jixiebi/ws2/devel/share/common-lisp/ros/demo1/msg/node_position.lisp
 demo1_generate_messages_lisp: wpm2/demo1/CMakeFiles/demo1_generate_messages_lisp.dir/build.make
 
 .PHONY : demo1_generate_messages_lisp

@@ -42,6 +42,10 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/demo1/msg" TYPE FILE FILES "/home/haouanbo/Projects/jixiebi/ws2/src/wpm2/demo1/msg/node_position.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/demo1/cmake" TYPE FILE FILES "/home/haouanbo/Projects/jixiebi/ws2/build/wpm2/demo1/catkin_generated/installspace/demo1-msg-paths.cmake")
 endif()
 

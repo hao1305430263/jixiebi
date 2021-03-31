@@ -54,6 +54,7 @@ CMAKE_BINARY_DIR = /home/haouanbo/Projects/jixiebi/ws2/build
 include wpm2/demo1/CMakeFiles/demo1_generate_messages_cpp.dir/progress.make
 
 wpm2/demo1/CMakeFiles/demo1_generate_messages_cpp: /home/haouanbo/Projects/jixiebi/ws2/devel/include/demo1/sign_position.h
+wpm2/demo1/CMakeFiles/demo1_generate_messages_cpp: /home/haouanbo/Projects/jixiebi/ws2/devel/include/demo1/node_position.h
 
 
 /home/haouanbo/Projects/jixiebi/ws2/devel/include/demo1/sign_position.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
@@ -62,8 +63,15 @@ wpm2/demo1/CMakeFiles/demo1_generate_messages_cpp: /home/haouanbo/Projects/jixie
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/haouanbo/Projects/jixiebi/ws2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from demo1/sign_position.msg"
 	cd /home/haouanbo/Projects/jixiebi/ws2/src/wpm2/demo1 && /home/haouanbo/Projects/jixiebi/ws2/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/haouanbo/Projects/jixiebi/ws2/src/wpm2/demo1/msg/sign_position.msg -Idemo1:/home/haouanbo/Projects/jixiebi/ws2/src/wpm2/demo1/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p demo1 -o /home/haouanbo/Projects/jixiebi/ws2/devel/include/demo1 -e /opt/ros/melodic/share/gencpp/cmake/..
 
+/home/haouanbo/Projects/jixiebi/ws2/devel/include/demo1/node_position.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/haouanbo/Projects/jixiebi/ws2/devel/include/demo1/node_position.h: /home/haouanbo/Projects/jixiebi/ws2/src/wpm2/demo1/msg/node_position.msg
+/home/haouanbo/Projects/jixiebi/ws2/devel/include/demo1/node_position.h: /opt/ros/melodic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/haouanbo/Projects/jixiebi/ws2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating C++ code from demo1/node_position.msg"
+	cd /home/haouanbo/Projects/jixiebi/ws2/src/wpm2/demo1 && /home/haouanbo/Projects/jixiebi/ws2/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/haouanbo/Projects/jixiebi/ws2/src/wpm2/demo1/msg/node_position.msg -Idemo1:/home/haouanbo/Projects/jixiebi/ws2/src/wpm2/demo1/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p demo1 -o /home/haouanbo/Projects/jixiebi/ws2/devel/include/demo1 -e /opt/ros/melodic/share/gencpp/cmake/..
+
 demo1_generate_messages_cpp: wpm2/demo1/CMakeFiles/demo1_generate_messages_cpp
 demo1_generate_messages_cpp: /home/haouanbo/Projects/jixiebi/ws2/devel/include/demo1/sign_position.h
+demo1_generate_messages_cpp: /home/haouanbo/Projects/jixiebi/ws2/devel/include/demo1/node_position.h
 demo1_generate_messages_cpp: wpm2/demo1/CMakeFiles/demo1_generate_messages_cpp.dir/build.make
 
 .PHONY : demo1_generate_messages_cpp
