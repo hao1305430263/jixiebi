@@ -433,6 +433,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "wpm2/demo1/CMakeFiles/std_srvs_generate_messages_nodejs.dir/DependInfo.cmake"
   "wpm2/demo1/CMakeFiles/object_recognition_msgs_generate_messages_py.dir/DependInfo.cmake"
   "wpm2/demo1/CMakeFiles/octomap_msgs_generate_messages_nodejs.dir/DependInfo.cmake"
+  "wpm2/demo1/CMakeFiles/sign_position_subscriber_publisher.dir/DependInfo.cmake"
   "wpm2/demo1/CMakeFiles/actionlib_generate_messages_py.dir/DependInfo.cmake"
   "wpm2/demo1/CMakeFiles/tf2_msgs_generate_messages_py.dir/DependInfo.cmake"
   "wpm2/demo1/CMakeFiles/tf_generate_messages_nodejs.dir/DependInfo.cmake"

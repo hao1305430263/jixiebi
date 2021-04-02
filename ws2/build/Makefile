@@ -1481,6 +1481,19 @@ octomap_msgs_generate_messages_nodejs/fast:
 .PHONY : octomap_msgs_generate_messages_nodejs/fast
 
 #=============================================================================
+# Target rules for targets named sign_position_subscriber_publisher
+
+# Build rule for target.
+sign_position_subscriber_publisher: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sign_position_subscriber_publisher
+.PHONY : sign_position_subscriber_publisher
+
+# fast build rule for target.
+sign_position_subscriber_publisher/fast:
+	$(MAKE) -f wpm2/demo1/CMakeFiles/sign_position_subscriber_publisher.dir/build.make wpm2/demo1/CMakeFiles/sign_position_subscriber_publisher.dir/build
+.PHONY : sign_position_subscriber_publisher/fast
+
+#=============================================================================
 # Target rules for targets named actionlib_generate_messages_py
 
 # Build rule for target.
@@ -2049,6 +2062,7 @@ help:
 	@echo "... std_srvs_generate_messages_nodejs"
 	@echo "... object_recognition_msgs_generate_messages_py"
 	@echo "... octomap_msgs_generate_messages_nodejs"
+	@echo "... sign_position_subscriber_publisher"
 	@echo "... actionlib_generate_messages_py"
 	@echo "... tf2_msgs_generate_messages_py"
 	@echo "... tf_generate_messages_nodejs"

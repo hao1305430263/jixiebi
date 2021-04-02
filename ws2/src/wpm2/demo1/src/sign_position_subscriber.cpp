@@ -24,12 +24,15 @@ int main(int argc, char **argv)
 
 	// 创建节点句柄
 	ros::NodeHandle n;
-
-	// 创建一个Subscriber，订阅名为/person_info的topic，注册回调函数personInfoCallback
-	ros::Subscriber person_info_sub = n.subscribe("/sign_position_info", 10, personInfoCallback);
+	
 	// 发送处理后的 node 坐标和角度
 	ros::Publisher node_position_publisher = n.advertise<demo1::node_position>("node_position_info", 1);
 
+	// 创建一个Subscriber，订阅名为/person_info的topic，注册回调函数personInfoCallback
+	ros::Subscriber person_info_sub = n.subscribe("/sign_position_info", 10, personInfoCallback);
+	// 循环等待回调函数
+	ros::spin();
+	
 	demo1::node_position node_position_msg;
 	node_position_msg.x = 0;
 	node_position_msg.y = 0;
@@ -39,8 +42,6 @@ int main(int argc, char **argv)
 	node_position_msg.theta_z = 0;
 	node_position_publisher.publish(node_position_msg);
 
-	// 循环等待回调函数
-	ros::spin();
 
 	return 0;
 }

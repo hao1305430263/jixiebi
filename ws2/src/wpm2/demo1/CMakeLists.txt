@@ -302,6 +302,16 @@ target_link_libraries(sign_position_subscriber
 	${catkin_LIBRARIES}
 	)
 
+add_executable(sign_position_subscriber_publisher
+	src/sign_position_subscriber_publisher.cpp
+	)
+add_dependencies(sign_position_subscriber_publisher
+	${PROJECT_NAME}_generate_messages_cpp
+	)
+target_link_libraries(sign_position_subscriber_publisher
+	${catkin_LIBRARIES}
+	)
+
 add_executable(wpm2_plan_execute_demo
   src/wpm2_plan_execute_demo.cpp
 )

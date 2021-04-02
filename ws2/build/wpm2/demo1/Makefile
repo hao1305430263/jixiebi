@@ -1548,6 +1548,21 @@ octomap_msgs_generate_messages_nodejs/fast:
 .PHONY : octomap_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
+wpm2/demo1/CMakeFiles/sign_position_subscriber_publisher.dir/rule:
+	cd /home/haouanbo/Projects/jixiebi/ws2/build && $(MAKE) -f CMakeFiles/Makefile2 wpm2/demo1/CMakeFiles/sign_position_subscriber_publisher.dir/rule
+.PHONY : wpm2/demo1/CMakeFiles/sign_position_subscriber_publisher.dir/rule
+
+# Convenience name for target.
+sign_position_subscriber_publisher: wpm2/demo1/CMakeFiles/sign_position_subscriber_publisher.dir/rule
+
+.PHONY : sign_position_subscriber_publisher
+
+# fast build rule for target.
+sign_position_subscriber_publisher/fast:
+	cd /home/haouanbo/Projects/jixiebi/ws2/build && $(MAKE) -f wpm2/demo1/CMakeFiles/sign_position_subscriber_publisher.dir/build.make wpm2/demo1/CMakeFiles/sign_position_subscriber_publisher.dir/build
+.PHONY : sign_position_subscriber_publisher/fast
+
+# Convenience name for target.
 wpm2/demo1/CMakeFiles/actionlib_generate_messages_py.dir/rule:
 	cd /home/haouanbo/Projects/jixiebi/ws2/build && $(MAKE) -f CMakeFiles/Makefile2 wpm2/demo1/CMakeFiles/actionlib_generate_messages_py.dir/rule
 .PHONY : wpm2/demo1/CMakeFiles/actionlib_generate_messages_py.dir/rule
@@ -1796,6 +1811,33 @@ src/sign_position_subscriber.cpp.s:
 	cd /home/haouanbo/Projects/jixiebi/ws2/build && $(MAKE) -f wpm2/demo1/CMakeFiles/sign_position_subscriber.dir/build.make wpm2/demo1/CMakeFiles/sign_position_subscriber.dir/src/sign_position_subscriber.cpp.s
 .PHONY : src/sign_position_subscriber.cpp.s
 
+src/sign_position_subscriber_publisher.o: src/sign_position_subscriber_publisher.cpp.o
+
+.PHONY : src/sign_position_subscriber_publisher.o
+
+# target to build an object file
+src/sign_position_subscriber_publisher.cpp.o:
+	cd /home/haouanbo/Projects/jixiebi/ws2/build && $(MAKE) -f wpm2/demo1/CMakeFiles/sign_position_subscriber_publisher.dir/build.make wpm2/demo1/CMakeFiles/sign_position_subscriber_publisher.dir/src/sign_position_subscriber_publisher.cpp.o
+.PHONY : src/sign_position_subscriber_publisher.cpp.o
+
+src/sign_position_subscriber_publisher.i: src/sign_position_subscriber_publisher.cpp.i
+
+.PHONY : src/sign_position_subscriber_publisher.i
+
+# target to preprocess a source file
+src/sign_position_subscriber_publisher.cpp.i:
+	cd /home/haouanbo/Projects/jixiebi/ws2/build && $(MAKE) -f wpm2/demo1/CMakeFiles/sign_position_subscriber_publisher.dir/build.make wpm2/demo1/CMakeFiles/sign_position_subscriber_publisher.dir/src/sign_position_subscriber_publisher.cpp.i
+.PHONY : src/sign_position_subscriber_publisher.cpp.i
+
+src/sign_position_subscriber_publisher.s: src/sign_position_subscriber_publisher.cpp.s
+
+.PHONY : src/sign_position_subscriber_publisher.s
+
+# target to generate assembly for a file
+src/sign_position_subscriber_publisher.cpp.s:
+	cd /home/haouanbo/Projects/jixiebi/ws2/build && $(MAKE) -f wpm2/demo1/CMakeFiles/sign_position_subscriber_publisher.dir/build.make wpm2/demo1/CMakeFiles/sign_position_subscriber_publisher.dir/src/sign_position_subscriber_publisher.cpp.s
+.PHONY : src/sign_position_subscriber_publisher.cpp.s
+
 src/wpm2_plan_execute_demo.o: src/wpm2_plan_execute_demo.cpp.o
 
 .PHONY : src/wpm2_plan_execute_demo.o
@@ -1928,6 +1970,7 @@ help:
 	@echo "... std_srvs_generate_messages_nodejs"
 	@echo "... object_recognition_msgs_generate_messages_py"
 	@echo "... octomap_msgs_generate_messages_nodejs"
+	@echo "... sign_position_subscriber_publisher"
 	@echo "... actionlib_generate_messages_py"
 	@echo "... tf2_msgs_generate_messages_py"
 	@echo "... tf_generate_messages_nodejs"
@@ -1947,6 +1990,9 @@ help:
 	@echo "... src/sign_position_subscriber.o"
 	@echo "... src/sign_position_subscriber.i"
 	@echo "... src/sign_position_subscriber.s"
+	@echo "... src/sign_position_subscriber_publisher.o"
+	@echo "... src/sign_position_subscriber_publisher.i"
+	@echo "... src/sign_position_subscriber_publisher.s"
 	@echo "... src/wpm2_plan_execute_demo.o"
 	@echo "... src/wpm2_plan_execute_demo.i"
 	@echo "... src/wpm2_plan_execute_demo.s"
