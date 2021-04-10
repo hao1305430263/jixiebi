@@ -41,6 +41,10 @@ ros/message_operations.h
 /home/haouanbo/Projects/jixiebi/ws2/src/wpm2/demo1/src/sign_position_subscriber_publisher.cpp
 ros/ros.h
 -
+math.h
+-
+vector
+-
 demo1/sign_position.h
 /home/haouanbo/Projects/jixiebi/ws2/src/wpm2/demo1/src/demo1/sign_position.h
 demo1/node_position.h

@@ -35,9 +35,9 @@ int main(int argc, char **argv)
     target_pose.orientation.w = transform.getRotation().getW();
 
     // 机械臂末端的空间坐标,单位为米
-    target_pose.position.x = -0.1;
+    target_pose.position.x = 0.0;
     target_pose.position.y = 0.0;
-    target_pose.position.z = 0.75;
+    target_pose.position.z = 0.6;
     group.setPoseTarget(target_pose);
 
     // 进行运动规划，只是计算出轨迹，还不会控制机械臂实际运动
