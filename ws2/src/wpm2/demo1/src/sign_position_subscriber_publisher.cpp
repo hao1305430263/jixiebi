@@ -60,9 +60,9 @@ class SubscribeAndPublish
 			vector<double> vx;
 			vector<double> vy;
 			vector<double> vz;
-			v1.push_back(sign_position_x - node_position_x);
-			v1.push_back(sign_position_y - node_position_y);
-			v1.push_back(sign_position_z - node_position_z);
+			v1.push_back((sign_position_x - node_position_x)/(sign_position_z - node_position_z));
+			v1.push_back((sign_position_y - node_position_y)/(sign_position_z - node_position_z));
+			v1.push_back(1);
 
 			// vc=[0,1,0]
 			vx.push_back(0);
@@ -83,30 +83,9 @@ class SubscribeAndPublish
 			double theta_x = 0.0;
 			double theta_y = 0.0;
 			double theta_z = 0.0;
-			// 1
 			theta_x = asin(InnerProduct3D(v1,vy)/norm(v1));
 			theta_y = asin(InnerProduct3D(v1,vz)/norm(v1));
-			theta_z = asin(InnerProduct3D(v1,vx)/norm(v1));
-			// 2
-			// theta_x = asin(InnerProduct3D(v1,vz)/norm(v1));
-			// theta_y = asin(InnerProduct3D(v1,vy)/norm(v1));
-			// theta_z = asin(InnerProduct3D(v1,vx)/norm(v1));
-			// 3
-			// theta_x = asin(InnerProduct3D(v1,vx)/norm(v1));
-			// theta_y = asin(InnerProduct3D(v1,vy)/norm(v1));
-			// theta_z = asin(InnerProduct3D(v1,vz)/norm(v1));
-			// 4
-			// theta_x = asin(InnerProduct3D(v1,vy)/norm(v1));
-			// theta_y = asin(InnerProduct3D(v1,vx)/norm(v1));
-			// theta_z = asin(InnerProduct3D(v1,vz)/norm(v1));
-			// 5
-			// theta_x = asin(InnerProduct3D(v1,vz)/norm(v1));
-			// theta_y = asin(InnerProduct3D(v1,vx)/norm(v1));
-			// theta_z = asin(InnerProduct3D(v1,vy)/norm(v1));
-			// 6
-			// theta_x = asin(InnerProduct3D(v1,vx)/norm(v1));
-			// theta_y = asin(InnerProduct3D(v1,vz)/norm(v1));
-			// theta_z = asin(InnerProduct3D(v1,vy)/norm(v1));
+			theta_z = 0.0;
 			ROS_INFO("Subcribe sign_position Info: x:%f  y:%f  z:%f",
 					sign_position_x, sign_position_y, sign_position_z);
 			ROS_INFO("theta_x:%f  theta_y:%f  theta_z:%f",
