@@ -1663,6 +1663,110 @@ dynamic_reconfigure_gencfg/fast:
 .PHONY : dynamic_reconfigure_gencfg/fast
 
 #=============================================================================
+# Target rules for targets named moveit_continue_trajectory_demo
+
+# Build rule for target.
+moveit_continue_trajectory_demo: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 moveit_continue_trajectory_demo
+.PHONY : moveit_continue_trajectory_demo
+
+# fast build rule for target.
+moveit_continue_trajectory_demo/fast:
+	$(MAKE) -f probot_demo/CMakeFiles/moveit_continue_trajectory_demo.dir/build.make probot_demo/CMakeFiles/moveit_continue_trajectory_demo.dir/build
+.PHONY : moveit_continue_trajectory_demo/fast
+
+#=============================================================================
+# Target rules for targets named moveit_revise_trajectory_demo
+
+# Build rule for target.
+moveit_revise_trajectory_demo: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 moveit_revise_trajectory_demo
+.PHONY : moveit_revise_trajectory_demo
+
+# fast build rule for target.
+moveit_revise_trajectory_demo/fast:
+	$(MAKE) -f probot_demo/CMakeFiles/moveit_revise_trajectory_demo.dir/build.make probot_demo/CMakeFiles/moveit_revise_trajectory_demo.dir/build
+.PHONY : moveit_revise_trajectory_demo/fast
+
+#=============================================================================
+# Target rules for targets named moveit_fk_demo
+
+# Build rule for target.
+moveit_fk_demo: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 moveit_fk_demo
+.PHONY : moveit_fk_demo
+
+# fast build rule for target.
+moveit_fk_demo/fast:
+	$(MAKE) -f probot_demo/CMakeFiles/moveit_fk_demo.dir/build.make probot_demo/CMakeFiles/moveit_fk_demo.dir/build
+.PHONY : moveit_fk_demo/fast
+
+#=============================================================================
+# Target rules for targets named moveit_circle_demo
+
+# Build rule for target.
+moveit_circle_demo: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 moveit_circle_demo
+.PHONY : moveit_circle_demo
+
+# fast build rule for target.
+moveit_circle_demo/fast:
+	$(MAKE) -f probot_demo/CMakeFiles/moveit_circle_demo.dir/build.make probot_demo/CMakeFiles/moveit_circle_demo.dir/build
+.PHONY : moveit_circle_demo/fast
+
+#=============================================================================
+# Target rules for targets named moveit_random_demo
+
+# Build rule for target.
+moveit_random_demo: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 moveit_random_demo
+.PHONY : moveit_random_demo
+
+# fast build rule for target.
+moveit_random_demo/fast:
+	$(MAKE) -f probot_demo/CMakeFiles/moveit_random_demo.dir/build.make probot_demo/CMakeFiles/moveit_random_demo.dir/build
+.PHONY : moveit_random_demo/fast
+
+#=============================================================================
+# Target rules for targets named moveit_ik_demo
+
+# Build rule for target.
+moveit_ik_demo: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 moveit_ik_demo
+.PHONY : moveit_ik_demo
+
+# fast build rule for target.
+moveit_ik_demo/fast:
+	$(MAKE) -f probot_demo/CMakeFiles/moveit_ik_demo.dir/build.make probot_demo/CMakeFiles/moveit_ik_demo.dir/build
+.PHONY : moveit_ik_demo/fast
+
+#=============================================================================
+# Target rules for targets named moveit_collision_demo
+
+# Build rule for target.
+moveit_collision_demo: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 moveit_collision_demo
+.PHONY : moveit_collision_demo
+
+# fast build rule for target.
+moveit_collision_demo/fast:
+	$(MAKE) -f probot_demo/CMakeFiles/moveit_collision_demo.dir/build.make probot_demo/CMakeFiles/moveit_collision_demo.dir/build
+.PHONY : moveit_collision_demo/fast
+
+#=============================================================================
+# Target rules for targets named moveit_cartesian_demo
+
+# Build rule for target.
+moveit_cartesian_demo: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 moveit_cartesian_demo
+.PHONY : moveit_cartesian_demo
+
+# fast build rule for target.
+moveit_cartesian_demo/fast:
+	$(MAKE) -f probot_demo/CMakeFiles/moveit_cartesian_demo.dir/build.make probot_demo/CMakeFiles/moveit_cartesian_demo.dir/build
+.PHONY : moveit_cartesian_demo/fast
+
+#=============================================================================
 # Target rules for targets named wpm2_bringup_generate_messages_lisp
 
 # Build rule for target.
@@ -2076,6 +2180,14 @@ help:
 	@echo "... dynamic_reconfigure_generate_messages_py"
 	@echo "... tf2_msgs_generate_messages_lisp"
 	@echo "... dynamic_reconfigure_gencfg"
+	@echo "... moveit_continue_trajectory_demo"
+	@echo "... moveit_revise_trajectory_demo"
+	@echo "... moveit_fk_demo"
+	@echo "... moveit_circle_demo"
+	@echo "... moveit_random_demo"
+	@echo "... moveit_ik_demo"
+	@echo "... moveit_collision_demo"
+	@echo "... moveit_cartesian_demo"
 	@echo "... wpm2_bringup_generate_messages_lisp"
 	@echo "... wpm2_bringup_generate_messages_eus"
 	@echo "... wpm2_core"
