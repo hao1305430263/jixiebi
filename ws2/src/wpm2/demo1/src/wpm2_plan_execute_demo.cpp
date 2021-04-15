@@ -60,7 +60,7 @@ int main(int argc, char **argv)
 	ros::Rate loop_rate(1);
 	while(ros::ok())
 	{
-		while(sign)
+		if(sign)
 		{
 			quat.setRPY(msg_theta_x, msg_theta_y, msg_theta_z);
 			transform.setRotation(quat);

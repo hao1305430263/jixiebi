@@ -13,10 +13,6 @@ int main(int argc, char **argv)
     ros::AsyncSpinner spinner(1);
     spinner.start();
 
-    printf("[wpm2_planning] 延迟2秒,等待Rviz启动... \n");
-    sleep(2.0);
-
-    printf("[wpm2_planning] 准备进行轨迹规划... \n");
     moveit::planning_interface::MoveGroupInterface group("arm");
 
     // 设置机械臂末端的目标位置
