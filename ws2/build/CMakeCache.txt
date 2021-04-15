@@ -448,10 +448,10 @@ octomap_msgs_DIR:PATH=/opt/ros/melodic/share/octomap_msgs/cmake
 pluginlib_DIR:PATH=/opt/ros/melodic/share/pluginlib/cmake
 
 //Value Computed by CMake
-probot_demo_BINARY_DIR:STATIC=/home/haouanbo/Projects/jixiebi/ws2/build/probot_demo
+probot_demo_BINARY_DIR:STATIC=/home/haouanbo/Projects/jixiebi/ws2/build/wpm2/probot_demo
 
 //Value Computed by CMake
-probot_demo_SOURCE_DIR:STATIC=/home/haouanbo/Projects/jixiebi/ws2/src/probot_demo
+probot_demo_SOURCE_DIR:STATIC=/home/haouanbo/Projects/jixiebi/ws2/src/wpm2/probot_demo
 
 //The directory containing a CMake configuration file for random_numbers.
 random_numbers_DIR:PATH=/opt/ros/melodic/share/random_numbers/cmake

@@ -54,7 +54,7 @@ class SubscribeAndPublish
 			sign_position_z = msg->z;
 			node_position_x = 0;
 			node_position_y = 0;
-			node_position_x = 0.6;
+			node_position_z = 0.6;
 
 
 			vector<double> v1;

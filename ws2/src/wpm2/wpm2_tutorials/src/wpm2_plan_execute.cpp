@@ -13,8 +13,8 @@ int main(int argc, char **argv)
     ros::AsyncSpinner spinner(1);
     spinner.start();
 
-    printf("[wpm2_planning] 延迟5秒,等待Rviz启动... \n");
-    sleep(5.0);
+    printf("[wpm2_planning] 延迟2秒,等待Rviz启动... \n");
+    sleep(2.0);
 
     printf("[wpm2_planning] 准备进行轨迹规划... \n");
     moveit::planning_interface::MoveGroupInterface group("arm");
@@ -26,7 +26,12 @@ int main(int argc, char **argv)
     // 机械臂末端朝向(这里设置为竖直向上,以免运动时误碰周围物体)
     tf::Quaternion quat;
     // 手爪初始姿态是竖直向上,函数三个参数分别为滚转,俯仰和偏转角,单位为弧度
-    quat.setRPY(0.0, 0.0, 0.0);
+	// 滚动：以x为轴
+	// 俯仰：以y为轴
+	// 偏转角：以z为轴
+
+    quat.setRPY(-0.934290, 0.617784, -0.133782);
+	// theta_x:-0.934290  theta_y:0.617784  theta_z:-0.133782
     // 将欧拉角旋转量转换成四元数表达
     transform.setRotation(quat);
     target_pose.orientation.x= transform.getRotation().getX();

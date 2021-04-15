@@ -1672,7 +1672,7 @@ moveit_continue_trajectory_demo: cmake_check_build_system
 
 # fast build rule for target.
 moveit_continue_trajectory_demo/fast:
-	$(MAKE) -f probot_demo/CMakeFiles/moveit_continue_trajectory_demo.dir/build.make probot_demo/CMakeFiles/moveit_continue_trajectory_demo.dir/build
+	$(MAKE) -f wpm2/probot_demo/CMakeFiles/moveit_continue_trajectory_demo.dir/build.make wpm2/probot_demo/CMakeFiles/moveit_continue_trajectory_demo.dir/build
 .PHONY : moveit_continue_trajectory_demo/fast
 
 #=============================================================================
@@ -1685,7 +1685,7 @@ moveit_revise_trajectory_demo: cmake_check_build_system
 
 # fast build rule for target.
 moveit_revise_trajectory_demo/fast:
-	$(MAKE) -f probot_demo/CMakeFiles/moveit_revise_trajectory_demo.dir/build.make probot_demo/CMakeFiles/moveit_revise_trajectory_demo.dir/build
+	$(MAKE) -f wpm2/probot_demo/CMakeFiles/moveit_revise_trajectory_demo.dir/build.make wpm2/probot_demo/CMakeFiles/moveit_revise_trajectory_demo.dir/build
 .PHONY : moveit_revise_trajectory_demo/fast
 
 #=============================================================================
@@ -1698,7 +1698,7 @@ moveit_fk_demo: cmake_check_build_system
 
 # fast build rule for target.
 moveit_fk_demo/fast:
-	$(MAKE) -f probot_demo/CMakeFiles/moveit_fk_demo.dir/build.make probot_demo/CMakeFiles/moveit_fk_demo.dir/build
+	$(MAKE) -f wpm2/probot_demo/CMakeFiles/moveit_fk_demo.dir/build.make wpm2/probot_demo/CMakeFiles/moveit_fk_demo.dir/build
 .PHONY : moveit_fk_demo/fast
 
 #=============================================================================
@@ -1711,7 +1711,7 @@ moveit_circle_demo: cmake_check_build_system
 
 # fast build rule for target.
 moveit_circle_demo/fast:
-	$(MAKE) -f probot_demo/CMakeFiles/moveit_circle_demo.dir/build.make probot_demo/CMakeFiles/moveit_circle_demo.dir/build
+	$(MAKE) -f wpm2/probot_demo/CMakeFiles/moveit_circle_demo.dir/build.make wpm2/probot_demo/CMakeFiles/moveit_circle_demo.dir/build
 .PHONY : moveit_circle_demo/fast
 
 #=============================================================================
@@ -1724,7 +1724,7 @@ moveit_random_demo: cmake_check_build_system
 
 # fast build rule for target.
 moveit_random_demo/fast:
-	$(MAKE) -f probot_demo/CMakeFiles/moveit_random_demo.dir/build.make probot_demo/CMakeFiles/moveit_random_demo.dir/build
+	$(MAKE) -f wpm2/probot_demo/CMakeFiles/moveit_random_demo.dir/build.make wpm2/probot_demo/CMakeFiles/moveit_random_demo.dir/build
 .PHONY : moveit_random_demo/fast
 
 #=============================================================================
@@ -1737,7 +1737,7 @@ moveit_ik_demo: cmake_check_build_system
 
 # fast build rule for target.
 moveit_ik_demo/fast:
-	$(MAKE) -f probot_demo/CMakeFiles/moveit_ik_demo.dir/build.make probot_demo/CMakeFiles/moveit_ik_demo.dir/build
+	$(MAKE) -f wpm2/probot_demo/CMakeFiles/moveit_ik_demo.dir/build.make wpm2/probot_demo/CMakeFiles/moveit_ik_demo.dir/build
 .PHONY : moveit_ik_demo/fast
 
 #=============================================================================
@@ -1750,7 +1750,7 @@ moveit_collision_demo: cmake_check_build_system
 
 # fast build rule for target.
 moveit_collision_demo/fast:
-	$(MAKE) -f probot_demo/CMakeFiles/moveit_collision_demo.dir/build.make probot_demo/CMakeFiles/moveit_collision_demo.dir/build
+	$(MAKE) -f wpm2/probot_demo/CMakeFiles/moveit_collision_demo.dir/build.make wpm2/probot_demo/CMakeFiles/moveit_collision_demo.dir/build
 .PHONY : moveit_collision_demo/fast
 
 #=============================================================================
@@ -1763,7 +1763,7 @@ moveit_cartesian_demo: cmake_check_build_system
 
 # fast build rule for target.
 moveit_cartesian_demo/fast:
-	$(MAKE) -f probot_demo/CMakeFiles/moveit_cartesian_demo.dir/build.make probot_demo/CMakeFiles/moveit_cartesian_demo.dir/build
+	$(MAKE) -f wpm2/probot_demo/CMakeFiles/moveit_cartesian_demo.dir/build.make wpm2/probot_demo/CMakeFiles/moveit_cartesian_demo.dir/build
 .PHONY : moveit_cartesian_demo/fast
 
 #=============================================================================
