@@ -1,0 +1,8 @@
+prefix=/home/haouanbo/Projects/jixiebi/ws1/install
+
+Name: wpm2_moveit_config
+Description: Description of wpm2_moveit_config
+Version: 0.3.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

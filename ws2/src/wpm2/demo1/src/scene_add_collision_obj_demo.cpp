@@ -36,7 +36,7 @@ int main(int argc, char **argv)
 		sleep_t.sleep();
 	}
 
-	ros::Rate r(0.05);
+	ros::Rate r(0.2);
 	while(ros::ok())
 	{
 		// 障碍物参考坐标

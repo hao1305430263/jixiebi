@@ -112,7 +112,7 @@ class SubscribeAndPublish
 int main(int argc, char **argv)
 {
 	//Initiate ROS
-	ros::init(argc, argv, "subscribe_and_publish");
+	ros::init(argc, argv, "sign_position_subscriber_publisher");
 
 	//Create an object of class SubscribeAndPublish that will take care of everything
 	SubscribeAndPublish SAPObject;

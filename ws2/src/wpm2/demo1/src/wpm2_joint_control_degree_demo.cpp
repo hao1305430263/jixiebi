@@ -4,7 +4,6 @@
 #include <moveit/move_group_interface/move_group_interface.h>
 #include <moveit/planning_scene_interface/planning_scene_interface.h>
 #include <moveit/robot_model_loader/robot_model_loader.h>
-
 #include "demo1/node_position.h"
 
 
@@ -33,7 +32,7 @@ void infoCallback(const demo1::node_position::ConstPtr& msg)
 
 int main(int argc, char** argv)
 {
-	ros::init(argc, argv, "wpm2_joint_control_degree");
+	ros::init(argc, argv, "wpm2_joint_control_degree_demo");
 
 	ros::NodeHandle n;
 	ros::Subscriber person_info_sub = n.subscribe("/node_position_info", 30, infoCallback);
@@ -53,12 +52,12 @@ int main(int argc, char** argv)
 		if(sign)
 		{
 			//关节角度
-			ctrl_msg.position[0] = msg_theta_x * 180 / 3.14;
-			ctrl_msg.position[1] = 0;
+			ctrl_msg.position[0] = msg_theta_x * 3.14 / 180;
+			ctrl_msg.position[1] = msg_theta_x * 3.14 / 180;
 			ctrl_msg.position[2] = 0;
 			ctrl_msg.position[3] = 0;
 			ctrl_msg.position[4] = 0;
-			ctrl_msg.position[5] = msg_theta_y * 180 / 3.14;
+			ctrl_msg.position[5] = msg_theta_y * 3.14 / 180;
 			ctrl_msg.position[6] = 35000; //手爪闭合
 			//运动速度
 			ctrl_msg.velocity[0] = 1000;
