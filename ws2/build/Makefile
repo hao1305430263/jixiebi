@@ -285,6 +285,32 @@ gtest/fast:
 .PHONY : gtest/fast
 
 #=============================================================================
+# Target rules for targets named wpm2_fake_demo
+
+# Build rule for target.
+wpm2_fake_demo: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 wpm2_fake_demo
+.PHONY : wpm2_fake_demo
+
+# fast build rule for target.
+wpm2_fake_demo/fast:
+	$(MAKE) -f wpm2/demo1/CMakeFiles/wpm2_fake_demo.dir/build.make wpm2/demo1/CMakeFiles/wpm2_fake_demo.dir/build
+.PHONY : wpm2_fake_demo/fast
+
+#=============================================================================
+# Target rules for targets named wpm2_core_demo
+
+# Build rule for target.
+wpm2_core_demo: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 wpm2_core_demo
+.PHONY : wpm2_core_demo
+
+# fast build rule for target.
+wpm2_core_demo/fast:
+	$(MAKE) -f wpm2/demo1/CMakeFiles/wpm2_core_demo.dir/build.make wpm2/demo1/CMakeFiles/wpm2_core_demo.dir/build
+.PHONY : wpm2_core_demo/fast
+
+#=============================================================================
 # Target rules for targets named wpm2_plan_execute_demo
 
 # Build rule for target.
@@ -2074,6 +2100,8 @@ help:
 	@echo "... gmock"
 	@echo "... gtest_main"
 	@echo "... gtest"
+	@echo "... wpm2_fake_demo"
+	@echo "... wpm2_core_demo"
 	@echo "... wpm2_plan_execute_demo"
 	@echo "... scene_add_collision_obj_demo"
 	@echo "... demo1_generate_messages_py"

@@ -8,12 +8,6 @@
 static tf::StampedTransform transform;
 
 
-// static double msg_x;
-// static double msg_y;
-// static double msg_z;
-// static double msg_theta_x;
-// static double msg_theta_y;
-// static double msg_theta_z;
 static float msg_x;
 static float msg_y;
 static float msg_z;

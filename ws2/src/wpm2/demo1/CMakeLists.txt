@@ -9,20 +9,20 @@ project(demo1)
 ## is used, also find other catkin packages
 
 find_package(catkin REQUIRED COMPONENTS
-  actionlib
-  actionlib_msgs
-  genmsg
-  geometric_shapes
-  moveit_core
-  moveit_ros_planning
-  moveit_ros_planning_interface
-  pluginlib
-  roscpp
-  rospy
-  sensor_msgs
-  std_msgs
-  message_generation
-)
+	actionlib
+	actionlib_msgs
+	genmsg
+	geometric_shapes
+	moveit_core
+	moveit_ros_planning
+	moveit_ros_planning_interface
+	pluginlib
+	roscpp
+	rospy
+	sensor_msgs
+	std_msgs
+	message_generation
+	)
 
 ## System dependencies are found with CMake's conventions
 # find_package(Boost REQUIRED COMPONENTS system)
@@ -30,7 +30,7 @@ find_package(catkin REQUIRED COMPONENTS
 find_package(cmake_modules REQUIRED)
 find_package(Eigen REQUIRED)
 include_directories(
-  include ${catkin_INCLUDE_DIRS}SYSTEM ${Boost_INCLUDE_DIR} ${EIGEN_INCLUDE_DIRS})
+	include ${catkin_INCLUDE_DIRS}SYSTEM ${Boost_INCLUDE_DIR} ${EIGEN_INCLUDE_DIRS})
 include_directories(${catkin_INCLUDE_DIRS})
 link_directories(${catkin_LIBRARY_DIRS})
 
@@ -124,15 +124,15 @@ generate_messages(DEPENDENCIES std_msgs)
 ## CATKIN_DEPENDS: catkin_packages dependent projects also need
 ## DEPENDS: system dependencies of this project that dependent projects also need
 catkin_package(
-  CATKIN_DEPENDS
-    moveit_core
-    moveit_ros_planning_interface
+	CATKIN_DEPENDS
+	moveit_core
+	moveit_ros_planning_interface
 	message_runtime
-#  INCLUDE_DIRS include
-#  LIBRARIES demo1
-#  CATKIN_DEPENDS actionlib actionlib_msgs genmsg geometric_shapes moveit_core moveit_ros_planning moveit_ros_planning_interface pluginlib roscpp rospy sensor_msgs std_msgs
-#  DEPENDS system_lib
-)
+	#  INCLUDE_DIRS include
+	#  LIBRARIES demo1
+	#  CATKIN_DEPENDS actionlib actionlib_msgs genmsg geometric_shapes moveit_core moveit_ros_planning moveit_ros_planning_interface pluginlib roscpp rospy sensor_msgs std_msgs
+	#  DEPENDS system_lib
+	)
 
 ###########
 ## Build ##
@@ -141,9 +141,9 @@ catkin_package(
 ## Specify additional locations of header files
 ## Your package locations should be listed before other locations
 include_directories(
-# include
-  ${catkin_INCLUDE_DIRS}
-)
+	# include
+	${catkin_INCLUDE_DIRS}
+	)
 
 ## Declare a C++ library
 # add_library(${PROJECT_NAME}
@@ -278,18 +278,18 @@ include_directories(
 # )
 
 add_executable(scene_add_collision_obj_demo
-  src/scene_add_collision_obj_demo.cpp
-)
+	src/scene_add_collision_obj_demo.cpp
+	)
 
-add_dependencies(scene_add_collision_obj_demo 
-	${${PROJECT_NAME}_EXPORTED_TARGETS} 
-	${catkin_EXPORTED_TARGETS} 
+add_dependencies(scene_add_collision_obj_demo
+	${${PROJECT_NAME}_EXPORTED_TARGETS}
+	${catkin_EXPORTED_TARGETS}
 	${PROJECT_NAME}_generate_messages_cpp
-	) 
+	)
 
 target_link_libraries(scene_add_collision_obj_demo
-  ${catkin_LIBRARIES}
-)
+	${catkin_LIBRARIES}
+	)
 
 
 add_executable(sign_position_subscriber
@@ -313,17 +313,35 @@ target_link_libraries(sign_position_subscriber_publisher
 	)
 
 add_executable(wpm2_plan_execute_demo
-  src/wpm2_plan_execute_demo.cpp
-)
-add_dependencies(wpm2_plan_execute_demo 
-	${${PROJECT_NAME}_EXPORTED_TARGETS} 
+	src/wpm2_plan_execute_demo.cpp
+	)
+add_dependencies(wpm2_plan_execute_demo
+	${${PROJECT_NAME}_EXPORTED_TARGETS}
 	${catkin_EXPORTED_TARGETS}
 	${PROJECT_NAME}_generate_messages_cpp
-)
+	)
 target_link_libraries(wpm2_plan_execute_demo
+	${catkin_LIBRARIES}
+	)
+add_executable(wpm2_core_demo
+	src/wpm2_core_demo.cpp
+	src/driver/SerialCom.cpp
+	src/driver/WPM2_Driver.cpp
+	)
+add_dependencies(wpm2_core_demo ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+target_link_libraries(wpm2_core_demo
+	${catkin_LIBRARIES}
+	)
+
+add_executable(wpm2_fake_demo
+  src/wpm2_fake_demo.cpp
+  src/driver/SerialCom.cpp
+  src/driver/WPM2_Driver.cpp
+)
+add_dependencies(wpm2_fake_demo ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+target_link_libraries(wpm2_fake_demo
   ${catkin_LIBRARIES}
 )
- 
 # add_executable(mobile_mani_control
 #   src/mobile_mani_control.cpp
 # )

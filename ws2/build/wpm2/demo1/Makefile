@@ -168,6 +168,36 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+wpm2/demo1/CMakeFiles/wpm2_fake_demo.dir/rule:
+	cd /home/haouanbo/Projects/jixiebi/ws2/build && $(MAKE) -f CMakeFiles/Makefile2 wpm2/demo1/CMakeFiles/wpm2_fake_demo.dir/rule
+.PHONY : wpm2/demo1/CMakeFiles/wpm2_fake_demo.dir/rule
+
+# Convenience name for target.
+wpm2_fake_demo: wpm2/demo1/CMakeFiles/wpm2_fake_demo.dir/rule
+
+.PHONY : wpm2_fake_demo
+
+# fast build rule for target.
+wpm2_fake_demo/fast:
+	cd /home/haouanbo/Projects/jixiebi/ws2/build && $(MAKE) -f wpm2/demo1/CMakeFiles/wpm2_fake_demo.dir/build.make wpm2/demo1/CMakeFiles/wpm2_fake_demo.dir/build
+.PHONY : wpm2_fake_demo/fast
+
+# Convenience name for target.
+wpm2/demo1/CMakeFiles/wpm2_core_demo.dir/rule:
+	cd /home/haouanbo/Projects/jixiebi/ws2/build && $(MAKE) -f CMakeFiles/Makefile2 wpm2/demo1/CMakeFiles/wpm2_core_demo.dir/rule
+.PHONY : wpm2/demo1/CMakeFiles/wpm2_core_demo.dir/rule
+
+# Convenience name for target.
+wpm2_core_demo: wpm2/demo1/CMakeFiles/wpm2_core_demo.dir/rule
+
+.PHONY : wpm2_core_demo
+
+# fast build rule for target.
+wpm2_core_demo/fast:
+	cd /home/haouanbo/Projects/jixiebi/ws2/build && $(MAKE) -f wpm2/demo1/CMakeFiles/wpm2_core_demo.dir/build.make wpm2/demo1/CMakeFiles/wpm2_core_demo.dir/build
+.PHONY : wpm2_core_demo/fast
+
+# Convenience name for target.
 wpm2/demo1/CMakeFiles/wpm2_plan_execute_demo.dir/rule:
 	cd /home/haouanbo/Projects/jixiebi/ws2/build && $(MAKE) -f CMakeFiles/Makefile2 wpm2/demo1/CMakeFiles/wpm2_plan_execute_demo.dir/rule
 .PHONY : wpm2/demo1/CMakeFiles/wpm2_plan_execute_demo.dir/rule
@@ -1757,6 +1787,66 @@ dynamic_reconfigure_gencfg/fast:
 	cd /home/haouanbo/Projects/jixiebi/ws2/build && $(MAKE) -f wpm2/demo1/CMakeFiles/dynamic_reconfigure_gencfg.dir/build.make wpm2/demo1/CMakeFiles/dynamic_reconfigure_gencfg.dir/build
 .PHONY : dynamic_reconfigure_gencfg/fast
 
+src/driver/SerialCom.o: src/driver/SerialCom.cpp.o
+
+.PHONY : src/driver/SerialCom.o
+
+# target to build an object file
+src/driver/SerialCom.cpp.o:
+	cd /home/haouanbo/Projects/jixiebi/ws2/build && $(MAKE) -f wpm2/demo1/CMakeFiles/wpm2_fake_demo.dir/build.make wpm2/demo1/CMakeFiles/wpm2_fake_demo.dir/src/driver/SerialCom.cpp.o
+	cd /home/haouanbo/Projects/jixiebi/ws2/build && $(MAKE) -f wpm2/demo1/CMakeFiles/wpm2_core_demo.dir/build.make wpm2/demo1/CMakeFiles/wpm2_core_demo.dir/src/driver/SerialCom.cpp.o
+.PHONY : src/driver/SerialCom.cpp.o
+
+src/driver/SerialCom.i: src/driver/SerialCom.cpp.i
+
+.PHONY : src/driver/SerialCom.i
+
+# target to preprocess a source file
+src/driver/SerialCom.cpp.i:
+	cd /home/haouanbo/Projects/jixiebi/ws2/build && $(MAKE) -f wpm2/demo1/CMakeFiles/wpm2_fake_demo.dir/build.make wpm2/demo1/CMakeFiles/wpm2_fake_demo.dir/src/driver/SerialCom.cpp.i
+	cd /home/haouanbo/Projects/jixiebi/ws2/build && $(MAKE) -f wpm2/demo1/CMakeFiles/wpm2_core_demo.dir/build.make wpm2/demo1/CMakeFiles/wpm2_core_demo.dir/src/driver/SerialCom.cpp.i
+.PHONY : src/driver/SerialCom.cpp.i
+
+src/driver/SerialCom.s: src/driver/SerialCom.cpp.s
+
+.PHONY : src/driver/SerialCom.s
+
+# target to generate assembly for a file
+src/driver/SerialCom.cpp.s:
+	cd /home/haouanbo/Projects/jixiebi/ws2/build && $(MAKE) -f wpm2/demo1/CMakeFiles/wpm2_fake_demo.dir/build.make wpm2/demo1/CMakeFiles/wpm2_fake_demo.dir/src/driver/SerialCom.cpp.s
+	cd /home/haouanbo/Projects/jixiebi/ws2/build && $(MAKE) -f wpm2/demo1/CMakeFiles/wpm2_core_demo.dir/build.make wpm2/demo1/CMakeFiles/wpm2_core_demo.dir/src/driver/SerialCom.cpp.s
+.PHONY : src/driver/SerialCom.cpp.s
+
+src/driver/WPM2_Driver.o: src/driver/WPM2_Driver.cpp.o
+
+.PHONY : src/driver/WPM2_Driver.o
+
+# target to build an object file
+src/driver/WPM2_Driver.cpp.o:
+	cd /home/haouanbo/Projects/jixiebi/ws2/build && $(MAKE) -f wpm2/demo1/CMakeFiles/wpm2_fake_demo.dir/build.make wpm2/demo1/CMakeFiles/wpm2_fake_demo.dir/src/driver/WPM2_Driver.cpp.o
+	cd /home/haouanbo/Projects/jixiebi/ws2/build && $(MAKE) -f wpm2/demo1/CMakeFiles/wpm2_core_demo.dir/build.make wpm2/demo1/CMakeFiles/wpm2_core_demo.dir/src/driver/WPM2_Driver.cpp.o
+.PHONY : src/driver/WPM2_Driver.cpp.o
+
+src/driver/WPM2_Driver.i: src/driver/WPM2_Driver.cpp.i
+
+.PHONY : src/driver/WPM2_Driver.i
+
+# target to preprocess a source file
+src/driver/WPM2_Driver.cpp.i:
+	cd /home/haouanbo/Projects/jixiebi/ws2/build && $(MAKE) -f wpm2/demo1/CMakeFiles/wpm2_fake_demo.dir/build.make wpm2/demo1/CMakeFiles/wpm2_fake_demo.dir/src/driver/WPM2_Driver.cpp.i
+	cd /home/haouanbo/Projects/jixiebi/ws2/build && $(MAKE) -f wpm2/demo1/CMakeFiles/wpm2_core_demo.dir/build.make wpm2/demo1/CMakeFiles/wpm2_core_demo.dir/src/driver/WPM2_Driver.cpp.i
+.PHONY : src/driver/WPM2_Driver.cpp.i
+
+src/driver/WPM2_Driver.s: src/driver/WPM2_Driver.cpp.s
+
+.PHONY : src/driver/WPM2_Driver.s
+
+# target to generate assembly for a file
+src/driver/WPM2_Driver.cpp.s:
+	cd /home/haouanbo/Projects/jixiebi/ws2/build && $(MAKE) -f wpm2/demo1/CMakeFiles/wpm2_fake_demo.dir/build.make wpm2/demo1/CMakeFiles/wpm2_fake_demo.dir/src/driver/WPM2_Driver.cpp.s
+	cd /home/haouanbo/Projects/jixiebi/ws2/build && $(MAKE) -f wpm2/demo1/CMakeFiles/wpm2_core_demo.dir/build.make wpm2/demo1/CMakeFiles/wpm2_core_demo.dir/src/driver/WPM2_Driver.cpp.s
+.PHONY : src/driver/WPM2_Driver.cpp.s
+
 src/scene_add_collision_obj_demo.o: src/scene_add_collision_obj_demo.cpp.o
 
 .PHONY : src/scene_add_collision_obj_demo.o
@@ -1838,6 +1928,60 @@ src/sign_position_subscriber_publisher.cpp.s:
 	cd /home/haouanbo/Projects/jixiebi/ws2/build && $(MAKE) -f wpm2/demo1/CMakeFiles/sign_position_subscriber_publisher.dir/build.make wpm2/demo1/CMakeFiles/sign_position_subscriber_publisher.dir/src/sign_position_subscriber_publisher.cpp.s
 .PHONY : src/sign_position_subscriber_publisher.cpp.s
 
+src/wpm2_core_demo.o: src/wpm2_core_demo.cpp.o
+
+.PHONY : src/wpm2_core_demo.o
+
+# target to build an object file
+src/wpm2_core_demo.cpp.o:
+	cd /home/haouanbo/Projects/jixiebi/ws2/build && $(MAKE) -f wpm2/demo1/CMakeFiles/wpm2_core_demo.dir/build.make wpm2/demo1/CMakeFiles/wpm2_core_demo.dir/src/wpm2_core_demo.cpp.o
+.PHONY : src/wpm2_core_demo.cpp.o
+
+src/wpm2_core_demo.i: src/wpm2_core_demo.cpp.i
+
+.PHONY : src/wpm2_core_demo.i
+
+# target to preprocess a source file
+src/wpm2_core_demo.cpp.i:
+	cd /home/haouanbo/Projects/jixiebi/ws2/build && $(MAKE) -f wpm2/demo1/CMakeFiles/wpm2_core_demo.dir/build.make wpm2/demo1/CMakeFiles/wpm2_core_demo.dir/src/wpm2_core_demo.cpp.i
+.PHONY : src/wpm2_core_demo.cpp.i
+
+src/wpm2_core_demo.s: src/wpm2_core_demo.cpp.s
+
+.PHONY : src/wpm2_core_demo.s
+
+# target to generate assembly for a file
+src/wpm2_core_demo.cpp.s:
+	cd /home/haouanbo/Projects/jixiebi/ws2/build && $(MAKE) -f wpm2/demo1/CMakeFiles/wpm2_core_demo.dir/build.make wpm2/demo1/CMakeFiles/wpm2_core_demo.dir/src/wpm2_core_demo.cpp.s
+.PHONY : src/wpm2_core_demo.cpp.s
+
+src/wpm2_fake_demo.o: src/wpm2_fake_demo.cpp.o
+
+.PHONY : src/wpm2_fake_demo.o
+
+# target to build an object file
+src/wpm2_fake_demo.cpp.o:
+	cd /home/haouanbo/Projects/jixiebi/ws2/build && $(MAKE) -f wpm2/demo1/CMakeFiles/wpm2_fake_demo.dir/build.make wpm2/demo1/CMakeFiles/wpm2_fake_demo.dir/src/wpm2_fake_demo.cpp.o
+.PHONY : src/wpm2_fake_demo.cpp.o
+
+src/wpm2_fake_demo.i: src/wpm2_fake_demo.cpp.i
+
+.PHONY : src/wpm2_fake_demo.i
+
+# target to preprocess a source file
+src/wpm2_fake_demo.cpp.i:
+	cd /home/haouanbo/Projects/jixiebi/ws2/build && $(MAKE) -f wpm2/demo1/CMakeFiles/wpm2_fake_demo.dir/build.make wpm2/demo1/CMakeFiles/wpm2_fake_demo.dir/src/wpm2_fake_demo.cpp.i
+.PHONY : src/wpm2_fake_demo.cpp.i
+
+src/wpm2_fake_demo.s: src/wpm2_fake_demo.cpp.s
+
+.PHONY : src/wpm2_fake_demo.s
+
+# target to generate assembly for a file
+src/wpm2_fake_demo.cpp.s:
+	cd /home/haouanbo/Projects/jixiebi/ws2/build && $(MAKE) -f wpm2/demo1/CMakeFiles/wpm2_fake_demo.dir/build.make wpm2/demo1/CMakeFiles/wpm2_fake_demo.dir/src/wpm2_fake_demo.cpp.s
+.PHONY : src/wpm2_fake_demo.cpp.s
+
 src/wpm2_plan_execute_demo.o: src/wpm2_plan_execute_demo.cpp.o
 
 .PHONY : src/wpm2_plan_execute_demo.o
@@ -1875,6 +2019,8 @@ help:
 	@echo "... install/local"
 	@echo "... install"
 	@echo "... list_install_components"
+	@echo "... wpm2_fake_demo"
+	@echo "... wpm2_core_demo"
 	@echo "... test"
 	@echo "... wpm2_plan_execute_demo"
 	@echo "... scene_add_collision_obj_demo"
@@ -1984,6 +2130,12 @@ help:
 	@echo "... dynamic_reconfigure_generate_messages_py"
 	@echo "... tf2_msgs_generate_messages_lisp"
 	@echo "... dynamic_reconfigure_gencfg"
+	@echo "... src/driver/SerialCom.o"
+	@echo "... src/driver/SerialCom.i"
+	@echo "... src/driver/SerialCom.s"
+	@echo "... src/driver/WPM2_Driver.o"
+	@echo "... src/driver/WPM2_Driver.i"
+	@echo "... src/driver/WPM2_Driver.s"
 	@echo "... src/scene_add_collision_obj_demo.o"
 	@echo "... src/scene_add_collision_obj_demo.i"
 	@echo "... src/scene_add_collision_obj_demo.s"
@@ -1993,6 +2145,12 @@ help:
 	@echo "... src/sign_position_subscriber_publisher.o"
 	@echo "... src/sign_position_subscriber_publisher.i"
 	@echo "... src/sign_position_subscriber_publisher.s"
+	@echo "... src/wpm2_core_demo.o"
+	@echo "... src/wpm2_core_demo.i"
+	@echo "... src/wpm2_core_demo.s"
+	@echo "... src/wpm2_fake_demo.o"
+	@echo "... src/wpm2_fake_demo.i"
+	@echo "... src/wpm2_fake_demo.s"
 	@echo "... src/wpm2_plan_execute_demo.o"
 	@echo "... src/wpm2_plan_execute_demo.i"
 	@echo "... src/wpm2_plan_execute_demo.s"

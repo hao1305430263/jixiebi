@@ -39,6 +39,8 @@
 /home/haouanbo/Projects/jixiebi/ws2/build/wpm2/demo1/CMakeFiles/install/local.dir
 /home/haouanbo/Projects/jixiebi/ws2/build/wpm2/demo1/CMakeFiles/install.dir
 /home/haouanbo/Projects/jixiebi/ws2/build/wpm2/demo1/CMakeFiles/list_install_components.dir
+/home/haouanbo/Projects/jixiebi/ws2/build/wpm2/demo1/CMakeFiles/wpm2_fake_demo.dir
+/home/haouanbo/Projects/jixiebi/ws2/build/wpm2/demo1/CMakeFiles/wpm2_core_demo.dir
 /home/haouanbo/Projects/jixiebi/ws2/build/wpm2/demo1/CMakeFiles/test.dir
 /home/haouanbo/Projects/jixiebi/ws2/build/wpm2/demo1/CMakeFiles/wpm2_plan_execute_demo.dir
 /home/haouanbo/Projects/jixiebi/ws2/build/wpm2/demo1/CMakeFiles/scene_add_collision_obj_demo.dir

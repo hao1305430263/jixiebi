@@ -350,6 +350,8 @@ set(CMAKE_DEPEND_INFO_FILES
   "gtest/googlemock/CMakeFiles/gmock.dir/DependInfo.cmake"
   "gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
   "gtest/googlemock/gtest/CMakeFiles/gtest.dir/DependInfo.cmake"
+  "wpm2/demo1/CMakeFiles/wpm2_fake_demo.dir/DependInfo.cmake"
+  "wpm2/demo1/CMakeFiles/wpm2_core_demo.dir/DependInfo.cmake"
   "wpm2/demo1/CMakeFiles/wpm2_plan_execute_demo.dir/DependInfo.cmake"
   "wpm2/demo1/CMakeFiles/scene_add_collision_obj_demo.dir/DependInfo.cmake"
   "wpm2/demo1/CMakeFiles/demo1_generate_messages_py.dir/DependInfo.cmake"
