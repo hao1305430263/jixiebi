@@ -323,6 +323,7 @@ add_dependencies(wpm2_plan_execute_demo
 target_link_libraries(wpm2_plan_execute_demo
 	${catkin_LIBRARIES}
 	)
+
 add_executable(wpm2_core_demo
 	src/wpm2_core_demo.cpp
 	src/driver/SerialCom.cpp
@@ -342,6 +343,22 @@ add_dependencies(wpm2_fake_demo ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXP
 target_link_libraries(wpm2_fake_demo
   ${catkin_LIBRARIES}
 )
+target_link_libraries(wpm2_fake_demo
+	${catkin_LIBRARIES}
+	)
+
+
+add_executable(wpm2_joint_control_degree_demo
+  src/wpm2_joint_control_degree_demo.cpp
+)
+add_dependencies(wpm2_joint_control_degree_demo ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+target_link_libraries(wpm2_joint_control_degree_demo
+  ${catkin_LIBRARIES}
+)
+target_link_libraries(wpm2_joint_control_degree_demo
+	${catkin_LIBRARIES}
+	)
+
 # add_executable(mobile_mani_control
 #   src/mobile_mani_control.cpp
 # )

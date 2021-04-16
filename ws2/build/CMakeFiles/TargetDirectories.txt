@@ -50,6 +50,7 @@
 /home/haouanbo/Projects/jixiebi/ws2/build/wpm2/demo1/CMakeFiles/demo1_geneus.dir
 /home/haouanbo/Projects/jixiebi/ws2/build/wpm2/demo1/CMakeFiles/demo1_gencpp.dir
 /home/haouanbo/Projects/jixiebi/ws2/build/wpm2/demo1/CMakeFiles/demo1_generate_messages_cpp.dir
+/home/haouanbo/Projects/jixiebi/ws2/build/wpm2/demo1/CMakeFiles/wpm2_joint_control_degree_demo.dir
 /home/haouanbo/Projects/jixiebi/ws2/build/wpm2/demo1/CMakeFiles/demo1_generate_messages_lisp.dir
 /home/haouanbo/Projects/jixiebi/ws2/build/wpm2/demo1/CMakeFiles/_demo1_generate_messages_check_deps_node_position.dir
 /home/haouanbo/Projects/jixiebi/ws2/build/wpm2/demo1/CMakeFiles/_demo1_generate_messages_check_deps_sign_position.dir

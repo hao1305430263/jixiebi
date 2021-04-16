@@ -360,6 +360,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "wpm2/demo1/CMakeFiles/demo1_geneus.dir/DependInfo.cmake"
   "wpm2/demo1/CMakeFiles/demo1_gencpp.dir/DependInfo.cmake"
   "wpm2/demo1/CMakeFiles/demo1_generate_messages_cpp.dir/DependInfo.cmake"
+  "wpm2/demo1/CMakeFiles/wpm2_joint_control_degree_demo.dir/DependInfo.cmake"
   "wpm2/demo1/CMakeFiles/demo1_generate_messages_lisp.dir/DependInfo.cmake"
   "wpm2/demo1/CMakeFiles/_demo1_generate_messages_check_deps_node_position.dir/DependInfo.cmake"
   "wpm2/demo1/CMakeFiles/_demo1_generate_messages_check_deps_sign_position.dir/DependInfo.cmake"

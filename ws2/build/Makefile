@@ -415,6 +415,19 @@ demo1_generate_messages_cpp/fast:
 .PHONY : demo1_generate_messages_cpp/fast
 
 #=============================================================================
+# Target rules for targets named wpm2_joint_control_degree_demo
+
+# Build rule for target.
+wpm2_joint_control_degree_demo: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 wpm2_joint_control_degree_demo
+.PHONY : wpm2_joint_control_degree_demo
+
+# fast build rule for target.
+wpm2_joint_control_degree_demo/fast:
+	$(MAKE) -f wpm2/demo1/CMakeFiles/wpm2_joint_control_degree_demo.dir/build.make wpm2/demo1/CMakeFiles/wpm2_joint_control_degree_demo.dir/build
+.PHONY : wpm2_joint_control_degree_demo/fast
+
+#=============================================================================
 # Target rules for targets named demo1_generate_messages_lisp
 
 # Build rule for target.
@@ -2110,6 +2123,7 @@ help:
 	@echo "... demo1_geneus"
 	@echo "... demo1_gencpp"
 	@echo "... demo1_generate_messages_cpp"
+	@echo "... wpm2_joint_control_degree_demo"
 	@echo "... demo1_generate_messages_lisp"
 	@echo "... _demo1_generate_messages_check_deps_node_position"
 	@echo "... _demo1_generate_messages_check_deps_sign_position"

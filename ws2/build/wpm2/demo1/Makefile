@@ -318,6 +318,21 @@ demo1_generate_messages_cpp/fast:
 .PHONY : demo1_generate_messages_cpp/fast
 
 # Convenience name for target.
+wpm2/demo1/CMakeFiles/wpm2_joint_control_degree_demo.dir/rule:
+	cd /home/haouanbo/Projects/jixiebi/ws2/build && $(MAKE) -f CMakeFiles/Makefile2 wpm2/demo1/CMakeFiles/wpm2_joint_control_degree_demo.dir/rule
+.PHONY : wpm2/demo1/CMakeFiles/wpm2_joint_control_degree_demo.dir/rule
+
+# Convenience name for target.
+wpm2_joint_control_degree_demo: wpm2/demo1/CMakeFiles/wpm2_joint_control_degree_demo.dir/rule
+
+.PHONY : wpm2_joint_control_degree_demo
+
+# fast build rule for target.
+wpm2_joint_control_degree_demo/fast:
+	cd /home/haouanbo/Projects/jixiebi/ws2/build && $(MAKE) -f wpm2/demo1/CMakeFiles/wpm2_joint_control_degree_demo.dir/build.make wpm2/demo1/CMakeFiles/wpm2_joint_control_degree_demo.dir/build
+.PHONY : wpm2_joint_control_degree_demo/fast
+
+# Convenience name for target.
 wpm2/demo1/CMakeFiles/demo1_generate_messages_lisp.dir/rule:
 	cd /home/haouanbo/Projects/jixiebi/ws2/build && $(MAKE) -f CMakeFiles/Makefile2 wpm2/demo1/CMakeFiles/demo1_generate_messages_lisp.dir/rule
 .PHONY : wpm2/demo1/CMakeFiles/demo1_generate_messages_lisp.dir/rule
@@ -1982,6 +1997,33 @@ src/wpm2_fake_demo.cpp.s:
 	cd /home/haouanbo/Projects/jixiebi/ws2/build && $(MAKE) -f wpm2/demo1/CMakeFiles/wpm2_fake_demo.dir/build.make wpm2/demo1/CMakeFiles/wpm2_fake_demo.dir/src/wpm2_fake_demo.cpp.s
 .PHONY : src/wpm2_fake_demo.cpp.s
 
+src/wpm2_joint_control_degree_demo.o: src/wpm2_joint_control_degree_demo.cpp.o
+
+.PHONY : src/wpm2_joint_control_degree_demo.o
+
+# target to build an object file
+src/wpm2_joint_control_degree_demo.cpp.o:
+	cd /home/haouanbo/Projects/jixiebi/ws2/build && $(MAKE) -f wpm2/demo1/CMakeFiles/wpm2_joint_control_degree_demo.dir/build.make wpm2/demo1/CMakeFiles/wpm2_joint_control_degree_demo.dir/src/wpm2_joint_control_degree_demo.cpp.o
+.PHONY : src/wpm2_joint_control_degree_demo.cpp.o
+
+src/wpm2_joint_control_degree_demo.i: src/wpm2_joint_control_degree_demo.cpp.i
+
+.PHONY : src/wpm2_joint_control_degree_demo.i
+
+# target to preprocess a source file
+src/wpm2_joint_control_degree_demo.cpp.i:
+	cd /home/haouanbo/Projects/jixiebi/ws2/build && $(MAKE) -f wpm2/demo1/CMakeFiles/wpm2_joint_control_degree_demo.dir/build.make wpm2/demo1/CMakeFiles/wpm2_joint_control_degree_demo.dir/src/wpm2_joint_control_degree_demo.cpp.i
+.PHONY : src/wpm2_joint_control_degree_demo.cpp.i
+
+src/wpm2_joint_control_degree_demo.s: src/wpm2_joint_control_degree_demo.cpp.s
+
+.PHONY : src/wpm2_joint_control_degree_demo.s
+
+# target to generate assembly for a file
+src/wpm2_joint_control_degree_demo.cpp.s:
+	cd /home/haouanbo/Projects/jixiebi/ws2/build && $(MAKE) -f wpm2/demo1/CMakeFiles/wpm2_joint_control_degree_demo.dir/build.make wpm2/demo1/CMakeFiles/wpm2_joint_control_degree_demo.dir/src/wpm2_joint_control_degree_demo.cpp.s
+.PHONY : src/wpm2_joint_control_degree_demo.cpp.s
+
 src/wpm2_plan_execute_demo.o: src/wpm2_plan_execute_demo.cpp.o
 
 .PHONY : src/wpm2_plan_execute_demo.o
@@ -2030,6 +2072,7 @@ help:
 	@echo "... demo1_geneus"
 	@echo "... demo1_gencpp"
 	@echo "... demo1_generate_messages_cpp"
+	@echo "... wpm2_joint_control_degree_demo"
 	@echo "... demo1_generate_messages_lisp"
 	@echo "... _demo1_generate_messages_check_deps_node_position"
 	@echo "... _demo1_generate_messages_check_deps_sign_position"
@@ -2151,6 +2194,9 @@ help:
 	@echo "... src/wpm2_fake_demo.o"
 	@echo "... src/wpm2_fake_demo.i"
 	@echo "... src/wpm2_fake_demo.s"
+	@echo "... src/wpm2_joint_control_degree_demo.o"
+	@echo "... src/wpm2_joint_control_degree_demo.i"
+	@echo "... src/wpm2_joint_control_degree_demo.s"
 	@echo "... src/wpm2_plan_execute_demo.o"
 	@echo "... src/wpm2_plan_execute_demo.i"
 	@echo "... src/wpm2_plan_execute_demo.s"
