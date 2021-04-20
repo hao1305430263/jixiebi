@@ -31,11 +31,11 @@ int main(int argc, char** argv)
 	ctrl_msg.velocity[6] = 1000;
 
 	int nCount = 0;
-	ros::Rate r(10);
+	ros::Rate r(0.5);
 
 	while(ros::ok())
 	{
-		ROS_INFO("[wpm2_joint_ctrl_degree] nCount = %d");
+		ROS_INFO("[wpm2_joint_ctrl_degree]");
 		ctrl_msg.position[0] = 90;
 		ctrl_msg.position[1] = 90;
 		ctrl_msg.position[2] = 90;
@@ -44,7 +44,7 @@ int main(int argc, char** argv)
 		ctrl_msg.position[5] = 0;
 		ctrl_msg.position[6] = 35000; //手爪闭合
 		joint_ctrl_pub.publish(ctrl_msg);
-		ros::spinOnce();
+		// ros::spinOnce();
 		r.sleep();
 	}
 

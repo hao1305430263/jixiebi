@@ -1897,32 +1897,6 @@ wpm2_bringup_genpy/fast:
 .PHONY : wpm2_bringup_genpy/fast
 
 #=============================================================================
-# Target rules for targets named wpm2_bringup_gencpp
-
-# Build rule for target.
-wpm2_bringup_gencpp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 wpm2_bringup_gencpp
-.PHONY : wpm2_bringup_gencpp
-
-# fast build rule for target.
-wpm2_bringup_gencpp/fast:
-	$(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_gencpp.dir/build.make wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_gencpp.dir/build
-.PHONY : wpm2_bringup_gencpp/fast
-
-#=============================================================================
-# Target rules for targets named wpm2_bringup_generate_messages_nodejs
-
-# Build rule for target.
-wpm2_bringup_generate_messages_nodejs: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 wpm2_bringup_generate_messages_nodejs
-.PHONY : wpm2_bringup_generate_messages_nodejs
-
-# fast build rule for target.
-wpm2_bringup_generate_messages_nodejs/fast:
-	$(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_nodejs.dir/build.make wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_nodejs.dir/build
-.PHONY : wpm2_bringup_generate_messages_nodejs/fast
-
-#=============================================================================
 # Target rules for targets named wpm2_bringup_generate_messages
 
 # Build rule for target.
@@ -1973,6 +1947,45 @@ wpm2_bringup_generate_messages_cpp: cmake_check_build_system
 wpm2_bringup_generate_messages_cpp/fast:
 	$(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_cpp.dir/build.make wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_cpp.dir/build
 .PHONY : wpm2_bringup_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named wpm2_bringup_gencpp
+
+# Build rule for target.
+wpm2_bringup_gencpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 wpm2_bringup_gencpp
+.PHONY : wpm2_bringup_gencpp
+
+# fast build rule for target.
+wpm2_bringup_gencpp/fast:
+	$(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_gencpp.dir/build.make wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_gencpp.dir/build
+.PHONY : wpm2_bringup_gencpp/fast
+
+#=============================================================================
+# Target rules for targets named wpm2_bringup_generate_messages_nodejs
+
+# Build rule for target.
+wpm2_bringup_generate_messages_nodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 wpm2_bringup_generate_messages_nodejs
+.PHONY : wpm2_bringup_generate_messages_nodejs
+
+# fast build rule for target.
+wpm2_bringup_generate_messages_nodejs/fast:
+	$(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_nodejs.dir/build.make wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_nodejs.dir/build
+.PHONY : wpm2_bringup_generate_messages_nodejs/fast
+
+#=============================================================================
+# Target rules for targets named wpm2_fake
+
+# Build rule for target.
+wpm2_fake: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 wpm2_fake
+.PHONY : wpm2_fake
+
+# fast build rule for target.
+wpm2_fake/fast:
+	$(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/build.make wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/build
+.PHONY : wpm2_fake/fast
 
 #=============================================================================
 # Target rules for targets named mobile_mani_plan_exec
@@ -2237,12 +2250,13 @@ help:
 	@echo "... wpm2_bringup_genlisp"
 	@echo "... wpm2_test"
 	@echo "... wpm2_bringup_genpy"
-	@echo "... wpm2_bringup_gencpp"
-	@echo "... wpm2_bringup_generate_messages_nodejs"
 	@echo "... wpm2_bringup_generate_messages"
 	@echo "... wpm2_bringup_gennodejs"
 	@echo "... wpm2_bringup_generate_messages_py"
 	@echo "... wpm2_bringup_generate_messages_cpp"
+	@echo "... wpm2_bringup_gencpp"
+	@echo "... wpm2_bringup_generate_messages_nodejs"
+	@echo "... wpm2_fake"
 	@echo "... mobile_mani_plan_exec"
 	@echo "... mobile_mani_control"
 	@echo "... scene_add_collision_obj"

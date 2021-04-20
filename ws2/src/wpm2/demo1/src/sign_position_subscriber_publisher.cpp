@@ -13,7 +13,7 @@ class SubscribeAndPublish
 		SubscribeAndPublish()
 		{
 			//Topic you want to publish
-			node_position_publisher = n.advertise<demo1::node_position>("node_position_info", 1);
+			node_position_publisher = n.advertise<demo1::node_position>("node_position_info", 10);
 
 			//Topic you want to subscribe
 			person_info_sub = n.subscribe("/sign_position_info", 10,

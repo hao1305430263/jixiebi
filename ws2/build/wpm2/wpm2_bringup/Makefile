@@ -273,36 +273,6 @@ wpm2_bringup_genpy/fast:
 .PHONY : wpm2_bringup_genpy/fast
 
 # Convenience name for target.
-wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_gencpp.dir/rule:
-	cd /home/haouanbo/Projects/jixiebi/ws2/build && $(MAKE) -f CMakeFiles/Makefile2 wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_gencpp.dir/rule
-.PHONY : wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_gencpp.dir/rule
-
-# Convenience name for target.
-wpm2_bringup_gencpp: wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_gencpp.dir/rule
-
-.PHONY : wpm2_bringup_gencpp
-
-# fast build rule for target.
-wpm2_bringup_gencpp/fast:
-	cd /home/haouanbo/Projects/jixiebi/ws2/build && $(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_gencpp.dir/build.make wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_gencpp.dir/build
-.PHONY : wpm2_bringup_gencpp/fast
-
-# Convenience name for target.
-wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_nodejs.dir/rule:
-	cd /home/haouanbo/Projects/jixiebi/ws2/build && $(MAKE) -f CMakeFiles/Makefile2 wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_nodejs.dir/rule
-.PHONY : wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-wpm2_bringup_generate_messages_nodejs: wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_nodejs.dir/rule
-
-.PHONY : wpm2_bringup_generate_messages_nodejs
-
-# fast build rule for target.
-wpm2_bringup_generate_messages_nodejs/fast:
-	cd /home/haouanbo/Projects/jixiebi/ws2/build && $(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_nodejs.dir/build.make wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_nodejs.dir/build
-.PHONY : wpm2_bringup_generate_messages_nodejs/fast
-
-# Convenience name for target.
 wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages.dir/rule:
 	cd /home/haouanbo/Projects/jixiebi/ws2/build && $(MAKE) -f CMakeFiles/Makefile2 wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages.dir/rule
 .PHONY : wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages.dir/rule
@@ -362,6 +332,51 @@ wpm2_bringup_generate_messages_cpp/fast:
 	cd /home/haouanbo/Projects/jixiebi/ws2/build && $(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_cpp.dir/build.make wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_cpp.dir/build
 .PHONY : wpm2_bringup_generate_messages_cpp/fast
 
+# Convenience name for target.
+wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_gencpp.dir/rule:
+	cd /home/haouanbo/Projects/jixiebi/ws2/build && $(MAKE) -f CMakeFiles/Makefile2 wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_gencpp.dir/rule
+.PHONY : wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_gencpp.dir/rule
+
+# Convenience name for target.
+wpm2_bringup_gencpp: wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_gencpp.dir/rule
+
+.PHONY : wpm2_bringup_gencpp
+
+# fast build rule for target.
+wpm2_bringup_gencpp/fast:
+	cd /home/haouanbo/Projects/jixiebi/ws2/build && $(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_gencpp.dir/build.make wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_gencpp.dir/build
+.PHONY : wpm2_bringup_gencpp/fast
+
+# Convenience name for target.
+wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_nodejs.dir/rule:
+	cd /home/haouanbo/Projects/jixiebi/ws2/build && $(MAKE) -f CMakeFiles/Makefile2 wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_nodejs.dir/rule
+.PHONY : wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_nodejs.dir/rule
+
+# Convenience name for target.
+wpm2_bringup_generate_messages_nodejs: wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_nodejs.dir/rule
+
+.PHONY : wpm2_bringup_generate_messages_nodejs
+
+# fast build rule for target.
+wpm2_bringup_generate_messages_nodejs/fast:
+	cd /home/haouanbo/Projects/jixiebi/ws2/build && $(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_nodejs.dir/build.make wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_nodejs.dir/build
+.PHONY : wpm2_bringup_generate_messages_nodejs/fast
+
+# Convenience name for target.
+wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/rule:
+	cd /home/haouanbo/Projects/jixiebi/ws2/build && $(MAKE) -f CMakeFiles/Makefile2 wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/rule
+.PHONY : wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/rule
+
+# Convenience name for target.
+wpm2_fake: wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/rule
+
+.PHONY : wpm2_fake
+
+# fast build rule for target.
+wpm2_fake/fast:
+	cd /home/haouanbo/Projects/jixiebi/ws2/build && $(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/build.make wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/build
+.PHONY : wpm2_fake/fast
+
 src/driver/SerialCom.o: src/driver/SerialCom.cpp.o
 
 .PHONY : src/driver/SerialCom.o
@@ -370,6 +385,7 @@ src/driver/SerialCom.o: src/driver/SerialCom.cpp.o
 src/driver/SerialCom.cpp.o:
 	cd /home/haouanbo/Projects/jixiebi/ws2/build && $(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/wpm2_core.dir/build.make wpm2/wpm2_bringup/CMakeFiles/wpm2_core.dir/src/driver/SerialCom.cpp.o
 	cd /home/haouanbo/Projects/jixiebi/ws2/build && $(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/wpm2_test.dir/build.make wpm2/wpm2_bringup/CMakeFiles/wpm2_test.dir/src/driver/SerialCom.cpp.o
+	cd /home/haouanbo/Projects/jixiebi/ws2/build && $(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/build.make wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/src/driver/SerialCom.cpp.o
 .PHONY : src/driver/SerialCom.cpp.o
 
 src/driver/SerialCom.i: src/driver/SerialCom.cpp.i
@@ -380,6 +396,7 @@ src/driver/SerialCom.i: src/driver/SerialCom.cpp.i
 src/driver/SerialCom.cpp.i:
 	cd /home/haouanbo/Projects/jixiebi/ws2/build && $(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/wpm2_core.dir/build.make wpm2/wpm2_bringup/CMakeFiles/wpm2_core.dir/src/driver/SerialCom.cpp.i
 	cd /home/haouanbo/Projects/jixiebi/ws2/build && $(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/wpm2_test.dir/build.make wpm2/wpm2_bringup/CMakeFiles/wpm2_test.dir/src/driver/SerialCom.cpp.i
+	cd /home/haouanbo/Projects/jixiebi/ws2/build && $(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/build.make wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/src/driver/SerialCom.cpp.i
 .PHONY : src/driver/SerialCom.cpp.i
 
 src/driver/SerialCom.s: src/driver/SerialCom.cpp.s
@@ -390,6 +407,7 @@ src/driver/SerialCom.s: src/driver/SerialCom.cpp.s
 src/driver/SerialCom.cpp.s:
 	cd /home/haouanbo/Projects/jixiebi/ws2/build && $(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/wpm2_core.dir/build.make wpm2/wpm2_bringup/CMakeFiles/wpm2_core.dir/src/driver/SerialCom.cpp.s
 	cd /home/haouanbo/Projects/jixiebi/ws2/build && $(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/wpm2_test.dir/build.make wpm2/wpm2_bringup/CMakeFiles/wpm2_test.dir/src/driver/SerialCom.cpp.s
+	cd /home/haouanbo/Projects/jixiebi/ws2/build && $(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/build.make wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/src/driver/SerialCom.cpp.s
 .PHONY : src/driver/SerialCom.cpp.s
 
 src/driver/WPM2_Driver.o: src/driver/WPM2_Driver.cpp.o
@@ -400,6 +418,7 @@ src/driver/WPM2_Driver.o: src/driver/WPM2_Driver.cpp.o
 src/driver/WPM2_Driver.cpp.o:
 	cd /home/haouanbo/Projects/jixiebi/ws2/build && $(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/wpm2_core.dir/build.make wpm2/wpm2_bringup/CMakeFiles/wpm2_core.dir/src/driver/WPM2_Driver.cpp.o
 	cd /home/haouanbo/Projects/jixiebi/ws2/build && $(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/wpm2_test.dir/build.make wpm2/wpm2_bringup/CMakeFiles/wpm2_test.dir/src/driver/WPM2_Driver.cpp.o
+	cd /home/haouanbo/Projects/jixiebi/ws2/build && $(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/build.make wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/src/driver/WPM2_Driver.cpp.o
 .PHONY : src/driver/WPM2_Driver.cpp.o
 
 src/driver/WPM2_Driver.i: src/driver/WPM2_Driver.cpp.i
@@ -410,6 +429,7 @@ src/driver/WPM2_Driver.i: src/driver/WPM2_Driver.cpp.i
 src/driver/WPM2_Driver.cpp.i:
 	cd /home/haouanbo/Projects/jixiebi/ws2/build && $(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/wpm2_core.dir/build.make wpm2/wpm2_bringup/CMakeFiles/wpm2_core.dir/src/driver/WPM2_Driver.cpp.i
 	cd /home/haouanbo/Projects/jixiebi/ws2/build && $(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/wpm2_test.dir/build.make wpm2/wpm2_bringup/CMakeFiles/wpm2_test.dir/src/driver/WPM2_Driver.cpp.i
+	cd /home/haouanbo/Projects/jixiebi/ws2/build && $(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/build.make wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/src/driver/WPM2_Driver.cpp.i
 .PHONY : src/driver/WPM2_Driver.cpp.i
 
 src/driver/WPM2_Driver.s: src/driver/WPM2_Driver.cpp.s
@@ -420,6 +440,7 @@ src/driver/WPM2_Driver.s: src/driver/WPM2_Driver.cpp.s
 src/driver/WPM2_Driver.cpp.s:
 	cd /home/haouanbo/Projects/jixiebi/ws2/build && $(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/wpm2_core.dir/build.make wpm2/wpm2_bringup/CMakeFiles/wpm2_core.dir/src/driver/WPM2_Driver.cpp.s
 	cd /home/haouanbo/Projects/jixiebi/ws2/build && $(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/wpm2_test.dir/build.make wpm2/wpm2_bringup/CMakeFiles/wpm2_test.dir/src/driver/WPM2_Driver.cpp.s
+	cd /home/haouanbo/Projects/jixiebi/ws2/build && $(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/build.make wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/src/driver/WPM2_Driver.cpp.s
 .PHONY : src/driver/WPM2_Driver.cpp.s
 
 src/wpm2_core.o: src/wpm2_core.cpp.o
@@ -448,6 +469,33 @@ src/wpm2_core.s: src/wpm2_core.cpp.s
 src/wpm2_core.cpp.s:
 	cd /home/haouanbo/Projects/jixiebi/ws2/build && $(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/wpm2_core.dir/build.make wpm2/wpm2_bringup/CMakeFiles/wpm2_core.dir/src/wpm2_core.cpp.s
 .PHONY : src/wpm2_core.cpp.s
+
+src/wpm2_fake.o: src/wpm2_fake.cpp.o
+
+.PHONY : src/wpm2_fake.o
+
+# target to build an object file
+src/wpm2_fake.cpp.o:
+	cd /home/haouanbo/Projects/jixiebi/ws2/build && $(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/build.make wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/src/wpm2_fake.cpp.o
+.PHONY : src/wpm2_fake.cpp.o
+
+src/wpm2_fake.i: src/wpm2_fake.cpp.i
+
+.PHONY : src/wpm2_fake.i
+
+# target to preprocess a source file
+src/wpm2_fake.cpp.i:
+	cd /home/haouanbo/Projects/jixiebi/ws2/build && $(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/build.make wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/src/wpm2_fake.cpp.i
+.PHONY : src/wpm2_fake.cpp.i
+
+src/wpm2_fake.s: src/wpm2_fake.cpp.s
+
+.PHONY : src/wpm2_fake.s
+
+# target to generate assembly for a file
+src/wpm2_fake.cpp.s:
+	cd /home/haouanbo/Projects/jixiebi/ws2/build && $(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/build.make wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/src/wpm2_fake.cpp.s
+.PHONY : src/wpm2_fake.cpp.s
 
 src/wpm2_test.o: src/wpm2_test.cpp.o
 
@@ -494,14 +542,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... wpm2_bringup_genpy"
 	@echo "... edit_cache"
-	@echo "... wpm2_bringup_gencpp"
-	@echo "... wpm2_bringup_generate_messages_nodejs"
 	@echo "... wpm2_bringup_generate_messages"
 	@echo "... wpm2_bringup_gennodejs"
 	@echo "... install/local"
 	@echo "... wpm2_bringup_generate_messages_py"
 	@echo "... wpm2_bringup_generate_messages_cpp"
 	@echo "... test"
+	@echo "... wpm2_bringup_gencpp"
+	@echo "... wpm2_bringup_generate_messages_nodejs"
+	@echo "... wpm2_fake"
 	@echo "... src/driver/SerialCom.o"
 	@echo "... src/driver/SerialCom.i"
 	@echo "... src/driver/SerialCom.s"
@@ -511,6 +560,9 @@ help:
 	@echo "... src/wpm2_core.o"
 	@echo "... src/wpm2_core.i"
 	@echo "... src/wpm2_core.s"
+	@echo "... src/wpm2_fake.o"
+	@echo "... src/wpm2_fake.i"
+	@echo "... src/wpm2_fake.s"
 	@echo "... src/wpm2_test.o"
 	@echo "... src/wpm2_test.i"
 	@echo "... src/wpm2_test.s"

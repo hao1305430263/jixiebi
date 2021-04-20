@@ -541,32 +541,8 @@ wpm2/demo1/preinstall:
 # Target rules for target wpm2/demo1/CMakeFiles/wpm2_fake_demo.dir
 
 # All Build rule for target.
-wpm2/demo1/CMakeFiles/wpm2_fake_demo.dir/all: wpm2/demo1/CMakeFiles/demo1_generate_messages_cpp.dir/all
-wpm2/demo1/CMakeFiles/wpm2_fake_demo.dir/all: wpm2/demo1/CMakeFiles/demo1_generate_messages_lisp.dir/all
-wpm2/demo1/CMakeFiles/wpm2_fake_demo.dir/all: wpm2/demo1/CMakeFiles/std_srvs_generate_messages_py.dir/all
-wpm2/demo1/CMakeFiles/wpm2_fake_demo.dir/all: wpm2/demo1/CMakeFiles/std_srvs_generate_messages_cpp.dir/all
-wpm2/demo1/CMakeFiles/wpm2_fake_demo.dir/all: wpm2/demo1/CMakeFiles/moveit_ros_manipulation_gencfg.dir/all
-wpm2/demo1/CMakeFiles/wpm2_fake_demo.dir/all: wpm2/demo1/CMakeFiles/demo1_generate_messages_eus.dir/all
-wpm2/demo1/CMakeFiles/wpm2_fake_demo.dir/all: wpm2/demo1/CMakeFiles/tf_generate_messages_lisp.dir/all
-wpm2/demo1/CMakeFiles/wpm2_fake_demo.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
-wpm2/demo1/CMakeFiles/wpm2_fake_demo.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
-wpm2/demo1/CMakeFiles/wpm2_fake_demo.dir/all: wpm2/demo1/CMakeFiles/shape_msgs_generate_messages_eus.dir/all
-wpm2/demo1/CMakeFiles/wpm2_fake_demo.dir/all: wpm2/demo1/CMakeFiles/shape_msgs_generate_messages_cpp.dir/all
-wpm2/demo1/CMakeFiles/wpm2_fake_demo.dir/all: wpm2/demo1/CMakeFiles/tf_generate_messages_cpp.dir/all
-wpm2/demo1/CMakeFiles/wpm2_fake_demo.dir/all: wpm2/demo1/CMakeFiles/actionlib_generate_messages_nodejs.dir/all
-wpm2/demo1/CMakeFiles/wpm2_fake_demo.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
-wpm2/demo1/CMakeFiles/wpm2_fake_demo.dir/all: wpm2/demo1/CMakeFiles/moveit_ros_planning_gencfg.dir/all
-wpm2/demo1/CMakeFiles/wpm2_fake_demo.dir/all: wpm2/demo1/CMakeFiles/roscpp_generate_messages_py.dir/all
-wpm2/demo1/CMakeFiles/wpm2_fake_demo.dir/all: wpm2/demo1/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/all
-wpm2/demo1/CMakeFiles/wpm2_fake_demo.dir/all: wpm2/demo1/CMakeFiles/roscpp_generate_messages_cpp.dir/all
 wpm2/demo1/CMakeFiles/wpm2_fake_demo.dir/all: wpm2/demo1/CMakeFiles/demo1_generate_messages_py.dir/all
 wpm2/demo1/CMakeFiles/wpm2_fake_demo.dir/all: wpm2/demo1/CMakeFiles/demo1_generate_messages_nodejs.dir/all
-wpm2/demo1/CMakeFiles/wpm2_fake_demo.dir/all: wpm2/demo1/CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
-wpm2/demo1/CMakeFiles/wpm2_fake_demo.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
-wpm2/demo1/CMakeFiles/wpm2_fake_demo.dir/all: wpm2/demo1/CMakeFiles/object_recognition_msgs_generate_messages_lisp.dir/all
-wpm2/demo1/CMakeFiles/wpm2_fake_demo.dir/all: wpm2/demo1/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
-wpm2/demo1/CMakeFiles/wpm2_fake_demo.dir/all: wpm2/demo1/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
-wpm2/demo1/CMakeFiles/wpm2_fake_demo.dir/all: wpm2/demo1/CMakeFiles/object_recognition_msgs_generate_messages_nodejs.dir/all
 wpm2/demo1/CMakeFiles/wpm2_fake_demo.dir/all: wpm2/demo1/CMakeFiles/visualization_msgs_generate_messages_eus.dir/all
 wpm2/demo1/CMakeFiles/wpm2_fake_demo.dir/all: wpm2/demo1/CMakeFiles/visualization_msgs_generate_messages_py.dir/all
 wpm2/demo1/CMakeFiles/wpm2_fake_demo.dir/all: wpm2/demo1/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/all
@@ -600,6 +576,24 @@ wpm2/demo1/CMakeFiles/wpm2_fake_demo.dir/all: wpm2/demo1/CMakeFiles/shape_msgs_g
 wpm2/demo1/CMakeFiles/wpm2_fake_demo.dir/all: wpm2/demo1/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/all
 wpm2/demo1/CMakeFiles/wpm2_fake_demo.dir/all: wpm2/demo1/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/all
 wpm2/demo1/CMakeFiles/wpm2_fake_demo.dir/all: wpm2/demo1/CMakeFiles/dynamic_reconfigure_gencfg.dir/all
+wpm2/demo1/CMakeFiles/wpm2_fake_demo.dir/all: wpm2/demo1/CMakeFiles/demo1_generate_messages_cpp.dir/all
+wpm2/demo1/CMakeFiles/wpm2_fake_demo.dir/all: wpm2/demo1/CMakeFiles/demo1_generate_messages_lisp.dir/all
+wpm2/demo1/CMakeFiles/wpm2_fake_demo.dir/all: wpm2/demo1/CMakeFiles/std_srvs_generate_messages_py.dir/all
+wpm2/demo1/CMakeFiles/wpm2_fake_demo.dir/all: wpm2/demo1/CMakeFiles/std_srvs_generate_messages_cpp.dir/all
+wpm2/demo1/CMakeFiles/wpm2_fake_demo.dir/all: wpm2/demo1/CMakeFiles/moveit_ros_manipulation_gencfg.dir/all
+wpm2/demo1/CMakeFiles/wpm2_fake_demo.dir/all: wpm2/demo1/CMakeFiles/demo1_generate_messages_eus.dir/all
+wpm2/demo1/CMakeFiles/wpm2_fake_demo.dir/all: wpm2/demo1/CMakeFiles/tf_generate_messages_lisp.dir/all
+wpm2/demo1/CMakeFiles/wpm2_fake_demo.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
+wpm2/demo1/CMakeFiles/wpm2_fake_demo.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+wpm2/demo1/CMakeFiles/wpm2_fake_demo.dir/all: wpm2/demo1/CMakeFiles/shape_msgs_generate_messages_eus.dir/all
+wpm2/demo1/CMakeFiles/wpm2_fake_demo.dir/all: wpm2/demo1/CMakeFiles/shape_msgs_generate_messages_cpp.dir/all
+wpm2/demo1/CMakeFiles/wpm2_fake_demo.dir/all: wpm2/demo1/CMakeFiles/tf_generate_messages_cpp.dir/all
+wpm2/demo1/CMakeFiles/wpm2_fake_demo.dir/all: wpm2/demo1/CMakeFiles/actionlib_generate_messages_nodejs.dir/all
+wpm2/demo1/CMakeFiles/wpm2_fake_demo.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
+wpm2/demo1/CMakeFiles/wpm2_fake_demo.dir/all: wpm2/demo1/CMakeFiles/moveit_ros_planning_gencfg.dir/all
+wpm2/demo1/CMakeFiles/wpm2_fake_demo.dir/all: wpm2/demo1/CMakeFiles/roscpp_generate_messages_py.dir/all
+wpm2/demo1/CMakeFiles/wpm2_fake_demo.dir/all: wpm2/demo1/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/all
+wpm2/demo1/CMakeFiles/wpm2_fake_demo.dir/all: wpm2/demo1/CMakeFiles/roscpp_generate_messages_cpp.dir/all
 wpm2/demo1/CMakeFiles/wpm2_fake_demo.dir/all: wpm2/demo1/CMakeFiles/actionlib_generate_messages_cpp.dir/all
 wpm2/demo1/CMakeFiles/wpm2_fake_demo.dir/all: wpm2/demo1/CMakeFiles/object_recognition_msgs_generate_messages_eus.dir/all
 wpm2/demo1/CMakeFiles/wpm2_fake_demo.dir/all: wpm2/demo1/CMakeFiles/octomap_msgs_generate_messages_eus.dir/all
@@ -635,9 +629,15 @@ wpm2/demo1/CMakeFiles/wpm2_fake_demo.dir/all: wpm2/demo1/CMakeFiles/tf_generate_
 wpm2/demo1/CMakeFiles/wpm2_fake_demo.dir/all: wpm2/demo1/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/all
 wpm2/demo1/CMakeFiles/wpm2_fake_demo.dir/all: wpm2/demo1/CMakeFiles/std_srvs_generate_messages_lisp.dir/all
 wpm2/demo1/CMakeFiles/wpm2_fake_demo.dir/all: wpm2/demo1/CMakeFiles/_catkin_empty_exported_target.dir/all
+wpm2/demo1/CMakeFiles/wpm2_fake_demo.dir/all: wpm2/demo1/CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
+wpm2/demo1/CMakeFiles/wpm2_fake_demo.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
+wpm2/demo1/CMakeFiles/wpm2_fake_demo.dir/all: wpm2/demo1/CMakeFiles/object_recognition_msgs_generate_messages_lisp.dir/all
+wpm2/demo1/CMakeFiles/wpm2_fake_demo.dir/all: wpm2/demo1/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
+wpm2/demo1/CMakeFiles/wpm2_fake_demo.dir/all: wpm2/demo1/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+wpm2/demo1/CMakeFiles/wpm2_fake_demo.dir/all: wpm2/demo1/CMakeFiles/object_recognition_msgs_generate_messages_nodejs.dir/all
 	$(MAKE) -f wpm2/demo1/CMakeFiles/wpm2_fake_demo.dir/build.make wpm2/demo1/CMakeFiles/wpm2_fake_demo.dir/depend
 	$(MAKE) -f wpm2/demo1/CMakeFiles/wpm2_fake_demo.dir/build.make wpm2/demo1/CMakeFiles/wpm2_fake_demo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/haouanbo/Projects/jixiebi/ws2/build/CMakeFiles --progress-num=61,62,63,64 "Built target wpm2_fake_demo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/haouanbo/Projects/jixiebi/ws2/build/CMakeFiles --progress-num=65,66,67,68 "Built target wpm2_fake_demo"
 .PHONY : wpm2/demo1/CMakeFiles/wpm2_fake_demo.dir/all
 
 # Include target in all.
@@ -671,32 +671,8 @@ clean: wpm2/demo1/CMakeFiles/wpm2_fake_demo.dir/clean
 # Target rules for target wpm2/demo1/CMakeFiles/wpm2_core_demo.dir
 
 # All Build rule for target.
-wpm2/demo1/CMakeFiles/wpm2_core_demo.dir/all: wpm2/demo1/CMakeFiles/demo1_generate_messages_cpp.dir/all
-wpm2/demo1/CMakeFiles/wpm2_core_demo.dir/all: wpm2/demo1/CMakeFiles/demo1_generate_messages_lisp.dir/all
-wpm2/demo1/CMakeFiles/wpm2_core_demo.dir/all: wpm2/demo1/CMakeFiles/std_srvs_generate_messages_py.dir/all
-wpm2/demo1/CMakeFiles/wpm2_core_demo.dir/all: wpm2/demo1/CMakeFiles/std_srvs_generate_messages_cpp.dir/all
-wpm2/demo1/CMakeFiles/wpm2_core_demo.dir/all: wpm2/demo1/CMakeFiles/moveit_ros_manipulation_gencfg.dir/all
-wpm2/demo1/CMakeFiles/wpm2_core_demo.dir/all: wpm2/demo1/CMakeFiles/demo1_generate_messages_eus.dir/all
-wpm2/demo1/CMakeFiles/wpm2_core_demo.dir/all: wpm2/demo1/CMakeFiles/tf_generate_messages_lisp.dir/all
-wpm2/demo1/CMakeFiles/wpm2_core_demo.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
-wpm2/demo1/CMakeFiles/wpm2_core_demo.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
-wpm2/demo1/CMakeFiles/wpm2_core_demo.dir/all: wpm2/demo1/CMakeFiles/shape_msgs_generate_messages_eus.dir/all
-wpm2/demo1/CMakeFiles/wpm2_core_demo.dir/all: wpm2/demo1/CMakeFiles/shape_msgs_generate_messages_cpp.dir/all
-wpm2/demo1/CMakeFiles/wpm2_core_demo.dir/all: wpm2/demo1/CMakeFiles/tf_generate_messages_cpp.dir/all
-wpm2/demo1/CMakeFiles/wpm2_core_demo.dir/all: wpm2/demo1/CMakeFiles/actionlib_generate_messages_nodejs.dir/all
-wpm2/demo1/CMakeFiles/wpm2_core_demo.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
-wpm2/demo1/CMakeFiles/wpm2_core_demo.dir/all: wpm2/demo1/CMakeFiles/moveit_ros_planning_gencfg.dir/all
-wpm2/demo1/CMakeFiles/wpm2_core_demo.dir/all: wpm2/demo1/CMakeFiles/roscpp_generate_messages_py.dir/all
-wpm2/demo1/CMakeFiles/wpm2_core_demo.dir/all: wpm2/demo1/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/all
-wpm2/demo1/CMakeFiles/wpm2_core_demo.dir/all: wpm2/demo1/CMakeFiles/roscpp_generate_messages_cpp.dir/all
 wpm2/demo1/CMakeFiles/wpm2_core_demo.dir/all: wpm2/demo1/CMakeFiles/demo1_generate_messages_py.dir/all
 wpm2/demo1/CMakeFiles/wpm2_core_demo.dir/all: wpm2/demo1/CMakeFiles/demo1_generate_messages_nodejs.dir/all
-wpm2/demo1/CMakeFiles/wpm2_core_demo.dir/all: wpm2/demo1/CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
-wpm2/demo1/CMakeFiles/wpm2_core_demo.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
-wpm2/demo1/CMakeFiles/wpm2_core_demo.dir/all: wpm2/demo1/CMakeFiles/object_recognition_msgs_generate_messages_lisp.dir/all
-wpm2/demo1/CMakeFiles/wpm2_core_demo.dir/all: wpm2/demo1/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
-wpm2/demo1/CMakeFiles/wpm2_core_demo.dir/all: wpm2/demo1/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
-wpm2/demo1/CMakeFiles/wpm2_core_demo.dir/all: wpm2/demo1/CMakeFiles/object_recognition_msgs_generate_messages_nodejs.dir/all
 wpm2/demo1/CMakeFiles/wpm2_core_demo.dir/all: wpm2/demo1/CMakeFiles/visualization_msgs_generate_messages_eus.dir/all
 wpm2/demo1/CMakeFiles/wpm2_core_demo.dir/all: wpm2/demo1/CMakeFiles/visualization_msgs_generate_messages_py.dir/all
 wpm2/demo1/CMakeFiles/wpm2_core_demo.dir/all: wpm2/demo1/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/all
@@ -730,6 +706,24 @@ wpm2/demo1/CMakeFiles/wpm2_core_demo.dir/all: wpm2/demo1/CMakeFiles/shape_msgs_g
 wpm2/demo1/CMakeFiles/wpm2_core_demo.dir/all: wpm2/demo1/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/all
 wpm2/demo1/CMakeFiles/wpm2_core_demo.dir/all: wpm2/demo1/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/all
 wpm2/demo1/CMakeFiles/wpm2_core_demo.dir/all: wpm2/demo1/CMakeFiles/dynamic_reconfigure_gencfg.dir/all
+wpm2/demo1/CMakeFiles/wpm2_core_demo.dir/all: wpm2/demo1/CMakeFiles/demo1_generate_messages_cpp.dir/all
+wpm2/demo1/CMakeFiles/wpm2_core_demo.dir/all: wpm2/demo1/CMakeFiles/demo1_generate_messages_lisp.dir/all
+wpm2/demo1/CMakeFiles/wpm2_core_demo.dir/all: wpm2/demo1/CMakeFiles/std_srvs_generate_messages_py.dir/all
+wpm2/demo1/CMakeFiles/wpm2_core_demo.dir/all: wpm2/demo1/CMakeFiles/std_srvs_generate_messages_cpp.dir/all
+wpm2/demo1/CMakeFiles/wpm2_core_demo.dir/all: wpm2/demo1/CMakeFiles/moveit_ros_manipulation_gencfg.dir/all
+wpm2/demo1/CMakeFiles/wpm2_core_demo.dir/all: wpm2/demo1/CMakeFiles/demo1_generate_messages_eus.dir/all
+wpm2/demo1/CMakeFiles/wpm2_core_demo.dir/all: wpm2/demo1/CMakeFiles/tf_generate_messages_lisp.dir/all
+wpm2/demo1/CMakeFiles/wpm2_core_demo.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
+wpm2/demo1/CMakeFiles/wpm2_core_demo.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+wpm2/demo1/CMakeFiles/wpm2_core_demo.dir/all: wpm2/demo1/CMakeFiles/shape_msgs_generate_messages_eus.dir/all
+wpm2/demo1/CMakeFiles/wpm2_core_demo.dir/all: wpm2/demo1/CMakeFiles/shape_msgs_generate_messages_cpp.dir/all
+wpm2/demo1/CMakeFiles/wpm2_core_demo.dir/all: wpm2/demo1/CMakeFiles/tf_generate_messages_cpp.dir/all
+wpm2/demo1/CMakeFiles/wpm2_core_demo.dir/all: wpm2/demo1/CMakeFiles/actionlib_generate_messages_nodejs.dir/all
+wpm2/demo1/CMakeFiles/wpm2_core_demo.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
+wpm2/demo1/CMakeFiles/wpm2_core_demo.dir/all: wpm2/demo1/CMakeFiles/moveit_ros_planning_gencfg.dir/all
+wpm2/demo1/CMakeFiles/wpm2_core_demo.dir/all: wpm2/demo1/CMakeFiles/roscpp_generate_messages_py.dir/all
+wpm2/demo1/CMakeFiles/wpm2_core_demo.dir/all: wpm2/demo1/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/all
+wpm2/demo1/CMakeFiles/wpm2_core_demo.dir/all: wpm2/demo1/CMakeFiles/roscpp_generate_messages_cpp.dir/all
 wpm2/demo1/CMakeFiles/wpm2_core_demo.dir/all: wpm2/demo1/CMakeFiles/actionlib_generate_messages_cpp.dir/all
 wpm2/demo1/CMakeFiles/wpm2_core_demo.dir/all: wpm2/demo1/CMakeFiles/object_recognition_msgs_generate_messages_eus.dir/all
 wpm2/demo1/CMakeFiles/wpm2_core_demo.dir/all: wpm2/demo1/CMakeFiles/octomap_msgs_generate_messages_eus.dir/all
@@ -765,6 +759,12 @@ wpm2/demo1/CMakeFiles/wpm2_core_demo.dir/all: wpm2/demo1/CMakeFiles/tf_generate_
 wpm2/demo1/CMakeFiles/wpm2_core_demo.dir/all: wpm2/demo1/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/all
 wpm2/demo1/CMakeFiles/wpm2_core_demo.dir/all: wpm2/demo1/CMakeFiles/std_srvs_generate_messages_lisp.dir/all
 wpm2/demo1/CMakeFiles/wpm2_core_demo.dir/all: wpm2/demo1/CMakeFiles/_catkin_empty_exported_target.dir/all
+wpm2/demo1/CMakeFiles/wpm2_core_demo.dir/all: wpm2/demo1/CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
+wpm2/demo1/CMakeFiles/wpm2_core_demo.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
+wpm2/demo1/CMakeFiles/wpm2_core_demo.dir/all: wpm2/demo1/CMakeFiles/object_recognition_msgs_generate_messages_lisp.dir/all
+wpm2/demo1/CMakeFiles/wpm2_core_demo.dir/all: wpm2/demo1/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
+wpm2/demo1/CMakeFiles/wpm2_core_demo.dir/all: wpm2/demo1/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+wpm2/demo1/CMakeFiles/wpm2_core_demo.dir/all: wpm2/demo1/CMakeFiles/object_recognition_msgs_generate_messages_nodejs.dir/all
 	$(MAKE) -f wpm2/demo1/CMakeFiles/wpm2_core_demo.dir/build.make wpm2/demo1/CMakeFiles/wpm2_core_demo.dir/depend
 	$(MAKE) -f wpm2/demo1/CMakeFiles/wpm2_core_demo.dir/build.make wpm2/demo1/CMakeFiles/wpm2_core_demo.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/haouanbo/Projects/jixiebi/ws2/build/CMakeFiles --progress-num=57,58,59,60 "Built target wpm2_core_demo"
@@ -801,32 +801,8 @@ clean: wpm2/demo1/CMakeFiles/wpm2_core_demo.dir/clean
 # Target rules for target wpm2/demo1/CMakeFiles/wpm2_plan_execute_demo.dir
 
 # All Build rule for target.
-wpm2/demo1/CMakeFiles/wpm2_plan_execute_demo.dir/all: wpm2/demo1/CMakeFiles/demo1_generate_messages_cpp.dir/all
-wpm2/demo1/CMakeFiles/wpm2_plan_execute_demo.dir/all: wpm2/demo1/CMakeFiles/demo1_generate_messages_lisp.dir/all
-wpm2/demo1/CMakeFiles/wpm2_plan_execute_demo.dir/all: wpm2/demo1/CMakeFiles/std_srvs_generate_messages_py.dir/all
-wpm2/demo1/CMakeFiles/wpm2_plan_execute_demo.dir/all: wpm2/demo1/CMakeFiles/std_srvs_generate_messages_cpp.dir/all
-wpm2/demo1/CMakeFiles/wpm2_plan_execute_demo.dir/all: wpm2/demo1/CMakeFiles/moveit_ros_manipulation_gencfg.dir/all
-wpm2/demo1/CMakeFiles/wpm2_plan_execute_demo.dir/all: wpm2/demo1/CMakeFiles/demo1_generate_messages_eus.dir/all
-wpm2/demo1/CMakeFiles/wpm2_plan_execute_demo.dir/all: wpm2/demo1/CMakeFiles/tf_generate_messages_lisp.dir/all
-wpm2/demo1/CMakeFiles/wpm2_plan_execute_demo.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
-wpm2/demo1/CMakeFiles/wpm2_plan_execute_demo.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
-wpm2/demo1/CMakeFiles/wpm2_plan_execute_demo.dir/all: wpm2/demo1/CMakeFiles/shape_msgs_generate_messages_eus.dir/all
-wpm2/demo1/CMakeFiles/wpm2_plan_execute_demo.dir/all: wpm2/demo1/CMakeFiles/shape_msgs_generate_messages_cpp.dir/all
-wpm2/demo1/CMakeFiles/wpm2_plan_execute_demo.dir/all: wpm2/demo1/CMakeFiles/tf_generate_messages_cpp.dir/all
-wpm2/demo1/CMakeFiles/wpm2_plan_execute_demo.dir/all: wpm2/demo1/CMakeFiles/actionlib_generate_messages_nodejs.dir/all
-wpm2/demo1/CMakeFiles/wpm2_plan_execute_demo.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
-wpm2/demo1/CMakeFiles/wpm2_plan_execute_demo.dir/all: wpm2/demo1/CMakeFiles/moveit_ros_planning_gencfg.dir/all
-wpm2/demo1/CMakeFiles/wpm2_plan_execute_demo.dir/all: wpm2/demo1/CMakeFiles/roscpp_generate_messages_py.dir/all
-wpm2/demo1/CMakeFiles/wpm2_plan_execute_demo.dir/all: wpm2/demo1/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/all
-wpm2/demo1/CMakeFiles/wpm2_plan_execute_demo.dir/all: wpm2/demo1/CMakeFiles/roscpp_generate_messages_cpp.dir/all
 wpm2/demo1/CMakeFiles/wpm2_plan_execute_demo.dir/all: wpm2/demo1/CMakeFiles/demo1_generate_messages_py.dir/all
 wpm2/demo1/CMakeFiles/wpm2_plan_execute_demo.dir/all: wpm2/demo1/CMakeFiles/demo1_generate_messages_nodejs.dir/all
-wpm2/demo1/CMakeFiles/wpm2_plan_execute_demo.dir/all: wpm2/demo1/CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
-wpm2/demo1/CMakeFiles/wpm2_plan_execute_demo.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
-wpm2/demo1/CMakeFiles/wpm2_plan_execute_demo.dir/all: wpm2/demo1/CMakeFiles/object_recognition_msgs_generate_messages_lisp.dir/all
-wpm2/demo1/CMakeFiles/wpm2_plan_execute_demo.dir/all: wpm2/demo1/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
-wpm2/demo1/CMakeFiles/wpm2_plan_execute_demo.dir/all: wpm2/demo1/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
-wpm2/demo1/CMakeFiles/wpm2_plan_execute_demo.dir/all: wpm2/demo1/CMakeFiles/object_recognition_msgs_generate_messages_nodejs.dir/all
 wpm2/demo1/CMakeFiles/wpm2_plan_execute_demo.dir/all: wpm2/demo1/CMakeFiles/visualization_msgs_generate_messages_eus.dir/all
 wpm2/demo1/CMakeFiles/wpm2_plan_execute_demo.dir/all: wpm2/demo1/CMakeFiles/visualization_msgs_generate_messages_py.dir/all
 wpm2/demo1/CMakeFiles/wpm2_plan_execute_demo.dir/all: wpm2/demo1/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/all
@@ -860,6 +836,24 @@ wpm2/demo1/CMakeFiles/wpm2_plan_execute_demo.dir/all: wpm2/demo1/CMakeFiles/shap
 wpm2/demo1/CMakeFiles/wpm2_plan_execute_demo.dir/all: wpm2/demo1/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/all
 wpm2/demo1/CMakeFiles/wpm2_plan_execute_demo.dir/all: wpm2/demo1/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/all
 wpm2/demo1/CMakeFiles/wpm2_plan_execute_demo.dir/all: wpm2/demo1/CMakeFiles/dynamic_reconfigure_gencfg.dir/all
+wpm2/demo1/CMakeFiles/wpm2_plan_execute_demo.dir/all: wpm2/demo1/CMakeFiles/demo1_generate_messages_cpp.dir/all
+wpm2/demo1/CMakeFiles/wpm2_plan_execute_demo.dir/all: wpm2/demo1/CMakeFiles/demo1_generate_messages_lisp.dir/all
+wpm2/demo1/CMakeFiles/wpm2_plan_execute_demo.dir/all: wpm2/demo1/CMakeFiles/std_srvs_generate_messages_py.dir/all
+wpm2/demo1/CMakeFiles/wpm2_plan_execute_demo.dir/all: wpm2/demo1/CMakeFiles/std_srvs_generate_messages_cpp.dir/all
+wpm2/demo1/CMakeFiles/wpm2_plan_execute_demo.dir/all: wpm2/demo1/CMakeFiles/moveit_ros_manipulation_gencfg.dir/all
+wpm2/demo1/CMakeFiles/wpm2_plan_execute_demo.dir/all: wpm2/demo1/CMakeFiles/demo1_generate_messages_eus.dir/all
+wpm2/demo1/CMakeFiles/wpm2_plan_execute_demo.dir/all: wpm2/demo1/CMakeFiles/tf_generate_messages_lisp.dir/all
+wpm2/demo1/CMakeFiles/wpm2_plan_execute_demo.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
+wpm2/demo1/CMakeFiles/wpm2_plan_execute_demo.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+wpm2/demo1/CMakeFiles/wpm2_plan_execute_demo.dir/all: wpm2/demo1/CMakeFiles/shape_msgs_generate_messages_eus.dir/all
+wpm2/demo1/CMakeFiles/wpm2_plan_execute_demo.dir/all: wpm2/demo1/CMakeFiles/shape_msgs_generate_messages_cpp.dir/all
+wpm2/demo1/CMakeFiles/wpm2_plan_execute_demo.dir/all: wpm2/demo1/CMakeFiles/tf_generate_messages_cpp.dir/all
+wpm2/demo1/CMakeFiles/wpm2_plan_execute_demo.dir/all: wpm2/demo1/CMakeFiles/actionlib_generate_messages_nodejs.dir/all
+wpm2/demo1/CMakeFiles/wpm2_plan_execute_demo.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
+wpm2/demo1/CMakeFiles/wpm2_plan_execute_demo.dir/all: wpm2/demo1/CMakeFiles/moveit_ros_planning_gencfg.dir/all
+wpm2/demo1/CMakeFiles/wpm2_plan_execute_demo.dir/all: wpm2/demo1/CMakeFiles/roscpp_generate_messages_py.dir/all
+wpm2/demo1/CMakeFiles/wpm2_plan_execute_demo.dir/all: wpm2/demo1/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/all
+wpm2/demo1/CMakeFiles/wpm2_plan_execute_demo.dir/all: wpm2/demo1/CMakeFiles/roscpp_generate_messages_cpp.dir/all
 wpm2/demo1/CMakeFiles/wpm2_plan_execute_demo.dir/all: wpm2/demo1/CMakeFiles/actionlib_generate_messages_cpp.dir/all
 wpm2/demo1/CMakeFiles/wpm2_plan_execute_demo.dir/all: wpm2/demo1/CMakeFiles/object_recognition_msgs_generate_messages_eus.dir/all
 wpm2/demo1/CMakeFiles/wpm2_plan_execute_demo.dir/all: wpm2/demo1/CMakeFiles/octomap_msgs_generate_messages_eus.dir/all
@@ -895,9 +889,15 @@ wpm2/demo1/CMakeFiles/wpm2_plan_execute_demo.dir/all: wpm2/demo1/CMakeFiles/tf_g
 wpm2/demo1/CMakeFiles/wpm2_plan_execute_demo.dir/all: wpm2/demo1/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/all
 wpm2/demo1/CMakeFiles/wpm2_plan_execute_demo.dir/all: wpm2/demo1/CMakeFiles/std_srvs_generate_messages_lisp.dir/all
 wpm2/demo1/CMakeFiles/wpm2_plan_execute_demo.dir/all: wpm2/demo1/CMakeFiles/_catkin_empty_exported_target.dir/all
+wpm2/demo1/CMakeFiles/wpm2_plan_execute_demo.dir/all: wpm2/demo1/CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
+wpm2/demo1/CMakeFiles/wpm2_plan_execute_demo.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
+wpm2/demo1/CMakeFiles/wpm2_plan_execute_demo.dir/all: wpm2/demo1/CMakeFiles/object_recognition_msgs_generate_messages_lisp.dir/all
+wpm2/demo1/CMakeFiles/wpm2_plan_execute_demo.dir/all: wpm2/demo1/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
+wpm2/demo1/CMakeFiles/wpm2_plan_execute_demo.dir/all: wpm2/demo1/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+wpm2/demo1/CMakeFiles/wpm2_plan_execute_demo.dir/all: wpm2/demo1/CMakeFiles/object_recognition_msgs_generate_messages_nodejs.dir/all
 	$(MAKE) -f wpm2/demo1/CMakeFiles/wpm2_plan_execute_demo.dir/build.make wpm2/demo1/CMakeFiles/wpm2_plan_execute_demo.dir/depend
 	$(MAKE) -f wpm2/demo1/CMakeFiles/wpm2_plan_execute_demo.dir/build.make wpm2/demo1/CMakeFiles/wpm2_plan_execute_demo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/haouanbo/Projects/jixiebi/ws2/build/CMakeFiles --progress-num=77,78 "Built target wpm2_plan_execute_demo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/haouanbo/Projects/jixiebi/ws2/build/CMakeFiles --progress-num=81,82 "Built target wpm2_plan_execute_demo"
 .PHONY : wpm2/demo1/CMakeFiles/wpm2_plan_execute_demo.dir/all
 
 # Include target in all.
@@ -931,32 +931,8 @@ clean: wpm2/demo1/CMakeFiles/wpm2_plan_execute_demo.dir/clean
 # Target rules for target wpm2/demo1/CMakeFiles/scene_add_collision_obj_demo.dir
 
 # All Build rule for target.
-wpm2/demo1/CMakeFiles/scene_add_collision_obj_demo.dir/all: wpm2/demo1/CMakeFiles/demo1_generate_messages_cpp.dir/all
-wpm2/demo1/CMakeFiles/scene_add_collision_obj_demo.dir/all: wpm2/demo1/CMakeFiles/demo1_generate_messages_lisp.dir/all
-wpm2/demo1/CMakeFiles/scene_add_collision_obj_demo.dir/all: wpm2/demo1/CMakeFiles/std_srvs_generate_messages_py.dir/all
-wpm2/demo1/CMakeFiles/scene_add_collision_obj_demo.dir/all: wpm2/demo1/CMakeFiles/std_srvs_generate_messages_cpp.dir/all
-wpm2/demo1/CMakeFiles/scene_add_collision_obj_demo.dir/all: wpm2/demo1/CMakeFiles/moveit_ros_manipulation_gencfg.dir/all
-wpm2/demo1/CMakeFiles/scene_add_collision_obj_demo.dir/all: wpm2/demo1/CMakeFiles/demo1_generate_messages_eus.dir/all
-wpm2/demo1/CMakeFiles/scene_add_collision_obj_demo.dir/all: wpm2/demo1/CMakeFiles/tf_generate_messages_lisp.dir/all
-wpm2/demo1/CMakeFiles/scene_add_collision_obj_demo.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
-wpm2/demo1/CMakeFiles/scene_add_collision_obj_demo.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
-wpm2/demo1/CMakeFiles/scene_add_collision_obj_demo.dir/all: wpm2/demo1/CMakeFiles/shape_msgs_generate_messages_eus.dir/all
-wpm2/demo1/CMakeFiles/scene_add_collision_obj_demo.dir/all: wpm2/demo1/CMakeFiles/shape_msgs_generate_messages_cpp.dir/all
-wpm2/demo1/CMakeFiles/scene_add_collision_obj_demo.dir/all: wpm2/demo1/CMakeFiles/tf_generate_messages_cpp.dir/all
-wpm2/demo1/CMakeFiles/scene_add_collision_obj_demo.dir/all: wpm2/demo1/CMakeFiles/actionlib_generate_messages_nodejs.dir/all
-wpm2/demo1/CMakeFiles/scene_add_collision_obj_demo.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
-wpm2/demo1/CMakeFiles/scene_add_collision_obj_demo.dir/all: wpm2/demo1/CMakeFiles/moveit_ros_planning_gencfg.dir/all
-wpm2/demo1/CMakeFiles/scene_add_collision_obj_demo.dir/all: wpm2/demo1/CMakeFiles/roscpp_generate_messages_py.dir/all
-wpm2/demo1/CMakeFiles/scene_add_collision_obj_demo.dir/all: wpm2/demo1/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/all
-wpm2/demo1/CMakeFiles/scene_add_collision_obj_demo.dir/all: wpm2/demo1/CMakeFiles/roscpp_generate_messages_cpp.dir/all
 wpm2/demo1/CMakeFiles/scene_add_collision_obj_demo.dir/all: wpm2/demo1/CMakeFiles/demo1_generate_messages_py.dir/all
 wpm2/demo1/CMakeFiles/scene_add_collision_obj_demo.dir/all: wpm2/demo1/CMakeFiles/demo1_generate_messages_nodejs.dir/all
-wpm2/demo1/CMakeFiles/scene_add_collision_obj_demo.dir/all: wpm2/demo1/CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
-wpm2/demo1/CMakeFiles/scene_add_collision_obj_demo.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
-wpm2/demo1/CMakeFiles/scene_add_collision_obj_demo.dir/all: wpm2/demo1/CMakeFiles/object_recognition_msgs_generate_messages_lisp.dir/all
-wpm2/demo1/CMakeFiles/scene_add_collision_obj_demo.dir/all: wpm2/demo1/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
-wpm2/demo1/CMakeFiles/scene_add_collision_obj_demo.dir/all: wpm2/demo1/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
-wpm2/demo1/CMakeFiles/scene_add_collision_obj_demo.dir/all: wpm2/demo1/CMakeFiles/object_recognition_msgs_generate_messages_nodejs.dir/all
 wpm2/demo1/CMakeFiles/scene_add_collision_obj_demo.dir/all: wpm2/demo1/CMakeFiles/visualization_msgs_generate_messages_eus.dir/all
 wpm2/demo1/CMakeFiles/scene_add_collision_obj_demo.dir/all: wpm2/demo1/CMakeFiles/visualization_msgs_generate_messages_py.dir/all
 wpm2/demo1/CMakeFiles/scene_add_collision_obj_demo.dir/all: wpm2/demo1/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/all
@@ -990,6 +966,24 @@ wpm2/demo1/CMakeFiles/scene_add_collision_obj_demo.dir/all: wpm2/demo1/CMakeFile
 wpm2/demo1/CMakeFiles/scene_add_collision_obj_demo.dir/all: wpm2/demo1/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/all
 wpm2/demo1/CMakeFiles/scene_add_collision_obj_demo.dir/all: wpm2/demo1/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/all
 wpm2/demo1/CMakeFiles/scene_add_collision_obj_demo.dir/all: wpm2/demo1/CMakeFiles/dynamic_reconfigure_gencfg.dir/all
+wpm2/demo1/CMakeFiles/scene_add_collision_obj_demo.dir/all: wpm2/demo1/CMakeFiles/demo1_generate_messages_cpp.dir/all
+wpm2/demo1/CMakeFiles/scene_add_collision_obj_demo.dir/all: wpm2/demo1/CMakeFiles/demo1_generate_messages_lisp.dir/all
+wpm2/demo1/CMakeFiles/scene_add_collision_obj_demo.dir/all: wpm2/demo1/CMakeFiles/std_srvs_generate_messages_py.dir/all
+wpm2/demo1/CMakeFiles/scene_add_collision_obj_demo.dir/all: wpm2/demo1/CMakeFiles/std_srvs_generate_messages_cpp.dir/all
+wpm2/demo1/CMakeFiles/scene_add_collision_obj_demo.dir/all: wpm2/demo1/CMakeFiles/moveit_ros_manipulation_gencfg.dir/all
+wpm2/demo1/CMakeFiles/scene_add_collision_obj_demo.dir/all: wpm2/demo1/CMakeFiles/demo1_generate_messages_eus.dir/all
+wpm2/demo1/CMakeFiles/scene_add_collision_obj_demo.dir/all: wpm2/demo1/CMakeFiles/tf_generate_messages_lisp.dir/all
+wpm2/demo1/CMakeFiles/scene_add_collision_obj_demo.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
+wpm2/demo1/CMakeFiles/scene_add_collision_obj_demo.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+wpm2/demo1/CMakeFiles/scene_add_collision_obj_demo.dir/all: wpm2/demo1/CMakeFiles/shape_msgs_generate_messages_eus.dir/all
+wpm2/demo1/CMakeFiles/scene_add_collision_obj_demo.dir/all: wpm2/demo1/CMakeFiles/shape_msgs_generate_messages_cpp.dir/all
+wpm2/demo1/CMakeFiles/scene_add_collision_obj_demo.dir/all: wpm2/demo1/CMakeFiles/tf_generate_messages_cpp.dir/all
+wpm2/demo1/CMakeFiles/scene_add_collision_obj_demo.dir/all: wpm2/demo1/CMakeFiles/actionlib_generate_messages_nodejs.dir/all
+wpm2/demo1/CMakeFiles/scene_add_collision_obj_demo.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
+wpm2/demo1/CMakeFiles/scene_add_collision_obj_demo.dir/all: wpm2/demo1/CMakeFiles/moveit_ros_planning_gencfg.dir/all
+wpm2/demo1/CMakeFiles/scene_add_collision_obj_demo.dir/all: wpm2/demo1/CMakeFiles/roscpp_generate_messages_py.dir/all
+wpm2/demo1/CMakeFiles/scene_add_collision_obj_demo.dir/all: wpm2/demo1/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/all
+wpm2/demo1/CMakeFiles/scene_add_collision_obj_demo.dir/all: wpm2/demo1/CMakeFiles/roscpp_generate_messages_cpp.dir/all
 wpm2/demo1/CMakeFiles/scene_add_collision_obj_demo.dir/all: wpm2/demo1/CMakeFiles/actionlib_generate_messages_cpp.dir/all
 wpm2/demo1/CMakeFiles/scene_add_collision_obj_demo.dir/all: wpm2/demo1/CMakeFiles/object_recognition_msgs_generate_messages_eus.dir/all
 wpm2/demo1/CMakeFiles/scene_add_collision_obj_demo.dir/all: wpm2/demo1/CMakeFiles/octomap_msgs_generate_messages_eus.dir/all
@@ -1025,6 +1019,12 @@ wpm2/demo1/CMakeFiles/scene_add_collision_obj_demo.dir/all: wpm2/demo1/CMakeFile
 wpm2/demo1/CMakeFiles/scene_add_collision_obj_demo.dir/all: wpm2/demo1/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/all
 wpm2/demo1/CMakeFiles/scene_add_collision_obj_demo.dir/all: wpm2/demo1/CMakeFiles/std_srvs_generate_messages_lisp.dir/all
 wpm2/demo1/CMakeFiles/scene_add_collision_obj_demo.dir/all: wpm2/demo1/CMakeFiles/_catkin_empty_exported_target.dir/all
+wpm2/demo1/CMakeFiles/scene_add_collision_obj_demo.dir/all: wpm2/demo1/CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
+wpm2/demo1/CMakeFiles/scene_add_collision_obj_demo.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
+wpm2/demo1/CMakeFiles/scene_add_collision_obj_demo.dir/all: wpm2/demo1/CMakeFiles/object_recognition_msgs_generate_messages_lisp.dir/all
+wpm2/demo1/CMakeFiles/scene_add_collision_obj_demo.dir/all: wpm2/demo1/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
+wpm2/demo1/CMakeFiles/scene_add_collision_obj_demo.dir/all: wpm2/demo1/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+wpm2/demo1/CMakeFiles/scene_add_collision_obj_demo.dir/all: wpm2/demo1/CMakeFiles/object_recognition_msgs_generate_messages_nodejs.dir/all
 	$(MAKE) -f wpm2/demo1/CMakeFiles/scene_add_collision_obj_demo.dir/build.make wpm2/demo1/CMakeFiles/scene_add_collision_obj_demo.dir/depend
 	$(MAKE) -f wpm2/demo1/CMakeFiles/scene_add_collision_obj_demo.dir/build.make wpm2/demo1/CMakeFiles/scene_add_collision_obj_demo.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/haouanbo/Projects/jixiebi/ws2/build/CMakeFiles --progress-num=46,47 "Built target scene_add_collision_obj_demo"
@@ -1095,9 +1095,9 @@ clean: wpm2/demo1/CMakeFiles/demo1_generate_messages_py.dir/clean
 # Target rules for target wpm2/demo1/CMakeFiles/demo1_generate_messages_nodejs.dir
 
 # All Build rule for target.
+wpm2/demo1/CMakeFiles/demo1_generate_messages_nodejs.dir/all: wpm2/demo1/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
 wpm2/demo1/CMakeFiles/demo1_generate_messages_nodejs.dir/all: wpm2/demo1/CMakeFiles/_demo1_generate_messages_check_deps_node_position.dir/all
 wpm2/demo1/CMakeFiles/demo1_generate_messages_nodejs.dir/all: wpm2/demo1/CMakeFiles/_demo1_generate_messages_check_deps_sign_position.dir/all
-wpm2/demo1/CMakeFiles/demo1_generate_messages_nodejs.dir/all: wpm2/demo1/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
 	$(MAKE) -f wpm2/demo1/CMakeFiles/demo1_generate_messages_nodejs.dir/build.make wpm2/demo1/CMakeFiles/demo1_generate_messages_nodejs.dir/depend
 	$(MAKE) -f wpm2/demo1/CMakeFiles/demo1_generate_messages_nodejs.dir/build.make wpm2/demo1/CMakeFiles/demo1_generate_messages_nodejs.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/haouanbo/Projects/jixiebi/ws2/build/CMakeFiles --progress-num=8,9 "Built target demo1_generate_messages_nodejs"
@@ -1259,32 +1259,8 @@ clean: wpm2/demo1/CMakeFiles/demo1_generate_messages_cpp.dir/clean
 # Target rules for target wpm2/demo1/CMakeFiles/wpm2_joint_control_degree_demo.dir
 
 # All Build rule for target.
-wpm2/demo1/CMakeFiles/wpm2_joint_control_degree_demo.dir/all: wpm2/demo1/CMakeFiles/demo1_generate_messages_cpp.dir/all
-wpm2/demo1/CMakeFiles/wpm2_joint_control_degree_demo.dir/all: wpm2/demo1/CMakeFiles/demo1_generate_messages_lisp.dir/all
-wpm2/demo1/CMakeFiles/wpm2_joint_control_degree_demo.dir/all: wpm2/demo1/CMakeFiles/std_srvs_generate_messages_py.dir/all
-wpm2/demo1/CMakeFiles/wpm2_joint_control_degree_demo.dir/all: wpm2/demo1/CMakeFiles/std_srvs_generate_messages_cpp.dir/all
-wpm2/demo1/CMakeFiles/wpm2_joint_control_degree_demo.dir/all: wpm2/demo1/CMakeFiles/moveit_ros_manipulation_gencfg.dir/all
-wpm2/demo1/CMakeFiles/wpm2_joint_control_degree_demo.dir/all: wpm2/demo1/CMakeFiles/demo1_generate_messages_eus.dir/all
-wpm2/demo1/CMakeFiles/wpm2_joint_control_degree_demo.dir/all: wpm2/demo1/CMakeFiles/tf_generate_messages_lisp.dir/all
-wpm2/demo1/CMakeFiles/wpm2_joint_control_degree_demo.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
-wpm2/demo1/CMakeFiles/wpm2_joint_control_degree_demo.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
-wpm2/demo1/CMakeFiles/wpm2_joint_control_degree_demo.dir/all: wpm2/demo1/CMakeFiles/shape_msgs_generate_messages_eus.dir/all
-wpm2/demo1/CMakeFiles/wpm2_joint_control_degree_demo.dir/all: wpm2/demo1/CMakeFiles/shape_msgs_generate_messages_cpp.dir/all
-wpm2/demo1/CMakeFiles/wpm2_joint_control_degree_demo.dir/all: wpm2/demo1/CMakeFiles/tf_generate_messages_cpp.dir/all
-wpm2/demo1/CMakeFiles/wpm2_joint_control_degree_demo.dir/all: wpm2/demo1/CMakeFiles/actionlib_generate_messages_nodejs.dir/all
-wpm2/demo1/CMakeFiles/wpm2_joint_control_degree_demo.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
-wpm2/demo1/CMakeFiles/wpm2_joint_control_degree_demo.dir/all: wpm2/demo1/CMakeFiles/moveit_ros_planning_gencfg.dir/all
-wpm2/demo1/CMakeFiles/wpm2_joint_control_degree_demo.dir/all: wpm2/demo1/CMakeFiles/roscpp_generate_messages_py.dir/all
-wpm2/demo1/CMakeFiles/wpm2_joint_control_degree_demo.dir/all: wpm2/demo1/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/all
-wpm2/demo1/CMakeFiles/wpm2_joint_control_degree_demo.dir/all: wpm2/demo1/CMakeFiles/roscpp_generate_messages_cpp.dir/all
 wpm2/demo1/CMakeFiles/wpm2_joint_control_degree_demo.dir/all: wpm2/demo1/CMakeFiles/demo1_generate_messages_py.dir/all
 wpm2/demo1/CMakeFiles/wpm2_joint_control_degree_demo.dir/all: wpm2/demo1/CMakeFiles/demo1_generate_messages_nodejs.dir/all
-wpm2/demo1/CMakeFiles/wpm2_joint_control_degree_demo.dir/all: wpm2/demo1/CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
-wpm2/demo1/CMakeFiles/wpm2_joint_control_degree_demo.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
-wpm2/demo1/CMakeFiles/wpm2_joint_control_degree_demo.dir/all: wpm2/demo1/CMakeFiles/object_recognition_msgs_generate_messages_lisp.dir/all
-wpm2/demo1/CMakeFiles/wpm2_joint_control_degree_demo.dir/all: wpm2/demo1/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
-wpm2/demo1/CMakeFiles/wpm2_joint_control_degree_demo.dir/all: wpm2/demo1/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
-wpm2/demo1/CMakeFiles/wpm2_joint_control_degree_demo.dir/all: wpm2/demo1/CMakeFiles/object_recognition_msgs_generate_messages_nodejs.dir/all
 wpm2/demo1/CMakeFiles/wpm2_joint_control_degree_demo.dir/all: wpm2/demo1/CMakeFiles/visualization_msgs_generate_messages_eus.dir/all
 wpm2/demo1/CMakeFiles/wpm2_joint_control_degree_demo.dir/all: wpm2/demo1/CMakeFiles/visualization_msgs_generate_messages_py.dir/all
 wpm2/demo1/CMakeFiles/wpm2_joint_control_degree_demo.dir/all: wpm2/demo1/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/all
@@ -1318,6 +1294,24 @@ wpm2/demo1/CMakeFiles/wpm2_joint_control_degree_demo.dir/all: wpm2/demo1/CMakeFi
 wpm2/demo1/CMakeFiles/wpm2_joint_control_degree_demo.dir/all: wpm2/demo1/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/all
 wpm2/demo1/CMakeFiles/wpm2_joint_control_degree_demo.dir/all: wpm2/demo1/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/all
 wpm2/demo1/CMakeFiles/wpm2_joint_control_degree_demo.dir/all: wpm2/demo1/CMakeFiles/dynamic_reconfigure_gencfg.dir/all
+wpm2/demo1/CMakeFiles/wpm2_joint_control_degree_demo.dir/all: wpm2/demo1/CMakeFiles/demo1_generate_messages_cpp.dir/all
+wpm2/demo1/CMakeFiles/wpm2_joint_control_degree_demo.dir/all: wpm2/demo1/CMakeFiles/demo1_generate_messages_lisp.dir/all
+wpm2/demo1/CMakeFiles/wpm2_joint_control_degree_demo.dir/all: wpm2/demo1/CMakeFiles/std_srvs_generate_messages_py.dir/all
+wpm2/demo1/CMakeFiles/wpm2_joint_control_degree_demo.dir/all: wpm2/demo1/CMakeFiles/std_srvs_generate_messages_cpp.dir/all
+wpm2/demo1/CMakeFiles/wpm2_joint_control_degree_demo.dir/all: wpm2/demo1/CMakeFiles/moveit_ros_manipulation_gencfg.dir/all
+wpm2/demo1/CMakeFiles/wpm2_joint_control_degree_demo.dir/all: wpm2/demo1/CMakeFiles/demo1_generate_messages_eus.dir/all
+wpm2/demo1/CMakeFiles/wpm2_joint_control_degree_demo.dir/all: wpm2/demo1/CMakeFiles/tf_generate_messages_lisp.dir/all
+wpm2/demo1/CMakeFiles/wpm2_joint_control_degree_demo.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
+wpm2/demo1/CMakeFiles/wpm2_joint_control_degree_demo.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+wpm2/demo1/CMakeFiles/wpm2_joint_control_degree_demo.dir/all: wpm2/demo1/CMakeFiles/shape_msgs_generate_messages_eus.dir/all
+wpm2/demo1/CMakeFiles/wpm2_joint_control_degree_demo.dir/all: wpm2/demo1/CMakeFiles/shape_msgs_generate_messages_cpp.dir/all
+wpm2/demo1/CMakeFiles/wpm2_joint_control_degree_demo.dir/all: wpm2/demo1/CMakeFiles/tf_generate_messages_cpp.dir/all
+wpm2/demo1/CMakeFiles/wpm2_joint_control_degree_demo.dir/all: wpm2/demo1/CMakeFiles/actionlib_generate_messages_nodejs.dir/all
+wpm2/demo1/CMakeFiles/wpm2_joint_control_degree_demo.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
+wpm2/demo1/CMakeFiles/wpm2_joint_control_degree_demo.dir/all: wpm2/demo1/CMakeFiles/moveit_ros_planning_gencfg.dir/all
+wpm2/demo1/CMakeFiles/wpm2_joint_control_degree_demo.dir/all: wpm2/demo1/CMakeFiles/roscpp_generate_messages_py.dir/all
+wpm2/demo1/CMakeFiles/wpm2_joint_control_degree_demo.dir/all: wpm2/demo1/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/all
+wpm2/demo1/CMakeFiles/wpm2_joint_control_degree_demo.dir/all: wpm2/demo1/CMakeFiles/roscpp_generate_messages_cpp.dir/all
 wpm2/demo1/CMakeFiles/wpm2_joint_control_degree_demo.dir/all: wpm2/demo1/CMakeFiles/actionlib_generate_messages_cpp.dir/all
 wpm2/demo1/CMakeFiles/wpm2_joint_control_degree_demo.dir/all: wpm2/demo1/CMakeFiles/object_recognition_msgs_generate_messages_eus.dir/all
 wpm2/demo1/CMakeFiles/wpm2_joint_control_degree_demo.dir/all: wpm2/demo1/CMakeFiles/octomap_msgs_generate_messages_eus.dir/all
@@ -1353,9 +1347,15 @@ wpm2/demo1/CMakeFiles/wpm2_joint_control_degree_demo.dir/all: wpm2/demo1/CMakeFi
 wpm2/demo1/CMakeFiles/wpm2_joint_control_degree_demo.dir/all: wpm2/demo1/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/all
 wpm2/demo1/CMakeFiles/wpm2_joint_control_degree_demo.dir/all: wpm2/demo1/CMakeFiles/std_srvs_generate_messages_lisp.dir/all
 wpm2/demo1/CMakeFiles/wpm2_joint_control_degree_demo.dir/all: wpm2/demo1/CMakeFiles/_catkin_empty_exported_target.dir/all
+wpm2/demo1/CMakeFiles/wpm2_joint_control_degree_demo.dir/all: wpm2/demo1/CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
+wpm2/demo1/CMakeFiles/wpm2_joint_control_degree_demo.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
+wpm2/demo1/CMakeFiles/wpm2_joint_control_degree_demo.dir/all: wpm2/demo1/CMakeFiles/object_recognition_msgs_generate_messages_lisp.dir/all
+wpm2/demo1/CMakeFiles/wpm2_joint_control_degree_demo.dir/all: wpm2/demo1/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
+wpm2/demo1/CMakeFiles/wpm2_joint_control_degree_demo.dir/all: wpm2/demo1/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+wpm2/demo1/CMakeFiles/wpm2_joint_control_degree_demo.dir/all: wpm2/demo1/CMakeFiles/object_recognition_msgs_generate_messages_nodejs.dir/all
 	$(MAKE) -f wpm2/demo1/CMakeFiles/wpm2_joint_control_degree_demo.dir/build.make wpm2/demo1/CMakeFiles/wpm2_joint_control_degree_demo.dir/depend
 	$(MAKE) -f wpm2/demo1/CMakeFiles/wpm2_joint_control_degree_demo.dir/build.make wpm2/demo1/CMakeFiles/wpm2_joint_control_degree_demo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/haouanbo/Projects/jixiebi/ws2/build/CMakeFiles --progress-num=69,70 "Built target wpm2_joint_control_degree_demo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/haouanbo/Projects/jixiebi/ws2/build/CMakeFiles --progress-num=73,74 "Built target wpm2_joint_control_degree_demo"
 .PHONY : wpm2/demo1/CMakeFiles/wpm2_joint_control_degree_demo.dir/all
 
 # Include target in all.
@@ -1519,11 +1519,11 @@ clean: wpm2/demo1/CMakeFiles/demo1_gennodejs.dir/clean
 # Target rules for target wpm2/demo1/CMakeFiles/demo1_generate_messages.dir
 
 # All Build rule for target.
+wpm2/demo1/CMakeFiles/demo1_generate_messages.dir/all: wpm2/demo1/CMakeFiles/demo1_generate_messages_py.dir/all
+wpm2/demo1/CMakeFiles/demo1_generate_messages.dir/all: wpm2/demo1/CMakeFiles/demo1_generate_messages_nodejs.dir/all
 wpm2/demo1/CMakeFiles/demo1_generate_messages.dir/all: wpm2/demo1/CMakeFiles/demo1_generate_messages_cpp.dir/all
 wpm2/demo1/CMakeFiles/demo1_generate_messages.dir/all: wpm2/demo1/CMakeFiles/demo1_generate_messages_lisp.dir/all
 wpm2/demo1/CMakeFiles/demo1_generate_messages.dir/all: wpm2/demo1/CMakeFiles/demo1_generate_messages_eus.dir/all
-wpm2/demo1/CMakeFiles/demo1_generate_messages.dir/all: wpm2/demo1/CMakeFiles/demo1_generate_messages_py.dir/all
-wpm2/demo1/CMakeFiles/demo1_generate_messages.dir/all: wpm2/demo1/CMakeFiles/demo1_generate_messages_nodejs.dir/all
 	$(MAKE) -f wpm2/demo1/CMakeFiles/demo1_generate_messages.dir/build.make wpm2/demo1/CMakeFiles/demo1_generate_messages.dir/depend
 	$(MAKE) -f wpm2/demo1/CMakeFiles/demo1_generate_messages.dir/build.make wpm2/demo1/CMakeFiles/demo1_generate_messages.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/haouanbo/Projects/jixiebi/ws2/build/CMakeFiles --progress-num= "Built target demo1_generate_messages"
@@ -4879,6 +4879,7 @@ clean: wpm2/probot_demo/CMakeFiles/moveit_cartesian_demo.dir/clean
 wpm2/wpm2_bringup/all: wpm2/wpm2_bringup/CMakeFiles/wpm2_core.dir/all
 wpm2/wpm2_bringup/all: wpm2/wpm2_bringup/CMakeFiles/wpm2_test.dir/all
 wpm2/wpm2_bringup/all: wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages.dir/all
+wpm2/wpm2_bringup/all: wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/all
 
 .PHONY : wpm2/wpm2_bringup/all
 
@@ -4890,12 +4891,13 @@ wpm2/wpm2_bringup/clean: wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_geneus.dir/cl
 wpm2/wpm2_bringup/clean: wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_genlisp.dir/clean
 wpm2/wpm2_bringup/clean: wpm2/wpm2_bringup/CMakeFiles/wpm2_test.dir/clean
 wpm2/wpm2_bringup/clean: wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_genpy.dir/clean
-wpm2/wpm2_bringup/clean: wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_gencpp.dir/clean
-wpm2/wpm2_bringup/clean: wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_nodejs.dir/clean
 wpm2/wpm2_bringup/clean: wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages.dir/clean
 wpm2/wpm2_bringup/clean: wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_gennodejs.dir/clean
 wpm2/wpm2_bringup/clean: wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_py.dir/clean
 wpm2/wpm2_bringup/clean: wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_cpp.dir/clean
+wpm2/wpm2_bringup/clean: wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_gencpp.dir/clean
+wpm2/wpm2_bringup/clean: wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_nodejs.dir/clean
+wpm2/wpm2_bringup/clean: wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/clean
 
 .PHONY : wpm2/wpm2_bringup/clean
 
@@ -4908,8 +4910,8 @@ wpm2/wpm2_bringup/preinstall:
 # Target rules for target wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_lisp.dir
 
 # All Build rule for target.
-wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_lisp.dir/all: wpm2/demo1/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
 wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_lisp.dir/all: wpm2/demo1/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/all
+wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_lisp.dir/all: wpm2/demo1/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
 	$(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_lisp.dir/build.make wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_lisp.dir/depend
 	$(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_lisp.dir/build.make wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_lisp.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/haouanbo/Projects/jixiebi/ws2/build/CMakeFiles --progress-num= "Built target wpm2_bringup_generate_messages_lisp"
@@ -4974,16 +4976,6 @@ clean: wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_eus.dir/clean
 # Target rules for target wpm2/wpm2_bringup/CMakeFiles/wpm2_core.dir
 
 # All Build rule for target.
-wpm2/wpm2_bringup/CMakeFiles/wpm2_core.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
-wpm2/wpm2_bringup/CMakeFiles/wpm2_core.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
-wpm2/wpm2_bringup/CMakeFiles/wpm2_core.dir/all: wpm2/demo1/CMakeFiles/actionlib_generate_messages_nodejs.dir/all
-wpm2/wpm2_bringup/CMakeFiles/wpm2_core.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
-wpm2/wpm2_bringup/CMakeFiles/wpm2_core.dir/all: wpm2/demo1/CMakeFiles/roscpp_generate_messages_py.dir/all
-wpm2/wpm2_bringup/CMakeFiles/wpm2_core.dir/all: wpm2/demo1/CMakeFiles/roscpp_generate_messages_cpp.dir/all
-wpm2/wpm2_bringup/CMakeFiles/wpm2_core.dir/all: wpm2/demo1/CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
-wpm2/wpm2_bringup/CMakeFiles/wpm2_core.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
-wpm2/wpm2_bringup/CMakeFiles/wpm2_core.dir/all: wpm2/demo1/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
-wpm2/wpm2_bringup/CMakeFiles/wpm2_core.dir/all: wpm2/demo1/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
 wpm2/wpm2_bringup/CMakeFiles/wpm2_core.dir/all: wpm2/demo1/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
 wpm2/wpm2_bringup/CMakeFiles/wpm2_core.dir/all: wpm2/demo1/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
 wpm2/wpm2_bringup/CMakeFiles/wpm2_core.dir/all: wpm2/demo1/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
@@ -4992,9 +4984,15 @@ wpm2/wpm2_bringup/CMakeFiles/wpm2_core.dir/all: wpm2/demo1/CMakeFiles/roscpp_gen
 wpm2/wpm2_bringup/CMakeFiles/wpm2_core.dir/all: wpm2/demo1/CMakeFiles/actionlib_generate_messages_py.dir/all
 wpm2/wpm2_bringup/CMakeFiles/wpm2_core.dir/all: wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_lisp.dir/all
 wpm2/wpm2_bringup/CMakeFiles/wpm2_core.dir/all: wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_eus.dir/all
-wpm2/wpm2_bringup/CMakeFiles/wpm2_core.dir/all: wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_nodejs.dir/all
 wpm2/wpm2_bringup/CMakeFiles/wpm2_core.dir/all: wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_py.dir/all
 wpm2/wpm2_bringup/CMakeFiles/wpm2_core.dir/all: wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_cpp.dir/all
+wpm2/wpm2_bringup/CMakeFiles/wpm2_core.dir/all: wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_nodejs.dir/all
+wpm2/wpm2_bringup/CMakeFiles/wpm2_core.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
+wpm2/wpm2_bringup/CMakeFiles/wpm2_core.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+wpm2/wpm2_bringup/CMakeFiles/wpm2_core.dir/all: wpm2/demo1/CMakeFiles/actionlib_generate_messages_nodejs.dir/all
+wpm2/wpm2_bringup/CMakeFiles/wpm2_core.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
+wpm2/wpm2_bringup/CMakeFiles/wpm2_core.dir/all: wpm2/demo1/CMakeFiles/roscpp_generate_messages_py.dir/all
+wpm2/wpm2_bringup/CMakeFiles/wpm2_core.dir/all: wpm2/demo1/CMakeFiles/roscpp_generate_messages_cpp.dir/all
 wpm2/wpm2_bringup/CMakeFiles/wpm2_core.dir/all: wpm2/demo1/CMakeFiles/actionlib_generate_messages_cpp.dir/all
 wpm2/wpm2_bringup/CMakeFiles/wpm2_core.dir/all: wpm2/demo1/CMakeFiles/std_msgs_generate_messages_py.dir/all
 wpm2/wpm2_bringup/CMakeFiles/wpm2_core.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
@@ -5014,6 +5012,10 @@ wpm2/wpm2_bringup/CMakeFiles/wpm2_core.dir/all: wpm2/demo1/CMakeFiles/rosgraph_m
 wpm2/wpm2_bringup/CMakeFiles/wpm2_core.dir/all: wpm2/demo1/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/all
 wpm2/wpm2_bringup/CMakeFiles/wpm2_core.dir/all: wpm2/demo1/CMakeFiles/std_msgs_generate_messages_eus.dir/all
 wpm2/wpm2_bringup/CMakeFiles/wpm2_core.dir/all: wpm2/demo1/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+wpm2/wpm2_bringup/CMakeFiles/wpm2_core.dir/all: wpm2/demo1/CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
+wpm2/wpm2_bringup/CMakeFiles/wpm2_core.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
+wpm2/wpm2_bringup/CMakeFiles/wpm2_core.dir/all: wpm2/demo1/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
+wpm2/wpm2_bringup/CMakeFiles/wpm2_core.dir/all: wpm2/demo1/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
 	$(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/wpm2_core.dir/build.make wpm2/wpm2_bringup/CMakeFiles/wpm2_core.dir/depend
 	$(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/wpm2_core.dir/build.make wpm2/wpm2_bringup/CMakeFiles/wpm2_core.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/haouanbo/Projects/jixiebi/ws2/build/CMakeFiles --progress-num=53,54,55,56 "Built target wpm2_core"
@@ -5114,16 +5116,6 @@ clean: wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_genlisp.dir/clean
 # Target rules for target wpm2/wpm2_bringup/CMakeFiles/wpm2_test.dir
 
 # All Build rule for target.
-wpm2/wpm2_bringup/CMakeFiles/wpm2_test.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
-wpm2/wpm2_bringup/CMakeFiles/wpm2_test.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
-wpm2/wpm2_bringup/CMakeFiles/wpm2_test.dir/all: wpm2/demo1/CMakeFiles/actionlib_generate_messages_nodejs.dir/all
-wpm2/wpm2_bringup/CMakeFiles/wpm2_test.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
-wpm2/wpm2_bringup/CMakeFiles/wpm2_test.dir/all: wpm2/demo1/CMakeFiles/roscpp_generate_messages_py.dir/all
-wpm2/wpm2_bringup/CMakeFiles/wpm2_test.dir/all: wpm2/demo1/CMakeFiles/roscpp_generate_messages_cpp.dir/all
-wpm2/wpm2_bringup/CMakeFiles/wpm2_test.dir/all: wpm2/demo1/CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
-wpm2/wpm2_bringup/CMakeFiles/wpm2_test.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
-wpm2/wpm2_bringup/CMakeFiles/wpm2_test.dir/all: wpm2/demo1/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
-wpm2/wpm2_bringup/CMakeFiles/wpm2_test.dir/all: wpm2/demo1/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
 wpm2/wpm2_bringup/CMakeFiles/wpm2_test.dir/all: wpm2/demo1/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
 wpm2/wpm2_bringup/CMakeFiles/wpm2_test.dir/all: wpm2/demo1/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
 wpm2/wpm2_bringup/CMakeFiles/wpm2_test.dir/all: wpm2/demo1/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
@@ -5132,9 +5124,15 @@ wpm2/wpm2_bringup/CMakeFiles/wpm2_test.dir/all: wpm2/demo1/CMakeFiles/roscpp_gen
 wpm2/wpm2_bringup/CMakeFiles/wpm2_test.dir/all: wpm2/demo1/CMakeFiles/actionlib_generate_messages_py.dir/all
 wpm2/wpm2_bringup/CMakeFiles/wpm2_test.dir/all: wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_lisp.dir/all
 wpm2/wpm2_bringup/CMakeFiles/wpm2_test.dir/all: wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_eus.dir/all
-wpm2/wpm2_bringup/CMakeFiles/wpm2_test.dir/all: wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_nodejs.dir/all
 wpm2/wpm2_bringup/CMakeFiles/wpm2_test.dir/all: wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_py.dir/all
 wpm2/wpm2_bringup/CMakeFiles/wpm2_test.dir/all: wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_cpp.dir/all
+wpm2/wpm2_bringup/CMakeFiles/wpm2_test.dir/all: wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_nodejs.dir/all
+wpm2/wpm2_bringup/CMakeFiles/wpm2_test.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
+wpm2/wpm2_bringup/CMakeFiles/wpm2_test.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+wpm2/wpm2_bringup/CMakeFiles/wpm2_test.dir/all: wpm2/demo1/CMakeFiles/actionlib_generate_messages_nodejs.dir/all
+wpm2/wpm2_bringup/CMakeFiles/wpm2_test.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
+wpm2/wpm2_bringup/CMakeFiles/wpm2_test.dir/all: wpm2/demo1/CMakeFiles/roscpp_generate_messages_py.dir/all
+wpm2/wpm2_bringup/CMakeFiles/wpm2_test.dir/all: wpm2/demo1/CMakeFiles/roscpp_generate_messages_cpp.dir/all
 wpm2/wpm2_bringup/CMakeFiles/wpm2_test.dir/all: wpm2/demo1/CMakeFiles/actionlib_generate_messages_cpp.dir/all
 wpm2/wpm2_bringup/CMakeFiles/wpm2_test.dir/all: wpm2/demo1/CMakeFiles/std_msgs_generate_messages_py.dir/all
 wpm2/wpm2_bringup/CMakeFiles/wpm2_test.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
@@ -5154,9 +5152,13 @@ wpm2/wpm2_bringup/CMakeFiles/wpm2_test.dir/all: wpm2/demo1/CMakeFiles/rosgraph_m
 wpm2/wpm2_bringup/CMakeFiles/wpm2_test.dir/all: wpm2/demo1/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/all
 wpm2/wpm2_bringup/CMakeFiles/wpm2_test.dir/all: wpm2/demo1/CMakeFiles/std_msgs_generate_messages_eus.dir/all
 wpm2/wpm2_bringup/CMakeFiles/wpm2_test.dir/all: wpm2/demo1/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+wpm2/wpm2_bringup/CMakeFiles/wpm2_test.dir/all: wpm2/demo1/CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
+wpm2/wpm2_bringup/CMakeFiles/wpm2_test.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
+wpm2/wpm2_bringup/CMakeFiles/wpm2_test.dir/all: wpm2/demo1/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
+wpm2/wpm2_bringup/CMakeFiles/wpm2_test.dir/all: wpm2/demo1/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
 	$(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/wpm2_test.dir/build.make wpm2/wpm2_bringup/CMakeFiles/wpm2_test.dir/depend
 	$(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/wpm2_test.dir/build.make wpm2/wpm2_bringup/CMakeFiles/wpm2_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/haouanbo/Projects/jixiebi/ws2/build/CMakeFiles --progress-num=81,82,83,84 "Built target wpm2_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/haouanbo/Projects/jixiebi/ws2/build/CMakeFiles --progress-num=85,86,87,88 "Built target wpm2_test"
 .PHONY : wpm2/wpm2_bringup/CMakeFiles/wpm2_test.dir/all
 
 # Include target in all.
@@ -5219,79 +5221,14 @@ clean: wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_genpy.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_gencpp.dir
-
-# All Build rule for target.
-wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_gencpp.dir/all: wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_cpp.dir/all
-	$(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_gencpp.dir/build.make wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_gencpp.dir/depend
-	$(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_gencpp.dir/build.make wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_gencpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/haouanbo/Projects/jixiebi/ws2/build/CMakeFiles --progress-num= "Built target wpm2_bringup_gencpp"
-.PHONY : wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_gencpp.dir/all
-
-# Build rule for subdir invocation for target.
-wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_gencpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/haouanbo/Projects/jixiebi/ws2/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_gencpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/haouanbo/Projects/jixiebi/ws2/build/CMakeFiles 0
-.PHONY : wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_gencpp.dir/rule
-
-# Convenience name for target.
-wpm2_bringup_gencpp: wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_gencpp.dir/rule
-
-.PHONY : wpm2_bringup_gencpp
-
-# clean rule for target.
-wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_gencpp.dir/clean:
-	$(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_gencpp.dir/build.make wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_gencpp.dir/clean
-.PHONY : wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_gencpp.dir/clean
-
-# clean rule for target.
-clean: wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_gencpp.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_nodejs.dir
-
-# All Build rule for target.
-wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_nodejs.dir/all: wpm2/demo1/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
-wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_nodejs.dir/all: wpm2/demo1/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/all
-	$(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_nodejs.dir/build.make wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_nodejs.dir/depend
-	$(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_nodejs.dir/build.make wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/haouanbo/Projects/jixiebi/ws2/build/CMakeFiles --progress-num= "Built target wpm2_bringup_generate_messages_nodejs"
-.PHONY : wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_nodejs.dir/all
-
-# Build rule for subdir invocation for target.
-wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_nodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/haouanbo/Projects/jixiebi/ws2/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_nodejs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/haouanbo/Projects/jixiebi/ws2/build/CMakeFiles 0
-.PHONY : wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-wpm2_bringup_generate_messages_nodejs: wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_nodejs.dir/rule
-
-.PHONY : wpm2_bringup_generate_messages_nodejs
-
-# clean rule for target.
-wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_nodejs.dir/clean:
-	$(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_nodejs.dir/build.make wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_nodejs.dir/clean
-.PHONY : wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_nodejs.dir/clean
-
-# clean rule for target.
-clean: wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_nodejs.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
 # Target rules for target wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages.dir
 
 # All Build rule for target.
 wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages.dir/all: wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_lisp.dir/all
 wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages.dir/all: wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_eus.dir/all
-wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages.dir/all: wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_nodejs.dir/all
 wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages.dir/all: wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_py.dir/all
 wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages.dir/all: wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_cpp.dir/all
+wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages.dir/all: wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_nodejs.dir/all
 	$(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages.dir/build.make wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages.dir/depend
 	$(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages.dir/build.make wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/haouanbo/Projects/jixiebi/ws2/build/CMakeFiles --progress-num= "Built target wpm2_bringup_generate_messages"
@@ -5423,6 +5360,147 @@ clean: wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_cpp.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_gencpp.dir
+
+# All Build rule for target.
+wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_gencpp.dir/all: wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_cpp.dir/all
+	$(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_gencpp.dir/build.make wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_gencpp.dir/depend
+	$(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_gencpp.dir/build.make wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_gencpp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/haouanbo/Projects/jixiebi/ws2/build/CMakeFiles --progress-num= "Built target wpm2_bringup_gencpp"
+.PHONY : wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_gencpp.dir/all
+
+# Build rule for subdir invocation for target.
+wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_gencpp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/haouanbo/Projects/jixiebi/ws2/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_gencpp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/haouanbo/Projects/jixiebi/ws2/build/CMakeFiles 0
+.PHONY : wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_gencpp.dir/rule
+
+# Convenience name for target.
+wpm2_bringup_gencpp: wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_gencpp.dir/rule
+
+.PHONY : wpm2_bringup_gencpp
+
+# clean rule for target.
+wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_gencpp.dir/clean:
+	$(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_gencpp.dir/build.make wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_gencpp.dir/clean
+.PHONY : wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_gencpp.dir/clean
+
+# clean rule for target.
+clean: wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_gencpp.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_nodejs.dir
+
+# All Build rule for target.
+wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_nodejs.dir/all: wpm2/demo1/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
+wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_nodejs.dir/all: wpm2/demo1/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/all
+	$(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_nodejs.dir/build.make wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_nodejs.dir/depend
+	$(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_nodejs.dir/build.make wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_nodejs.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/haouanbo/Projects/jixiebi/ws2/build/CMakeFiles --progress-num= "Built target wpm2_bringup_generate_messages_nodejs"
+.PHONY : wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_nodejs.dir/all
+
+# Build rule for subdir invocation for target.
+wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_nodejs.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/haouanbo/Projects/jixiebi/ws2/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_nodejs.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/haouanbo/Projects/jixiebi/ws2/build/CMakeFiles 0
+.PHONY : wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_nodejs.dir/rule
+
+# Convenience name for target.
+wpm2_bringup_generate_messages_nodejs: wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_nodejs.dir/rule
+
+.PHONY : wpm2_bringup_generate_messages_nodejs
+
+# clean rule for target.
+wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_nodejs.dir/clean:
+	$(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_nodejs.dir/build.make wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_nodejs.dir/clean
+.PHONY : wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_nodejs.dir/clean
+
+# clean rule for target.
+clean: wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_nodejs.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir
+
+# All Build rule for target.
+wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/all: wpm2/demo1/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
+wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/all: wpm2/demo1/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
+wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/all: wpm2/demo1/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
+wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/all: wpm2/demo1/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
+wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/all: wpm2/demo1/CMakeFiles/roscpp_generate_messages_lisp.dir/all
+wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/all: wpm2/demo1/CMakeFiles/actionlib_generate_messages_py.dir/all
+wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/all: wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_lisp.dir/all
+wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/all: wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_eus.dir/all
+wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/all: wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_py.dir/all
+wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/all: wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_cpp.dir/all
+wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/all: wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_nodejs.dir/all
+wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
+wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/all: wpm2/demo1/CMakeFiles/actionlib_generate_messages_nodejs.dir/all
+wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
+wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/all: wpm2/demo1/CMakeFiles/roscpp_generate_messages_py.dir/all
+wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/all: wpm2/demo1/CMakeFiles/roscpp_generate_messages_cpp.dir/all
+wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/all: wpm2/demo1/CMakeFiles/actionlib_generate_messages_cpp.dir/all
+wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/all: wpm2/demo1/CMakeFiles/std_msgs_generate_messages_py.dir/all
+wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
+wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/all: wpm2/demo1/CMakeFiles/actionlib_generate_messages_lisp.dir/all
+wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/all: wpm2/demo1/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
+wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/all: wpm2/demo1/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
+wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/all: wpm2/demo1/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/all
+wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/all: wpm2/demo1/CMakeFiles/actionlib_generate_messages_eus.dir/all
+wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/all: wpm2/demo1/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/all
+wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/all: wpm2/demo1/CMakeFiles/actionlib_msgs_generate_messages_py.dir/all
+wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/all: wpm2/demo1/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/all: wpm2/demo1/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all
+wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/all: wpm2/demo1/CMakeFiles/roscpp_generate_messages_eus.dir/all
+wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/all: wpm2/demo1/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/all
+wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/all: wpm2/demo1/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
+wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/all: wpm2/demo1/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
+wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/all: wpm2/demo1/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/all
+wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/all: wpm2/demo1/CMakeFiles/std_msgs_generate_messages_eus.dir/all
+wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/all: wpm2/demo1/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/all: wpm2/demo1/CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
+wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
+wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/all: wpm2/demo1/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
+wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/all: wpm2/demo1/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+	$(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/build.make wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/depend
+	$(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/build.make wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/haouanbo/Projects/jixiebi/ws2/build/CMakeFiles --progress-num=61,62,63,64 "Built target wpm2_fake"
+.PHONY : wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/all
+
+# Include target in all.
+all: wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/haouanbo/Projects/jixiebi/ws2/build/CMakeFiles 5
+	$(MAKE) -f CMakeFiles/Makefile2 wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/haouanbo/Projects/jixiebi/ws2/build/CMakeFiles 0
+.PHONY : wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/rule
+
+# Convenience name for target.
+wpm2_fake: wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/rule
+
+.PHONY : wpm2_fake
+
+# clean rule for target.
+wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/clean:
+	$(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/build.make wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/clean
+.PHONY : wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/clean
+
+# clean rule for target.
+clean: wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Directory level rules for directory wpm2/wpm2_moveit_config
 
 # Convenience name for "all" pass in the directory.
@@ -5478,27 +5556,6 @@ wpm2/wpm2_tutorials/preinstall:
 # Target rules for target wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_plan_exec.dir
 
 # All Build rule for target.
-wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_plan_exec.dir/all: wpm2/demo1/CMakeFiles/std_srvs_generate_messages_py.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_plan_exec.dir/all: wpm2/demo1/CMakeFiles/std_srvs_generate_messages_cpp.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_plan_exec.dir/all: wpm2/demo1/CMakeFiles/moveit_ros_manipulation_gencfg.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_plan_exec.dir/all: wpm2/demo1/CMakeFiles/tf_generate_messages_lisp.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_plan_exec.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_plan_exec.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_plan_exec.dir/all: wpm2/demo1/CMakeFiles/shape_msgs_generate_messages_eus.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_plan_exec.dir/all: wpm2/demo1/CMakeFiles/shape_msgs_generate_messages_cpp.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_plan_exec.dir/all: wpm2/demo1/CMakeFiles/tf_generate_messages_cpp.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_plan_exec.dir/all: wpm2/demo1/CMakeFiles/actionlib_generate_messages_nodejs.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_plan_exec.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_plan_exec.dir/all: wpm2/demo1/CMakeFiles/moveit_ros_planning_gencfg.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_plan_exec.dir/all: wpm2/demo1/CMakeFiles/roscpp_generate_messages_py.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_plan_exec.dir/all: wpm2/demo1/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_plan_exec.dir/all: wpm2/demo1/CMakeFiles/roscpp_generate_messages_cpp.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_plan_exec.dir/all: wpm2/demo1/CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_plan_exec.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_plan_exec.dir/all: wpm2/demo1/CMakeFiles/object_recognition_msgs_generate_messages_lisp.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_plan_exec.dir/all: wpm2/demo1/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_plan_exec.dir/all: wpm2/demo1/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_plan_exec.dir/all: wpm2/demo1/CMakeFiles/object_recognition_msgs_generate_messages_nodejs.dir/all
 wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_plan_exec.dir/all: wpm2/demo1/CMakeFiles/visualization_msgs_generate_messages_eus.dir/all
 wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_plan_exec.dir/all: wpm2/demo1/CMakeFiles/visualization_msgs_generate_messages_py.dir/all
 wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_plan_exec.dir/all: wpm2/demo1/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/all
@@ -5532,6 +5589,21 @@ wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_plan_exec.dir/all: wpm2/demo1/CMakeFi
 wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_plan_exec.dir/all: wpm2/demo1/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/all
 wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_plan_exec.dir/all: wpm2/demo1/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/all
 wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_plan_exec.dir/all: wpm2/demo1/CMakeFiles/dynamic_reconfigure_gencfg.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_plan_exec.dir/all: wpm2/demo1/CMakeFiles/std_srvs_generate_messages_py.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_plan_exec.dir/all: wpm2/demo1/CMakeFiles/std_srvs_generate_messages_cpp.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_plan_exec.dir/all: wpm2/demo1/CMakeFiles/moveit_ros_manipulation_gencfg.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_plan_exec.dir/all: wpm2/demo1/CMakeFiles/tf_generate_messages_lisp.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_plan_exec.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_plan_exec.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_plan_exec.dir/all: wpm2/demo1/CMakeFiles/shape_msgs_generate_messages_eus.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_plan_exec.dir/all: wpm2/demo1/CMakeFiles/shape_msgs_generate_messages_cpp.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_plan_exec.dir/all: wpm2/demo1/CMakeFiles/tf_generate_messages_cpp.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_plan_exec.dir/all: wpm2/demo1/CMakeFiles/actionlib_generate_messages_nodejs.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_plan_exec.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_plan_exec.dir/all: wpm2/demo1/CMakeFiles/moveit_ros_planning_gencfg.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_plan_exec.dir/all: wpm2/demo1/CMakeFiles/roscpp_generate_messages_py.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_plan_exec.dir/all: wpm2/demo1/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_plan_exec.dir/all: wpm2/demo1/CMakeFiles/roscpp_generate_messages_cpp.dir/all
 wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_plan_exec.dir/all: wpm2/demo1/CMakeFiles/actionlib_generate_messages_cpp.dir/all
 wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_plan_exec.dir/all: wpm2/demo1/CMakeFiles/object_recognition_msgs_generate_messages_eus.dir/all
 wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_plan_exec.dir/all: wpm2/demo1/CMakeFiles/octomap_msgs_generate_messages_eus.dir/all
@@ -5566,6 +5638,12 @@ wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_plan_exec.dir/all: wpm2/demo1/CMakeFi
 wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_plan_exec.dir/all: wpm2/demo1/CMakeFiles/tf_generate_messages_py.dir/all
 wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_plan_exec.dir/all: wpm2/demo1/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/all
 wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_plan_exec.dir/all: wpm2/demo1/CMakeFiles/std_srvs_generate_messages_lisp.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_plan_exec.dir/all: wpm2/demo1/CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_plan_exec.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_plan_exec.dir/all: wpm2/demo1/CMakeFiles/object_recognition_msgs_generate_messages_lisp.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_plan_exec.dir/all: wpm2/demo1/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_plan_exec.dir/all: wpm2/demo1/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_plan_exec.dir/all: wpm2/demo1/CMakeFiles/object_recognition_msgs_generate_messages_nodejs.dir/all
 	$(MAKE) -f wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_plan_exec.dir/build.make wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_plan_exec.dir/depend
 	$(MAKE) -f wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_plan_exec.dir/build.make wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_plan_exec.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/haouanbo/Projects/jixiebi/ws2/build/CMakeFiles --progress-num=26,27 "Built target mobile_mani_plan_exec"
@@ -5602,27 +5680,6 @@ clean: wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_plan_exec.dir/clean
 # Target rules for target wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_control.dir
 
 # All Build rule for target.
-wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_control.dir/all: wpm2/demo1/CMakeFiles/std_srvs_generate_messages_py.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_control.dir/all: wpm2/demo1/CMakeFiles/std_srvs_generate_messages_cpp.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_control.dir/all: wpm2/demo1/CMakeFiles/moveit_ros_manipulation_gencfg.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_control.dir/all: wpm2/demo1/CMakeFiles/tf_generate_messages_lisp.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_control.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_control.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_control.dir/all: wpm2/demo1/CMakeFiles/shape_msgs_generate_messages_eus.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_control.dir/all: wpm2/demo1/CMakeFiles/shape_msgs_generate_messages_cpp.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_control.dir/all: wpm2/demo1/CMakeFiles/tf_generate_messages_cpp.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_control.dir/all: wpm2/demo1/CMakeFiles/actionlib_generate_messages_nodejs.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_control.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_control.dir/all: wpm2/demo1/CMakeFiles/moveit_ros_planning_gencfg.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_control.dir/all: wpm2/demo1/CMakeFiles/roscpp_generate_messages_py.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_control.dir/all: wpm2/demo1/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_control.dir/all: wpm2/demo1/CMakeFiles/roscpp_generate_messages_cpp.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_control.dir/all: wpm2/demo1/CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_control.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_control.dir/all: wpm2/demo1/CMakeFiles/object_recognition_msgs_generate_messages_lisp.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_control.dir/all: wpm2/demo1/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_control.dir/all: wpm2/demo1/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_control.dir/all: wpm2/demo1/CMakeFiles/object_recognition_msgs_generate_messages_nodejs.dir/all
 wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_control.dir/all: wpm2/demo1/CMakeFiles/visualization_msgs_generate_messages_eus.dir/all
 wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_control.dir/all: wpm2/demo1/CMakeFiles/visualization_msgs_generate_messages_py.dir/all
 wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_control.dir/all: wpm2/demo1/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/all
@@ -5656,6 +5713,21 @@ wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_control.dir/all: wpm2/demo1/CMakeFile
 wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_control.dir/all: wpm2/demo1/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/all
 wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_control.dir/all: wpm2/demo1/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/all
 wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_control.dir/all: wpm2/demo1/CMakeFiles/dynamic_reconfigure_gencfg.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_control.dir/all: wpm2/demo1/CMakeFiles/std_srvs_generate_messages_py.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_control.dir/all: wpm2/demo1/CMakeFiles/std_srvs_generate_messages_cpp.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_control.dir/all: wpm2/demo1/CMakeFiles/moveit_ros_manipulation_gencfg.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_control.dir/all: wpm2/demo1/CMakeFiles/tf_generate_messages_lisp.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_control.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_control.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_control.dir/all: wpm2/demo1/CMakeFiles/shape_msgs_generate_messages_eus.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_control.dir/all: wpm2/demo1/CMakeFiles/shape_msgs_generate_messages_cpp.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_control.dir/all: wpm2/demo1/CMakeFiles/tf_generate_messages_cpp.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_control.dir/all: wpm2/demo1/CMakeFiles/actionlib_generate_messages_nodejs.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_control.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_control.dir/all: wpm2/demo1/CMakeFiles/moveit_ros_planning_gencfg.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_control.dir/all: wpm2/demo1/CMakeFiles/roscpp_generate_messages_py.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_control.dir/all: wpm2/demo1/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_control.dir/all: wpm2/demo1/CMakeFiles/roscpp_generate_messages_cpp.dir/all
 wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_control.dir/all: wpm2/demo1/CMakeFiles/actionlib_generate_messages_cpp.dir/all
 wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_control.dir/all: wpm2/demo1/CMakeFiles/object_recognition_msgs_generate_messages_eus.dir/all
 wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_control.dir/all: wpm2/demo1/CMakeFiles/octomap_msgs_generate_messages_eus.dir/all
@@ -5690,6 +5762,12 @@ wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_control.dir/all: wpm2/demo1/CMakeFile
 wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_control.dir/all: wpm2/demo1/CMakeFiles/tf_generate_messages_py.dir/all
 wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_control.dir/all: wpm2/demo1/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/all
 wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_control.dir/all: wpm2/demo1/CMakeFiles/std_srvs_generate_messages_lisp.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_control.dir/all: wpm2/demo1/CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_control.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_control.dir/all: wpm2/demo1/CMakeFiles/object_recognition_msgs_generate_messages_lisp.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_control.dir/all: wpm2/demo1/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_control.dir/all: wpm2/demo1/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_control.dir/all: wpm2/demo1/CMakeFiles/object_recognition_msgs_generate_messages_nodejs.dir/all
 	$(MAKE) -f wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_control.dir/build.make wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_control.dir/depend
 	$(MAKE) -f wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_control.dir/build.make wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_control.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/haouanbo/Projects/jixiebi/ws2/build/CMakeFiles --progress-num=24,25 "Built target mobile_mani_control"
@@ -5726,27 +5804,6 @@ clean: wpm2/wpm2_tutorials/CMakeFiles/mobile_mani_control.dir/clean
 # Target rules for target wpm2/wpm2_tutorials/CMakeFiles/scene_add_collision_obj.dir
 
 # All Build rule for target.
-wpm2/wpm2_tutorials/CMakeFiles/scene_add_collision_obj.dir/all: wpm2/demo1/CMakeFiles/std_srvs_generate_messages_py.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/scene_add_collision_obj.dir/all: wpm2/demo1/CMakeFiles/std_srvs_generate_messages_cpp.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/scene_add_collision_obj.dir/all: wpm2/demo1/CMakeFiles/moveit_ros_manipulation_gencfg.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/scene_add_collision_obj.dir/all: wpm2/demo1/CMakeFiles/tf_generate_messages_lisp.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/scene_add_collision_obj.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/scene_add_collision_obj.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/scene_add_collision_obj.dir/all: wpm2/demo1/CMakeFiles/shape_msgs_generate_messages_eus.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/scene_add_collision_obj.dir/all: wpm2/demo1/CMakeFiles/shape_msgs_generate_messages_cpp.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/scene_add_collision_obj.dir/all: wpm2/demo1/CMakeFiles/tf_generate_messages_cpp.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/scene_add_collision_obj.dir/all: wpm2/demo1/CMakeFiles/actionlib_generate_messages_nodejs.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/scene_add_collision_obj.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/scene_add_collision_obj.dir/all: wpm2/demo1/CMakeFiles/moveit_ros_planning_gencfg.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/scene_add_collision_obj.dir/all: wpm2/demo1/CMakeFiles/roscpp_generate_messages_py.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/scene_add_collision_obj.dir/all: wpm2/demo1/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/scene_add_collision_obj.dir/all: wpm2/demo1/CMakeFiles/roscpp_generate_messages_cpp.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/scene_add_collision_obj.dir/all: wpm2/demo1/CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/scene_add_collision_obj.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/scene_add_collision_obj.dir/all: wpm2/demo1/CMakeFiles/object_recognition_msgs_generate_messages_lisp.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/scene_add_collision_obj.dir/all: wpm2/demo1/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/scene_add_collision_obj.dir/all: wpm2/demo1/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/scene_add_collision_obj.dir/all: wpm2/demo1/CMakeFiles/object_recognition_msgs_generate_messages_nodejs.dir/all
 wpm2/wpm2_tutorials/CMakeFiles/scene_add_collision_obj.dir/all: wpm2/demo1/CMakeFiles/visualization_msgs_generate_messages_eus.dir/all
 wpm2/wpm2_tutorials/CMakeFiles/scene_add_collision_obj.dir/all: wpm2/demo1/CMakeFiles/visualization_msgs_generate_messages_py.dir/all
 wpm2/wpm2_tutorials/CMakeFiles/scene_add_collision_obj.dir/all: wpm2/demo1/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/all
@@ -5780,6 +5837,21 @@ wpm2/wpm2_tutorials/CMakeFiles/scene_add_collision_obj.dir/all: wpm2/demo1/CMake
 wpm2/wpm2_tutorials/CMakeFiles/scene_add_collision_obj.dir/all: wpm2/demo1/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/all
 wpm2/wpm2_tutorials/CMakeFiles/scene_add_collision_obj.dir/all: wpm2/demo1/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/all
 wpm2/wpm2_tutorials/CMakeFiles/scene_add_collision_obj.dir/all: wpm2/demo1/CMakeFiles/dynamic_reconfigure_gencfg.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/scene_add_collision_obj.dir/all: wpm2/demo1/CMakeFiles/std_srvs_generate_messages_py.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/scene_add_collision_obj.dir/all: wpm2/demo1/CMakeFiles/std_srvs_generate_messages_cpp.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/scene_add_collision_obj.dir/all: wpm2/demo1/CMakeFiles/moveit_ros_manipulation_gencfg.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/scene_add_collision_obj.dir/all: wpm2/demo1/CMakeFiles/tf_generate_messages_lisp.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/scene_add_collision_obj.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/scene_add_collision_obj.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/scene_add_collision_obj.dir/all: wpm2/demo1/CMakeFiles/shape_msgs_generate_messages_eus.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/scene_add_collision_obj.dir/all: wpm2/demo1/CMakeFiles/shape_msgs_generate_messages_cpp.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/scene_add_collision_obj.dir/all: wpm2/demo1/CMakeFiles/tf_generate_messages_cpp.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/scene_add_collision_obj.dir/all: wpm2/demo1/CMakeFiles/actionlib_generate_messages_nodejs.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/scene_add_collision_obj.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/scene_add_collision_obj.dir/all: wpm2/demo1/CMakeFiles/moveit_ros_planning_gencfg.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/scene_add_collision_obj.dir/all: wpm2/demo1/CMakeFiles/roscpp_generate_messages_py.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/scene_add_collision_obj.dir/all: wpm2/demo1/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/scene_add_collision_obj.dir/all: wpm2/demo1/CMakeFiles/roscpp_generate_messages_cpp.dir/all
 wpm2/wpm2_tutorials/CMakeFiles/scene_add_collision_obj.dir/all: wpm2/demo1/CMakeFiles/actionlib_generate_messages_cpp.dir/all
 wpm2/wpm2_tutorials/CMakeFiles/scene_add_collision_obj.dir/all: wpm2/demo1/CMakeFiles/object_recognition_msgs_generate_messages_eus.dir/all
 wpm2/wpm2_tutorials/CMakeFiles/scene_add_collision_obj.dir/all: wpm2/demo1/CMakeFiles/octomap_msgs_generate_messages_eus.dir/all
@@ -5814,6 +5886,12 @@ wpm2/wpm2_tutorials/CMakeFiles/scene_add_collision_obj.dir/all: wpm2/demo1/CMake
 wpm2/wpm2_tutorials/CMakeFiles/scene_add_collision_obj.dir/all: wpm2/demo1/CMakeFiles/tf_generate_messages_py.dir/all
 wpm2/wpm2_tutorials/CMakeFiles/scene_add_collision_obj.dir/all: wpm2/demo1/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/all
 wpm2/wpm2_tutorials/CMakeFiles/scene_add_collision_obj.dir/all: wpm2/demo1/CMakeFiles/std_srvs_generate_messages_lisp.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/scene_add_collision_obj.dir/all: wpm2/demo1/CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/scene_add_collision_obj.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/scene_add_collision_obj.dir/all: wpm2/demo1/CMakeFiles/object_recognition_msgs_generate_messages_lisp.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/scene_add_collision_obj.dir/all: wpm2/demo1/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/scene_add_collision_obj.dir/all: wpm2/demo1/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/scene_add_collision_obj.dir/all: wpm2/demo1/CMakeFiles/object_recognition_msgs_generate_messages_nodejs.dir/all
 	$(MAKE) -f wpm2/wpm2_tutorials/CMakeFiles/scene_add_collision_obj.dir/build.make wpm2/wpm2_tutorials/CMakeFiles/scene_add_collision_obj.dir/depend
 	$(MAKE) -f wpm2/wpm2_tutorials/CMakeFiles/scene_add_collision_obj.dir/build.make wpm2/wpm2_tutorials/CMakeFiles/scene_add_collision_obj.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/haouanbo/Projects/jixiebi/ws2/build/CMakeFiles --progress-num=44,45 "Built target scene_add_collision_obj"
@@ -5850,27 +5928,6 @@ clean: wpm2/wpm2_tutorials/CMakeFiles/scene_add_collision_obj.dir/clean
 # Target rules for target wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_radian.dir
 
 # All Build rule for target.
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_radian.dir/all: wpm2/demo1/CMakeFiles/std_srvs_generate_messages_py.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_radian.dir/all: wpm2/demo1/CMakeFiles/std_srvs_generate_messages_cpp.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_radian.dir/all: wpm2/demo1/CMakeFiles/moveit_ros_manipulation_gencfg.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_radian.dir/all: wpm2/demo1/CMakeFiles/tf_generate_messages_lisp.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_radian.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_radian.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_radian.dir/all: wpm2/demo1/CMakeFiles/shape_msgs_generate_messages_eus.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_radian.dir/all: wpm2/demo1/CMakeFiles/shape_msgs_generate_messages_cpp.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_radian.dir/all: wpm2/demo1/CMakeFiles/tf_generate_messages_cpp.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_radian.dir/all: wpm2/demo1/CMakeFiles/actionlib_generate_messages_nodejs.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_radian.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_radian.dir/all: wpm2/demo1/CMakeFiles/moveit_ros_planning_gencfg.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_radian.dir/all: wpm2/demo1/CMakeFiles/roscpp_generate_messages_py.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_radian.dir/all: wpm2/demo1/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_radian.dir/all: wpm2/demo1/CMakeFiles/roscpp_generate_messages_cpp.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_radian.dir/all: wpm2/demo1/CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_radian.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_radian.dir/all: wpm2/demo1/CMakeFiles/object_recognition_msgs_generate_messages_lisp.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_radian.dir/all: wpm2/demo1/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_radian.dir/all: wpm2/demo1/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_radian.dir/all: wpm2/demo1/CMakeFiles/object_recognition_msgs_generate_messages_nodejs.dir/all
 wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_radian.dir/all: wpm2/demo1/CMakeFiles/visualization_msgs_generate_messages_eus.dir/all
 wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_radian.dir/all: wpm2/demo1/CMakeFiles/visualization_msgs_generate_messages_py.dir/all
 wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_radian.dir/all: wpm2/demo1/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/all
@@ -5904,6 +5961,21 @@ wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_radian.dir/all: wpm2/demo1/CMa
 wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_radian.dir/all: wpm2/demo1/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/all
 wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_radian.dir/all: wpm2/demo1/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/all
 wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_radian.dir/all: wpm2/demo1/CMakeFiles/dynamic_reconfigure_gencfg.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_radian.dir/all: wpm2/demo1/CMakeFiles/std_srvs_generate_messages_py.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_radian.dir/all: wpm2/demo1/CMakeFiles/std_srvs_generate_messages_cpp.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_radian.dir/all: wpm2/demo1/CMakeFiles/moveit_ros_manipulation_gencfg.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_radian.dir/all: wpm2/demo1/CMakeFiles/tf_generate_messages_lisp.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_radian.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_radian.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_radian.dir/all: wpm2/demo1/CMakeFiles/shape_msgs_generate_messages_eus.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_radian.dir/all: wpm2/demo1/CMakeFiles/shape_msgs_generate_messages_cpp.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_radian.dir/all: wpm2/demo1/CMakeFiles/tf_generate_messages_cpp.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_radian.dir/all: wpm2/demo1/CMakeFiles/actionlib_generate_messages_nodejs.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_radian.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_radian.dir/all: wpm2/demo1/CMakeFiles/moveit_ros_planning_gencfg.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_radian.dir/all: wpm2/demo1/CMakeFiles/roscpp_generate_messages_py.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_radian.dir/all: wpm2/demo1/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_radian.dir/all: wpm2/demo1/CMakeFiles/roscpp_generate_messages_cpp.dir/all
 wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_radian.dir/all: wpm2/demo1/CMakeFiles/actionlib_generate_messages_cpp.dir/all
 wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_radian.dir/all: wpm2/demo1/CMakeFiles/object_recognition_msgs_generate_messages_eus.dir/all
 wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_radian.dir/all: wpm2/demo1/CMakeFiles/octomap_msgs_generate_messages_eus.dir/all
@@ -5938,9 +6010,15 @@ wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_radian.dir/all: wpm2/demo1/CMa
 wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_radian.dir/all: wpm2/demo1/CMakeFiles/tf_generate_messages_py.dir/all
 wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_radian.dir/all: wpm2/demo1/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/all
 wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_radian.dir/all: wpm2/demo1/CMakeFiles/std_srvs_generate_messages_lisp.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_radian.dir/all: wpm2/demo1/CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_radian.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_radian.dir/all: wpm2/demo1/CMakeFiles/object_recognition_msgs_generate_messages_lisp.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_radian.dir/all: wpm2/demo1/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_radian.dir/all: wpm2/demo1/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_radian.dir/all: wpm2/demo1/CMakeFiles/object_recognition_msgs_generate_messages_nodejs.dir/all
 	$(MAKE) -f wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_radian.dir/build.make wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_radian.dir/depend
 	$(MAKE) -f wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_radian.dir/build.make wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_radian.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/haouanbo/Projects/jixiebi/ws2/build/CMakeFiles --progress-num=71,72 "Built target wpm2_joint_control_radian"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/haouanbo/Projects/jixiebi/ws2/build/CMakeFiles --progress-num=75,76 "Built target wpm2_joint_control_radian"
 .PHONY : wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_radian.dir/all
 
 # Include target in all.
@@ -5974,27 +6052,6 @@ clean: wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_radian.dir/clean
 # Target rules for target wpm2/wpm2_tutorials/CMakeFiles/wpm2_planning.dir
 
 # All Build rule for target.
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_planning.dir/all: wpm2/demo1/CMakeFiles/std_srvs_generate_messages_py.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_planning.dir/all: wpm2/demo1/CMakeFiles/std_srvs_generate_messages_cpp.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_planning.dir/all: wpm2/demo1/CMakeFiles/moveit_ros_manipulation_gencfg.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_planning.dir/all: wpm2/demo1/CMakeFiles/tf_generate_messages_lisp.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_planning.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_planning.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_planning.dir/all: wpm2/demo1/CMakeFiles/shape_msgs_generate_messages_eus.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_planning.dir/all: wpm2/demo1/CMakeFiles/shape_msgs_generate_messages_cpp.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_planning.dir/all: wpm2/demo1/CMakeFiles/tf_generate_messages_cpp.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_planning.dir/all: wpm2/demo1/CMakeFiles/actionlib_generate_messages_nodejs.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_planning.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_planning.dir/all: wpm2/demo1/CMakeFiles/moveit_ros_planning_gencfg.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_planning.dir/all: wpm2/demo1/CMakeFiles/roscpp_generate_messages_py.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_planning.dir/all: wpm2/demo1/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_planning.dir/all: wpm2/demo1/CMakeFiles/roscpp_generate_messages_cpp.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_planning.dir/all: wpm2/demo1/CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_planning.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_planning.dir/all: wpm2/demo1/CMakeFiles/object_recognition_msgs_generate_messages_lisp.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_planning.dir/all: wpm2/demo1/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_planning.dir/all: wpm2/demo1/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_planning.dir/all: wpm2/demo1/CMakeFiles/object_recognition_msgs_generate_messages_nodejs.dir/all
 wpm2/wpm2_tutorials/CMakeFiles/wpm2_planning.dir/all: wpm2/demo1/CMakeFiles/visualization_msgs_generate_messages_eus.dir/all
 wpm2/wpm2_tutorials/CMakeFiles/wpm2_planning.dir/all: wpm2/demo1/CMakeFiles/visualization_msgs_generate_messages_py.dir/all
 wpm2/wpm2_tutorials/CMakeFiles/wpm2_planning.dir/all: wpm2/demo1/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/all
@@ -6028,6 +6085,21 @@ wpm2/wpm2_tutorials/CMakeFiles/wpm2_planning.dir/all: wpm2/demo1/CMakeFiles/shap
 wpm2/wpm2_tutorials/CMakeFiles/wpm2_planning.dir/all: wpm2/demo1/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/all
 wpm2/wpm2_tutorials/CMakeFiles/wpm2_planning.dir/all: wpm2/demo1/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/all
 wpm2/wpm2_tutorials/CMakeFiles/wpm2_planning.dir/all: wpm2/demo1/CMakeFiles/dynamic_reconfigure_gencfg.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_planning.dir/all: wpm2/demo1/CMakeFiles/std_srvs_generate_messages_py.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_planning.dir/all: wpm2/demo1/CMakeFiles/std_srvs_generate_messages_cpp.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_planning.dir/all: wpm2/demo1/CMakeFiles/moveit_ros_manipulation_gencfg.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_planning.dir/all: wpm2/demo1/CMakeFiles/tf_generate_messages_lisp.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_planning.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_planning.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_planning.dir/all: wpm2/demo1/CMakeFiles/shape_msgs_generate_messages_eus.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_planning.dir/all: wpm2/demo1/CMakeFiles/shape_msgs_generate_messages_cpp.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_planning.dir/all: wpm2/demo1/CMakeFiles/tf_generate_messages_cpp.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_planning.dir/all: wpm2/demo1/CMakeFiles/actionlib_generate_messages_nodejs.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_planning.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_planning.dir/all: wpm2/demo1/CMakeFiles/moveit_ros_planning_gencfg.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_planning.dir/all: wpm2/demo1/CMakeFiles/roscpp_generate_messages_py.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_planning.dir/all: wpm2/demo1/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_planning.dir/all: wpm2/demo1/CMakeFiles/roscpp_generate_messages_cpp.dir/all
 wpm2/wpm2_tutorials/CMakeFiles/wpm2_planning.dir/all: wpm2/demo1/CMakeFiles/actionlib_generate_messages_cpp.dir/all
 wpm2/wpm2_tutorials/CMakeFiles/wpm2_planning.dir/all: wpm2/demo1/CMakeFiles/object_recognition_msgs_generate_messages_eus.dir/all
 wpm2/wpm2_tutorials/CMakeFiles/wpm2_planning.dir/all: wpm2/demo1/CMakeFiles/octomap_msgs_generate_messages_eus.dir/all
@@ -6062,9 +6134,15 @@ wpm2/wpm2_tutorials/CMakeFiles/wpm2_planning.dir/all: wpm2/demo1/CMakeFiles/rosg
 wpm2/wpm2_tutorials/CMakeFiles/wpm2_planning.dir/all: wpm2/demo1/CMakeFiles/tf_generate_messages_py.dir/all
 wpm2/wpm2_tutorials/CMakeFiles/wpm2_planning.dir/all: wpm2/demo1/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/all
 wpm2/wpm2_tutorials/CMakeFiles/wpm2_planning.dir/all: wpm2/demo1/CMakeFiles/std_srvs_generate_messages_lisp.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_planning.dir/all: wpm2/demo1/CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_planning.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_planning.dir/all: wpm2/demo1/CMakeFiles/object_recognition_msgs_generate_messages_lisp.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_planning.dir/all: wpm2/demo1/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_planning.dir/all: wpm2/demo1/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_planning.dir/all: wpm2/demo1/CMakeFiles/object_recognition_msgs_generate_messages_nodejs.dir/all
 	$(MAKE) -f wpm2/wpm2_tutorials/CMakeFiles/wpm2_planning.dir/build.make wpm2/wpm2_tutorials/CMakeFiles/wpm2_planning.dir/depend
 	$(MAKE) -f wpm2/wpm2_tutorials/CMakeFiles/wpm2_planning.dir/build.make wpm2/wpm2_tutorials/CMakeFiles/wpm2_planning.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/haouanbo/Projects/jixiebi/ws2/build/CMakeFiles --progress-num=79,80 "Built target wpm2_planning"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/haouanbo/Projects/jixiebi/ws2/build/CMakeFiles --progress-num=83,84 "Built target wpm2_planning"
 .PHONY : wpm2/wpm2_tutorials/CMakeFiles/wpm2_planning.dir/all
 
 # Include target in all.
@@ -6098,27 +6176,6 @@ clean: wpm2/wpm2_tutorials/CMakeFiles/wpm2_planning.dir/clean
 # Target rules for target wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_degree.dir
 
 # All Build rule for target.
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_degree.dir/all: wpm2/demo1/CMakeFiles/std_srvs_generate_messages_py.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_degree.dir/all: wpm2/demo1/CMakeFiles/std_srvs_generate_messages_cpp.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_degree.dir/all: wpm2/demo1/CMakeFiles/moveit_ros_manipulation_gencfg.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_degree.dir/all: wpm2/demo1/CMakeFiles/tf_generate_messages_lisp.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_degree.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_degree.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_degree.dir/all: wpm2/demo1/CMakeFiles/shape_msgs_generate_messages_eus.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_degree.dir/all: wpm2/demo1/CMakeFiles/shape_msgs_generate_messages_cpp.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_degree.dir/all: wpm2/demo1/CMakeFiles/tf_generate_messages_cpp.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_degree.dir/all: wpm2/demo1/CMakeFiles/actionlib_generate_messages_nodejs.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_degree.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_degree.dir/all: wpm2/demo1/CMakeFiles/moveit_ros_planning_gencfg.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_degree.dir/all: wpm2/demo1/CMakeFiles/roscpp_generate_messages_py.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_degree.dir/all: wpm2/demo1/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_degree.dir/all: wpm2/demo1/CMakeFiles/roscpp_generate_messages_cpp.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_degree.dir/all: wpm2/demo1/CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_degree.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_degree.dir/all: wpm2/demo1/CMakeFiles/object_recognition_msgs_generate_messages_lisp.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_degree.dir/all: wpm2/demo1/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_degree.dir/all: wpm2/demo1/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_degree.dir/all: wpm2/demo1/CMakeFiles/object_recognition_msgs_generate_messages_nodejs.dir/all
 wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_degree.dir/all: wpm2/demo1/CMakeFiles/visualization_msgs_generate_messages_eus.dir/all
 wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_degree.dir/all: wpm2/demo1/CMakeFiles/visualization_msgs_generate_messages_py.dir/all
 wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_degree.dir/all: wpm2/demo1/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/all
@@ -6152,6 +6209,21 @@ wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_degree.dir/all: wpm2/demo1/CMa
 wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_degree.dir/all: wpm2/demo1/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/all
 wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_degree.dir/all: wpm2/demo1/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/all
 wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_degree.dir/all: wpm2/demo1/CMakeFiles/dynamic_reconfigure_gencfg.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_degree.dir/all: wpm2/demo1/CMakeFiles/std_srvs_generate_messages_py.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_degree.dir/all: wpm2/demo1/CMakeFiles/std_srvs_generate_messages_cpp.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_degree.dir/all: wpm2/demo1/CMakeFiles/moveit_ros_manipulation_gencfg.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_degree.dir/all: wpm2/demo1/CMakeFiles/tf_generate_messages_lisp.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_degree.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_degree.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_degree.dir/all: wpm2/demo1/CMakeFiles/shape_msgs_generate_messages_eus.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_degree.dir/all: wpm2/demo1/CMakeFiles/shape_msgs_generate_messages_cpp.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_degree.dir/all: wpm2/demo1/CMakeFiles/tf_generate_messages_cpp.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_degree.dir/all: wpm2/demo1/CMakeFiles/actionlib_generate_messages_nodejs.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_degree.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_degree.dir/all: wpm2/demo1/CMakeFiles/moveit_ros_planning_gencfg.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_degree.dir/all: wpm2/demo1/CMakeFiles/roscpp_generate_messages_py.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_degree.dir/all: wpm2/demo1/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_degree.dir/all: wpm2/demo1/CMakeFiles/roscpp_generate_messages_cpp.dir/all
 wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_degree.dir/all: wpm2/demo1/CMakeFiles/actionlib_generate_messages_cpp.dir/all
 wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_degree.dir/all: wpm2/demo1/CMakeFiles/object_recognition_msgs_generate_messages_eus.dir/all
 wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_degree.dir/all: wpm2/demo1/CMakeFiles/octomap_msgs_generate_messages_eus.dir/all
@@ -6186,9 +6258,15 @@ wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_degree.dir/all: wpm2/demo1/CMa
 wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_degree.dir/all: wpm2/demo1/CMakeFiles/tf_generate_messages_py.dir/all
 wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_degree.dir/all: wpm2/demo1/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/all
 wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_degree.dir/all: wpm2/demo1/CMakeFiles/std_srvs_generate_messages_lisp.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_degree.dir/all: wpm2/demo1/CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_degree.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_degree.dir/all: wpm2/demo1/CMakeFiles/object_recognition_msgs_generate_messages_lisp.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_degree.dir/all: wpm2/demo1/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_degree.dir/all: wpm2/demo1/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_degree.dir/all: wpm2/demo1/CMakeFiles/object_recognition_msgs_generate_messages_nodejs.dir/all
 	$(MAKE) -f wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_degree.dir/build.make wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_degree.dir/depend
 	$(MAKE) -f wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_degree.dir/build.make wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_degree.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/haouanbo/Projects/jixiebi/ws2/build/CMakeFiles --progress-num=67,68 "Built target wpm2_joint_control_degree"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/haouanbo/Projects/jixiebi/ws2/build/CMakeFiles --progress-num=71,72 "Built target wpm2_joint_control_degree"
 .PHONY : wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_degree.dir/all
 
 # Include target in all.
@@ -6222,27 +6300,6 @@ clean: wpm2/wpm2_tutorials/CMakeFiles/wpm2_joint_control_degree.dir/clean
 # Target rules for target wpm2/wpm2_tutorials/CMakeFiles/wpm2_plan_execute.dir
 
 # All Build rule for target.
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_plan_execute.dir/all: wpm2/demo1/CMakeFiles/std_srvs_generate_messages_py.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_plan_execute.dir/all: wpm2/demo1/CMakeFiles/std_srvs_generate_messages_cpp.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_plan_execute.dir/all: wpm2/demo1/CMakeFiles/moveit_ros_manipulation_gencfg.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_plan_execute.dir/all: wpm2/demo1/CMakeFiles/tf_generate_messages_lisp.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_plan_execute.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_plan_execute.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_plan_execute.dir/all: wpm2/demo1/CMakeFiles/shape_msgs_generate_messages_eus.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_plan_execute.dir/all: wpm2/demo1/CMakeFiles/shape_msgs_generate_messages_cpp.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_plan_execute.dir/all: wpm2/demo1/CMakeFiles/tf_generate_messages_cpp.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_plan_execute.dir/all: wpm2/demo1/CMakeFiles/actionlib_generate_messages_nodejs.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_plan_execute.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_plan_execute.dir/all: wpm2/demo1/CMakeFiles/moveit_ros_planning_gencfg.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_plan_execute.dir/all: wpm2/demo1/CMakeFiles/roscpp_generate_messages_py.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_plan_execute.dir/all: wpm2/demo1/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_plan_execute.dir/all: wpm2/demo1/CMakeFiles/roscpp_generate_messages_cpp.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_plan_execute.dir/all: wpm2/demo1/CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_plan_execute.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_plan_execute.dir/all: wpm2/demo1/CMakeFiles/object_recognition_msgs_generate_messages_lisp.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_plan_execute.dir/all: wpm2/demo1/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_plan_execute.dir/all: wpm2/demo1/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_plan_execute.dir/all: wpm2/demo1/CMakeFiles/object_recognition_msgs_generate_messages_nodejs.dir/all
 wpm2/wpm2_tutorials/CMakeFiles/wpm2_plan_execute.dir/all: wpm2/demo1/CMakeFiles/visualization_msgs_generate_messages_eus.dir/all
 wpm2/wpm2_tutorials/CMakeFiles/wpm2_plan_execute.dir/all: wpm2/demo1/CMakeFiles/visualization_msgs_generate_messages_py.dir/all
 wpm2/wpm2_tutorials/CMakeFiles/wpm2_plan_execute.dir/all: wpm2/demo1/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/all
@@ -6276,6 +6333,21 @@ wpm2/wpm2_tutorials/CMakeFiles/wpm2_plan_execute.dir/all: wpm2/demo1/CMakeFiles/
 wpm2/wpm2_tutorials/CMakeFiles/wpm2_plan_execute.dir/all: wpm2/demo1/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/all
 wpm2/wpm2_tutorials/CMakeFiles/wpm2_plan_execute.dir/all: wpm2/demo1/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/all
 wpm2/wpm2_tutorials/CMakeFiles/wpm2_plan_execute.dir/all: wpm2/demo1/CMakeFiles/dynamic_reconfigure_gencfg.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_plan_execute.dir/all: wpm2/demo1/CMakeFiles/std_srvs_generate_messages_py.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_plan_execute.dir/all: wpm2/demo1/CMakeFiles/std_srvs_generate_messages_cpp.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_plan_execute.dir/all: wpm2/demo1/CMakeFiles/moveit_ros_manipulation_gencfg.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_plan_execute.dir/all: wpm2/demo1/CMakeFiles/tf_generate_messages_lisp.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_plan_execute.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_plan_execute.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_plan_execute.dir/all: wpm2/demo1/CMakeFiles/shape_msgs_generate_messages_eus.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_plan_execute.dir/all: wpm2/demo1/CMakeFiles/shape_msgs_generate_messages_cpp.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_plan_execute.dir/all: wpm2/demo1/CMakeFiles/tf_generate_messages_cpp.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_plan_execute.dir/all: wpm2/demo1/CMakeFiles/actionlib_generate_messages_nodejs.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_plan_execute.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_plan_execute.dir/all: wpm2/demo1/CMakeFiles/moveit_ros_planning_gencfg.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_plan_execute.dir/all: wpm2/demo1/CMakeFiles/roscpp_generate_messages_py.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_plan_execute.dir/all: wpm2/demo1/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_plan_execute.dir/all: wpm2/demo1/CMakeFiles/roscpp_generate_messages_cpp.dir/all
 wpm2/wpm2_tutorials/CMakeFiles/wpm2_plan_execute.dir/all: wpm2/demo1/CMakeFiles/actionlib_generate_messages_cpp.dir/all
 wpm2/wpm2_tutorials/CMakeFiles/wpm2_plan_execute.dir/all: wpm2/demo1/CMakeFiles/object_recognition_msgs_generate_messages_eus.dir/all
 wpm2/wpm2_tutorials/CMakeFiles/wpm2_plan_execute.dir/all: wpm2/demo1/CMakeFiles/octomap_msgs_generate_messages_eus.dir/all
@@ -6310,9 +6382,15 @@ wpm2/wpm2_tutorials/CMakeFiles/wpm2_plan_execute.dir/all: wpm2/demo1/CMakeFiles/
 wpm2/wpm2_tutorials/CMakeFiles/wpm2_plan_execute.dir/all: wpm2/demo1/CMakeFiles/tf_generate_messages_py.dir/all
 wpm2/wpm2_tutorials/CMakeFiles/wpm2_plan_execute.dir/all: wpm2/demo1/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/all
 wpm2/wpm2_tutorials/CMakeFiles/wpm2_plan_execute.dir/all: wpm2/demo1/CMakeFiles/std_srvs_generate_messages_lisp.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_plan_execute.dir/all: wpm2/demo1/CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_plan_execute.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_plan_execute.dir/all: wpm2/demo1/CMakeFiles/object_recognition_msgs_generate_messages_lisp.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_plan_execute.dir/all: wpm2/demo1/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_plan_execute.dir/all: wpm2/demo1/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_plan_execute.dir/all: wpm2/demo1/CMakeFiles/object_recognition_msgs_generate_messages_nodejs.dir/all
 	$(MAKE) -f wpm2/wpm2_tutorials/CMakeFiles/wpm2_plan_execute.dir/build.make wpm2/wpm2_tutorials/CMakeFiles/wpm2_plan_execute.dir/depend
 	$(MAKE) -f wpm2/wpm2_tutorials/CMakeFiles/wpm2_plan_execute.dir/build.make wpm2/wpm2_tutorials/CMakeFiles/wpm2_plan_execute.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/haouanbo/Projects/jixiebi/ws2/build/CMakeFiles --progress-num=75,76 "Built target wpm2_plan_execute"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/haouanbo/Projects/jixiebi/ws2/build/CMakeFiles --progress-num=79,80 "Built target wpm2_plan_execute"
 .PHONY : wpm2/wpm2_tutorials/CMakeFiles/wpm2_plan_execute.dir/all
 
 # Include target in all.
@@ -6346,27 +6424,6 @@ clean: wpm2/wpm2_tutorials/CMakeFiles/wpm2_plan_execute.dir/clean
 # Target rules for target wpm2/wpm2_tutorials/CMakeFiles/wpm2_gripper_client.dir
 
 # All Build rule for target.
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_gripper_client.dir/all: wpm2/demo1/CMakeFiles/std_srvs_generate_messages_py.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_gripper_client.dir/all: wpm2/demo1/CMakeFiles/std_srvs_generate_messages_cpp.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_gripper_client.dir/all: wpm2/demo1/CMakeFiles/moveit_ros_manipulation_gencfg.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_gripper_client.dir/all: wpm2/demo1/CMakeFiles/tf_generate_messages_lisp.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_gripper_client.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_gripper_client.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_gripper_client.dir/all: wpm2/demo1/CMakeFiles/shape_msgs_generate_messages_eus.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_gripper_client.dir/all: wpm2/demo1/CMakeFiles/shape_msgs_generate_messages_cpp.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_gripper_client.dir/all: wpm2/demo1/CMakeFiles/tf_generate_messages_cpp.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_gripper_client.dir/all: wpm2/demo1/CMakeFiles/actionlib_generate_messages_nodejs.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_gripper_client.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_gripper_client.dir/all: wpm2/demo1/CMakeFiles/moveit_ros_planning_gencfg.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_gripper_client.dir/all: wpm2/demo1/CMakeFiles/roscpp_generate_messages_py.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_gripper_client.dir/all: wpm2/demo1/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_gripper_client.dir/all: wpm2/demo1/CMakeFiles/roscpp_generate_messages_cpp.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_gripper_client.dir/all: wpm2/demo1/CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_gripper_client.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_gripper_client.dir/all: wpm2/demo1/CMakeFiles/object_recognition_msgs_generate_messages_lisp.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_gripper_client.dir/all: wpm2/demo1/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_gripper_client.dir/all: wpm2/demo1/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_gripper_client.dir/all: wpm2/demo1/CMakeFiles/object_recognition_msgs_generate_messages_nodejs.dir/all
 wpm2/wpm2_tutorials/CMakeFiles/wpm2_gripper_client.dir/all: wpm2/demo1/CMakeFiles/visualization_msgs_generate_messages_eus.dir/all
 wpm2/wpm2_tutorials/CMakeFiles/wpm2_gripper_client.dir/all: wpm2/demo1/CMakeFiles/visualization_msgs_generate_messages_py.dir/all
 wpm2/wpm2_tutorials/CMakeFiles/wpm2_gripper_client.dir/all: wpm2/demo1/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/all
@@ -6400,6 +6457,21 @@ wpm2/wpm2_tutorials/CMakeFiles/wpm2_gripper_client.dir/all: wpm2/demo1/CMakeFile
 wpm2/wpm2_tutorials/CMakeFiles/wpm2_gripper_client.dir/all: wpm2/demo1/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/all
 wpm2/wpm2_tutorials/CMakeFiles/wpm2_gripper_client.dir/all: wpm2/demo1/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/all
 wpm2/wpm2_tutorials/CMakeFiles/wpm2_gripper_client.dir/all: wpm2/demo1/CMakeFiles/dynamic_reconfigure_gencfg.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_gripper_client.dir/all: wpm2/demo1/CMakeFiles/std_srvs_generate_messages_py.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_gripper_client.dir/all: wpm2/demo1/CMakeFiles/std_srvs_generate_messages_cpp.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_gripper_client.dir/all: wpm2/demo1/CMakeFiles/moveit_ros_manipulation_gencfg.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_gripper_client.dir/all: wpm2/demo1/CMakeFiles/tf_generate_messages_lisp.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_gripper_client.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_gripper_client.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_gripper_client.dir/all: wpm2/demo1/CMakeFiles/shape_msgs_generate_messages_eus.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_gripper_client.dir/all: wpm2/demo1/CMakeFiles/shape_msgs_generate_messages_cpp.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_gripper_client.dir/all: wpm2/demo1/CMakeFiles/tf_generate_messages_cpp.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_gripper_client.dir/all: wpm2/demo1/CMakeFiles/actionlib_generate_messages_nodejs.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_gripper_client.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_gripper_client.dir/all: wpm2/demo1/CMakeFiles/moveit_ros_planning_gencfg.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_gripper_client.dir/all: wpm2/demo1/CMakeFiles/roscpp_generate_messages_py.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_gripper_client.dir/all: wpm2/demo1/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_gripper_client.dir/all: wpm2/demo1/CMakeFiles/roscpp_generate_messages_cpp.dir/all
 wpm2/wpm2_tutorials/CMakeFiles/wpm2_gripper_client.dir/all: wpm2/demo1/CMakeFiles/actionlib_generate_messages_cpp.dir/all
 wpm2/wpm2_tutorials/CMakeFiles/wpm2_gripper_client.dir/all: wpm2/demo1/CMakeFiles/object_recognition_msgs_generate_messages_eus.dir/all
 wpm2/wpm2_tutorials/CMakeFiles/wpm2_gripper_client.dir/all: wpm2/demo1/CMakeFiles/octomap_msgs_generate_messages_eus.dir/all
@@ -6434,9 +6506,15 @@ wpm2/wpm2_tutorials/CMakeFiles/wpm2_gripper_client.dir/all: wpm2/demo1/CMakeFile
 wpm2/wpm2_tutorials/CMakeFiles/wpm2_gripper_client.dir/all: wpm2/demo1/CMakeFiles/tf_generate_messages_py.dir/all
 wpm2/wpm2_tutorials/CMakeFiles/wpm2_gripper_client.dir/all: wpm2/demo1/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/all
 wpm2/wpm2_tutorials/CMakeFiles/wpm2_gripper_client.dir/all: wpm2/demo1/CMakeFiles/std_srvs_generate_messages_lisp.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_gripper_client.dir/all: wpm2/demo1/CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_gripper_client.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_gripper_client.dir/all: wpm2/demo1/CMakeFiles/object_recognition_msgs_generate_messages_lisp.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_gripper_client.dir/all: wpm2/demo1/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_gripper_client.dir/all: wpm2/demo1/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_gripper_client.dir/all: wpm2/demo1/CMakeFiles/object_recognition_msgs_generate_messages_nodejs.dir/all
 	$(MAKE) -f wpm2/wpm2_tutorials/CMakeFiles/wpm2_gripper_client.dir/build.make wpm2/wpm2_tutorials/CMakeFiles/wpm2_gripper_client.dir/depend
 	$(MAKE) -f wpm2/wpm2_tutorials/CMakeFiles/wpm2_gripper_client.dir/build.make wpm2/wpm2_tutorials/CMakeFiles/wpm2_gripper_client.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/haouanbo/Projects/jixiebi/ws2/build/CMakeFiles --progress-num=65,66 "Built target wpm2_gripper_client"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/haouanbo/Projects/jixiebi/ws2/build/CMakeFiles --progress-num=69,70 "Built target wpm2_gripper_client"
 .PHONY : wpm2/wpm2_tutorials/CMakeFiles/wpm2_gripper_client.dir/all
 
 # Include target in all.
@@ -6470,27 +6548,6 @@ clean: wpm2/wpm2_tutorials/CMakeFiles/wpm2_gripper_client.dir/clean
 # Target rules for target wpm2/wpm2_tutorials/CMakeFiles/wpm2_pick_place.dir
 
 # All Build rule for target.
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_pick_place.dir/all: wpm2/demo1/CMakeFiles/std_srvs_generate_messages_py.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_pick_place.dir/all: wpm2/demo1/CMakeFiles/std_srvs_generate_messages_cpp.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_pick_place.dir/all: wpm2/demo1/CMakeFiles/moveit_ros_manipulation_gencfg.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_pick_place.dir/all: wpm2/demo1/CMakeFiles/tf_generate_messages_lisp.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_pick_place.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_pick_place.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_pick_place.dir/all: wpm2/demo1/CMakeFiles/shape_msgs_generate_messages_eus.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_pick_place.dir/all: wpm2/demo1/CMakeFiles/shape_msgs_generate_messages_cpp.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_pick_place.dir/all: wpm2/demo1/CMakeFiles/tf_generate_messages_cpp.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_pick_place.dir/all: wpm2/demo1/CMakeFiles/actionlib_generate_messages_nodejs.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_pick_place.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_pick_place.dir/all: wpm2/demo1/CMakeFiles/moveit_ros_planning_gencfg.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_pick_place.dir/all: wpm2/demo1/CMakeFiles/roscpp_generate_messages_py.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_pick_place.dir/all: wpm2/demo1/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_pick_place.dir/all: wpm2/demo1/CMakeFiles/roscpp_generate_messages_cpp.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_pick_place.dir/all: wpm2/demo1/CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_pick_place.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_pick_place.dir/all: wpm2/demo1/CMakeFiles/object_recognition_msgs_generate_messages_lisp.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_pick_place.dir/all: wpm2/demo1/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_pick_place.dir/all: wpm2/demo1/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
-wpm2/wpm2_tutorials/CMakeFiles/wpm2_pick_place.dir/all: wpm2/demo1/CMakeFiles/object_recognition_msgs_generate_messages_nodejs.dir/all
 wpm2/wpm2_tutorials/CMakeFiles/wpm2_pick_place.dir/all: wpm2/demo1/CMakeFiles/visualization_msgs_generate_messages_eus.dir/all
 wpm2/wpm2_tutorials/CMakeFiles/wpm2_pick_place.dir/all: wpm2/demo1/CMakeFiles/visualization_msgs_generate_messages_py.dir/all
 wpm2/wpm2_tutorials/CMakeFiles/wpm2_pick_place.dir/all: wpm2/demo1/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/all
@@ -6524,6 +6581,21 @@ wpm2/wpm2_tutorials/CMakeFiles/wpm2_pick_place.dir/all: wpm2/demo1/CMakeFiles/sh
 wpm2/wpm2_tutorials/CMakeFiles/wpm2_pick_place.dir/all: wpm2/demo1/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/all
 wpm2/wpm2_tutorials/CMakeFiles/wpm2_pick_place.dir/all: wpm2/demo1/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/all
 wpm2/wpm2_tutorials/CMakeFiles/wpm2_pick_place.dir/all: wpm2/demo1/CMakeFiles/dynamic_reconfigure_gencfg.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_pick_place.dir/all: wpm2/demo1/CMakeFiles/std_srvs_generate_messages_py.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_pick_place.dir/all: wpm2/demo1/CMakeFiles/std_srvs_generate_messages_cpp.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_pick_place.dir/all: wpm2/demo1/CMakeFiles/moveit_ros_manipulation_gencfg.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_pick_place.dir/all: wpm2/demo1/CMakeFiles/tf_generate_messages_lisp.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_pick_place.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_pick_place.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_pick_place.dir/all: wpm2/demo1/CMakeFiles/shape_msgs_generate_messages_eus.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_pick_place.dir/all: wpm2/demo1/CMakeFiles/shape_msgs_generate_messages_cpp.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_pick_place.dir/all: wpm2/demo1/CMakeFiles/tf_generate_messages_cpp.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_pick_place.dir/all: wpm2/demo1/CMakeFiles/actionlib_generate_messages_nodejs.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_pick_place.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_pick_place.dir/all: wpm2/demo1/CMakeFiles/moveit_ros_planning_gencfg.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_pick_place.dir/all: wpm2/demo1/CMakeFiles/roscpp_generate_messages_py.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_pick_place.dir/all: wpm2/demo1/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_pick_place.dir/all: wpm2/demo1/CMakeFiles/roscpp_generate_messages_cpp.dir/all
 wpm2/wpm2_tutorials/CMakeFiles/wpm2_pick_place.dir/all: wpm2/demo1/CMakeFiles/actionlib_generate_messages_cpp.dir/all
 wpm2/wpm2_tutorials/CMakeFiles/wpm2_pick_place.dir/all: wpm2/demo1/CMakeFiles/object_recognition_msgs_generate_messages_eus.dir/all
 wpm2/wpm2_tutorials/CMakeFiles/wpm2_pick_place.dir/all: wpm2/demo1/CMakeFiles/octomap_msgs_generate_messages_eus.dir/all
@@ -6558,9 +6630,15 @@ wpm2/wpm2_tutorials/CMakeFiles/wpm2_pick_place.dir/all: wpm2/demo1/CMakeFiles/ro
 wpm2/wpm2_tutorials/CMakeFiles/wpm2_pick_place.dir/all: wpm2/demo1/CMakeFiles/tf_generate_messages_py.dir/all
 wpm2/wpm2_tutorials/CMakeFiles/wpm2_pick_place.dir/all: wpm2/demo1/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/all
 wpm2/wpm2_tutorials/CMakeFiles/wpm2_pick_place.dir/all: wpm2/demo1/CMakeFiles/std_srvs_generate_messages_lisp.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_pick_place.dir/all: wpm2/demo1/CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_pick_place.dir/all: wpm2/demo1/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_pick_place.dir/all: wpm2/demo1/CMakeFiles/object_recognition_msgs_generate_messages_lisp.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_pick_place.dir/all: wpm2/demo1/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_pick_place.dir/all: wpm2/demo1/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+wpm2/wpm2_tutorials/CMakeFiles/wpm2_pick_place.dir/all: wpm2/demo1/CMakeFiles/object_recognition_msgs_generate_messages_nodejs.dir/all
 	$(MAKE) -f wpm2/wpm2_tutorials/CMakeFiles/wpm2_pick_place.dir/build.make wpm2/wpm2_tutorials/CMakeFiles/wpm2_pick_place.dir/depend
 	$(MAKE) -f wpm2/wpm2_tutorials/CMakeFiles/wpm2_pick_place.dir/build.make wpm2/wpm2_tutorials/CMakeFiles/wpm2_pick_place.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/haouanbo/Projects/jixiebi/ws2/build/CMakeFiles --progress-num=73,74 "Built target wpm2_pick_place"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/haouanbo/Projects/jixiebi/ws2/build/CMakeFiles --progress-num=77,78 "Built target wpm2_pick_place"
 .PHONY : wpm2/wpm2_tutorials/CMakeFiles/wpm2_pick_place.dir/all
 
 # Include target in all.

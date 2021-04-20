@@ -19,7 +19,6 @@ int main(int argc, char **argv)
 	spinner.start();
 
 	ros::NodeHandle node_handle;
-	ROS_INFO("this demo start");
 
 	//设置随机种子
 	srand(time(0));
@@ -79,10 +78,6 @@ int main(int argc, char **argv)
 
 		sign_position_publisher.publish(sign_position_msg);
 
-		ROS_INFO("x:%f, y:%f, z:%f", pose.position.x,pose.position.y ,pose.position.z);
-
-		// ros::shutdown();
-		// return 0;
 		bool met = r.sleep();
 
 	}
