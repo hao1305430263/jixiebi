@@ -54,8 +54,4 @@
     <arg name="moveit_warehouse_database_path" value="$(arg db_path)"/>
   </include>
 
-   <node name="wpm2_fake_demo" pkg="demo1" type="wpm2_fake_demo" output="screen"/> 
-   <node name="scene_add_collision_obj_demo" pkg="demo1" type="scene_add_collision_obj_demo" output="screen"/>
-   <node name="subscribe_and_publish" pkg="demo1" type="sign_position_subscriber_publisher" output="screen"/>
-   <node name="wpm2_joint_control_degree_demo" pkg="demo1" type="wpm2_joint_control_degree_demo" output="screen"/>
 </launch>

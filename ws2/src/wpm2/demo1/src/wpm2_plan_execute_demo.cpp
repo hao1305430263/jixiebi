@@ -8,6 +8,12 @@
 static tf::StampedTransform transform;
 
 
+// static double msg_x;
+// static double msg_y;
+// static double msg_z;
+// static double msg_theta_x;
+// static double msg_theta_y;
+// static double msg_theta_z;
 static float msg_x;
 static float msg_y;
 static float msg_z;
@@ -51,17 +57,28 @@ int main(int argc, char **argv)
 	// 创建一个Subscriber，订阅名为/person_info的topic，注册回调函数personInfoCallback
 	ros::Subscriber person_info_sub = node_handle.subscribe("/node_position_info", 10, infoCallback);
 
-	ros::Rate loop_rate(1);
+	ros::Rate loop_rate(10);
 	while(ros::ok())
 	{
 		if(sign)
 		{
 			quat.setRPY(msg_theta_x, msg_theta_y, msg_theta_z);
 			transform.setRotation(quat);
-			target_pose.orientation.x= transform.getRotation().getX();
-			target_pose.orientation.y = transform.getRotation().getY();
-			target_pose.orientation.z = transform.getRotation().getZ();
-			target_pose.orientation.w = transform.getRotation().getW();
+            if (msg_theta_x * msg_theta_y<0)
+			{
+                target_pose.orientation.x= transform.getRotation().getX();
+			    target_pose.orientation.y = transform.getRotation().getY();
+			    target_pose.orientation.z = transform.getRotation().getZ();
+			    target_pose.orientation.w = transform.getRotation().getW();
+			}
+			else
+			{
+				 target_pose.orientation.x= -transform.getRotation().getX();
+			    target_pose.orientation.y = transform.getRotation().getY();
+			    target_pose.orientation.z = -transform.getRotation().getZ();
+			    target_pose.orientation.w = transform.getRotation().getW();
+			}
+
 			target_pose.position.x = msg_x;
 			target_pose.position.y = msg_y;
 			target_pose.position.z = msg_z;
@@ -88,7 +105,7 @@ int main(int argc, char **argv)
 
 		ros::spinOnce();
 		loop_rate.sleep();
-		ROS_INFO("NO Subcribe");
+		//ROS_INFO("NO Subcribe");
 	}
 	return 0;
 }

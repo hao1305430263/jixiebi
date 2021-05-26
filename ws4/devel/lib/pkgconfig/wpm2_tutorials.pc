@@ -1,0 +1,8 @@
+prefix=/home/haouanbo/Projects/jixiebi/ws4/devel
+
+Name: wpm2_tutorials
+Description: Description of wpm2_tutorials
+Version: 1.0.0
+Cflags: -I/home/haouanbo/Projects/jixiebi/ws4/devel/include
+Libs: -L${prefix}/lib 
+Requires: moveit_core moveit_ros_planning_interface message_runtime

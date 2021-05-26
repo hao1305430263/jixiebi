@@ -1,0 +1,8 @@
+prefix=/home/haouanbo/Projects/jixiebi/ws3/install
+
+Name: jixiebi_teleop
+Description: Description of jixiebi_teleop
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

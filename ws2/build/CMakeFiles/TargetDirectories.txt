@@ -39,8 +39,8 @@
 /home/haouanbo/Projects/jixiebi/ws2/build/wpm2/demo1/CMakeFiles/install/local.dir
 /home/haouanbo/Projects/jixiebi/ws2/build/wpm2/demo1/CMakeFiles/install.dir
 /home/haouanbo/Projects/jixiebi/ws2/build/wpm2/demo1/CMakeFiles/list_install_components.dir
-/home/haouanbo/Projects/jixiebi/ws2/build/wpm2/demo1/CMakeFiles/wpm2_fake_demo.dir
-/home/haouanbo/Projects/jixiebi/ws2/build/wpm2/demo1/CMakeFiles/wpm2_core_demo.dir
+/home/haouanbo/Projects/jixiebi/ws2/build/wpm2/demo1/CMakeFiles/showpath.dir
+/home/haouanbo/Projects/jixiebi/ws2/build/wpm2/demo1/CMakeFiles/line.dir
 /home/haouanbo/Projects/jixiebi/ws2/build/wpm2/demo1/CMakeFiles/test.dir
 /home/haouanbo/Projects/jixiebi/ws2/build/wpm2/demo1/CMakeFiles/wpm2_plan_execute_demo.dir
 /home/haouanbo/Projects/jixiebi/ws2/build/wpm2/demo1/CMakeFiles/scene_add_collision_obj_demo.dir
@@ -50,7 +50,6 @@
 /home/haouanbo/Projects/jixiebi/ws2/build/wpm2/demo1/CMakeFiles/demo1_geneus.dir
 /home/haouanbo/Projects/jixiebi/ws2/build/wpm2/demo1/CMakeFiles/demo1_gencpp.dir
 /home/haouanbo/Projects/jixiebi/ws2/build/wpm2/demo1/CMakeFiles/demo1_generate_messages_cpp.dir
-/home/haouanbo/Projects/jixiebi/ws2/build/wpm2/demo1/CMakeFiles/wpm2_joint_control_degree_demo.dir
 /home/haouanbo/Projects/jixiebi/ws2/build/wpm2/demo1/CMakeFiles/demo1_generate_messages_lisp.dir
 /home/haouanbo/Projects/jixiebi/ws2/build/wpm2/demo1/CMakeFiles/_demo1_generate_messages_check_deps_node_position.dir
 /home/haouanbo/Projects/jixiebi/ws2/build/wpm2/demo1/CMakeFiles/_demo1_generate_messages_check_deps_sign_position.dir

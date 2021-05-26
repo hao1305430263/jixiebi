@@ -285,30 +285,30 @@ gtest/fast:
 .PHONY : gtest/fast
 
 #=============================================================================
-# Target rules for targets named wpm2_fake_demo
+# Target rules for targets named showpath
 
 # Build rule for target.
-wpm2_fake_demo: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 wpm2_fake_demo
-.PHONY : wpm2_fake_demo
+showpath: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 showpath
+.PHONY : showpath
 
 # fast build rule for target.
-wpm2_fake_demo/fast:
-	$(MAKE) -f wpm2/demo1/CMakeFiles/wpm2_fake_demo.dir/build.make wpm2/demo1/CMakeFiles/wpm2_fake_demo.dir/build
-.PHONY : wpm2_fake_demo/fast
+showpath/fast:
+	$(MAKE) -f wpm2/demo1/CMakeFiles/showpath.dir/build.make wpm2/demo1/CMakeFiles/showpath.dir/build
+.PHONY : showpath/fast
 
 #=============================================================================
-# Target rules for targets named wpm2_core_demo
+# Target rules for targets named line
 
 # Build rule for target.
-wpm2_core_demo: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 wpm2_core_demo
-.PHONY : wpm2_core_demo
+line: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 line
+.PHONY : line
 
 # fast build rule for target.
-wpm2_core_demo/fast:
-	$(MAKE) -f wpm2/demo1/CMakeFiles/wpm2_core_demo.dir/build.make wpm2/demo1/CMakeFiles/wpm2_core_demo.dir/build
-.PHONY : wpm2_core_demo/fast
+line/fast:
+	$(MAKE) -f wpm2/demo1/CMakeFiles/line.dir/build.make wpm2/demo1/CMakeFiles/line.dir/build
+.PHONY : line/fast
 
 #=============================================================================
 # Target rules for targets named wpm2_plan_execute_demo
@@ -413,19 +413,6 @@ demo1_generate_messages_cpp: cmake_check_build_system
 demo1_generate_messages_cpp/fast:
 	$(MAKE) -f wpm2/demo1/CMakeFiles/demo1_generate_messages_cpp.dir/build.make wpm2/demo1/CMakeFiles/demo1_generate_messages_cpp.dir/build
 .PHONY : demo1_generate_messages_cpp/fast
-
-#=============================================================================
-# Target rules for targets named wpm2_joint_control_degree_demo
-
-# Build rule for target.
-wpm2_joint_control_degree_demo: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 wpm2_joint_control_degree_demo
-.PHONY : wpm2_joint_control_degree_demo
-
-# fast build rule for target.
-wpm2_joint_control_degree_demo/fast:
-	$(MAKE) -f wpm2/demo1/CMakeFiles/wpm2_joint_control_degree_demo.dir/build.make wpm2/demo1/CMakeFiles/wpm2_joint_control_degree_demo.dir/build
-.PHONY : wpm2_joint_control_degree_demo/fast
 
 #=============================================================================
 # Target rules for targets named demo1_generate_messages_lisp
@@ -2126,8 +2113,8 @@ help:
 	@echo "... gmock"
 	@echo "... gtest_main"
 	@echo "... gtest"
-	@echo "... wpm2_fake_demo"
-	@echo "... wpm2_core_demo"
+	@echo "... showpath"
+	@echo "... line"
 	@echo "... wpm2_plan_execute_demo"
 	@echo "... scene_add_collision_obj_demo"
 	@echo "... demo1_generate_messages_py"
@@ -2136,7 +2123,6 @@ help:
 	@echo "... demo1_geneus"
 	@echo "... demo1_gencpp"
 	@echo "... demo1_generate_messages_cpp"
-	@echo "... wpm2_joint_control_degree_demo"
 	@echo "... demo1_generate_messages_lisp"
 	@echo "... _demo1_generate_messages_check_deps_node_position"
 	@echo "... _demo1_generate_messages_check_deps_sign_position"

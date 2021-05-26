@@ -387,6 +387,9 @@ gtest_hide_internal_symbols:BOOL=OFF
 //Dependencies for the target
 gtest_main_LIB_DEPENDS:STATIC=general;-lpthread;general;gtest;
 
+//The directory containing a CMake configuration file for image_transport.
+image_transport_DIR:PATH=/opt/ros/melodic/share/image_transport/cmake
+
 //The directory containing a CMake configuration file for kdl_parser.
 kdl_parser_DIR:PATH=/opt/ros/melodic/share/kdl_parser/cmake
 
@@ -417,6 +420,9 @@ moveit_ros_move_group_DIR:PATH=/opt/ros/melodic/share/moveit_ros_move_group/cmak
 //The directory containing a CMake configuration file for moveit_ros_occupancy_map_monitor.
 moveit_ros_occupancy_map_monitor_DIR:PATH=/opt/ros/melodic/share/moveit_ros_occupancy_map_monitor/cmake
 
+//The directory containing a CMake configuration file for moveit_ros_perception.
+moveit_ros_perception_DIR:PATH=/opt/ros/melodic/share/moveit_ros_perception/cmake
+
 //The directory containing a CMake configuration file for moveit_ros_planning.
 moveit_ros_planning_DIR:PATH=/opt/ros/melodic/share/moveit_ros_planning/cmake
 
@@ -434,6 +440,12 @@ octomap_msgs_DIR:PATH=/opt/ros/melodic/share/octomap_msgs/cmake
 
 //The directory containing a CMake configuration file for pluginlib.
 pluginlib_DIR:PATH=/opt/ros/melodic/share/pluginlib/cmake
+
+//Value Computed by CMake
+probot_demo_BINARY_DIR:STATIC=/home/haouanbo/Projects/jixiebi/ws1/build/probot_demo
+
+//Value Computed by CMake
+probot_demo_SOURCE_DIR:STATIC=/home/haouanbo/Projects/jixiebi/ws1/src/probot_demo
 
 //The directory containing a CMake configuration file for random_numbers.
 random_numbers_DIR:PATH=/opt/ros/melodic/share/random_numbers/cmake
@@ -650,7 +662,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=7
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=8
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

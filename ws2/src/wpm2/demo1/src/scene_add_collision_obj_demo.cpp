@@ -8,6 +8,8 @@
 #include <moveit/robot_model_loader/robot_model_loader.h>
 #include <moveit/robot_state/robot_state.h>
 #include <moveit/robot_state/conversions.h>
+#include <cmath>
+using namespace std;
 
 #include <cstdlib>//使用随机函数
 #include "demo1/sign_position.h"
@@ -19,6 +21,7 @@ int main(int argc, char **argv)
 	spinner.start();
 
 	ros::NodeHandle node_handle;
+	ROS_INFO("the sign start");
 
 	//设置随机种子
 	srand(time(0));
@@ -35,7 +38,13 @@ int main(int argc, char **argv)
 		sleep_t.sleep();
 	}
 
-	ros::Rate r(0.2);
+		 double x;
+		 double y;
+		 double z;
+		 x=-2;y=0;z=1;
+
+
+	ros::Rate r(10);
 	while(ros::ok())
 	{
 		// 障碍物参考坐标
@@ -48,10 +57,13 @@ int main(int argc, char **argv)
 		attached_object.object.header.frame_id = "base_link";
 		geometry_msgs::Pose pose;
 		pose.orientation.w = 1.0;
+         
 
-		pose.position.x = 2 * double(rand())/double(RAND_MAX) - 1 + 0.3;
-		pose.position.y = 2 * double(rand())/double(RAND_MAX) - 1 + 0.3;
-		pose.position.z = 2 * double(rand())/double(RAND_MAX) + 0.3;
+
+       
+		pose.position.x = x;
+		pose.position.y = sqrt(4-x*x) ;
+		pose.position.z = z;
 
 
 		// 障碍物类型和尺寸
@@ -78,7 +90,13 @@ int main(int argc, char **argv)
 
 		sign_position_publisher.publish(sign_position_msg);
 
+		ROS_INFO("x:%f, y:%f, z:%f", pose.position.x,pose.position.y ,pose.position.z);
+
+		// ros::shutdown();
+		// return 0;
 		bool met = r.sleep();
+		x+=0.004;
 
 	}
+
 }

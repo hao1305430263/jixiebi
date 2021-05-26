@@ -1,0 +1,8 @@
+prefix=/home/haouanbo/Projects/jixiebi/ws4/install
+
+Name: wpm2_bringup
+Description: Description of wpm2_bringup
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: actionlib_msgs

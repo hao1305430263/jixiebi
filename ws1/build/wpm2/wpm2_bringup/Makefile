@@ -101,6 +101,17 @@ edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
 
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/usr/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
+
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
@@ -112,17 +123,6 @@ install/local/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
 	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local/fast
-
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
 
 # Special rule for the target test
 test:
@@ -168,111 +168,6 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/rule:
-	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f CMakeFiles/Makefile2 wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/rule
-.PHONY : wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/rule
-
-# Convenience name for target.
-wpm2_fake: wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/rule
-
-.PHONY : wpm2_fake
-
-# fast build rule for target.
-wpm2_fake/fast:
-	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/build.make wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/build
-.PHONY : wpm2_fake/fast
-
-# Convenience name for target.
-wpm2/wpm2_bringup/CMakeFiles/wpm2_core.dir/rule:
-	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f CMakeFiles/Makefile2 wpm2/wpm2_bringup/CMakeFiles/wpm2_core.dir/rule
-.PHONY : wpm2/wpm2_bringup/CMakeFiles/wpm2_core.dir/rule
-
-# Convenience name for target.
-wpm2_core: wpm2/wpm2_bringup/CMakeFiles/wpm2_core.dir/rule
-
-.PHONY : wpm2_core
-
-# fast build rule for target.
-wpm2_core/fast:
-	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/wpm2_core.dir/build.make wpm2/wpm2_bringup/CMakeFiles/wpm2_core.dir/build
-.PHONY : wpm2_core/fast
-
-# Convenience name for target.
-wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_genpy.dir/rule:
-	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f CMakeFiles/Makefile2 wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_genpy.dir/rule
-.PHONY : wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_genpy.dir/rule
-
-# Convenience name for target.
-wpm2_bringup_genpy: wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_genpy.dir/rule
-
-.PHONY : wpm2_bringup_genpy
-
-# fast build rule for target.
-wpm2_bringup_genpy/fast:
-	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_genpy.dir/build.make wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_genpy.dir/build
-.PHONY : wpm2_bringup_genpy/fast
-
-# Convenience name for target.
-wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_py.dir/rule:
-	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f CMakeFiles/Makefile2 wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_py.dir/rule
-.PHONY : wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_py.dir/rule
-
-# Convenience name for target.
-wpm2_bringup_generate_messages_py: wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_py.dir/rule
-
-.PHONY : wpm2_bringup_generate_messages_py
-
-# fast build rule for target.
-wpm2_bringup_generate_messages_py/fast:
-	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_py.dir/build.make wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_py.dir/build
-.PHONY : wpm2_bringup_generate_messages_py/fast
-
-# Convenience name for target.
-wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_gennodejs.dir/rule:
-	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f CMakeFiles/Makefile2 wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_gennodejs.dir/rule
-.PHONY : wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_gennodejs.dir/rule
-
-# Convenience name for target.
-wpm2_bringup_gennodejs: wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_gennodejs.dir/rule
-
-.PHONY : wpm2_bringup_gennodejs
-
-# fast build rule for target.
-wpm2_bringup_gennodejs/fast:
-	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_gennodejs.dir/build.make wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_gennodejs.dir/build
-.PHONY : wpm2_bringup_gennodejs/fast
-
-# Convenience name for target.
-wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_nodejs.dir/rule:
-	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f CMakeFiles/Makefile2 wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_nodejs.dir/rule
-.PHONY : wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-wpm2_bringup_generate_messages_nodejs: wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_nodejs.dir/rule
-
-.PHONY : wpm2_bringup_generate_messages_nodejs
-
-# fast build rule for target.
-wpm2_bringup_generate_messages_nodejs/fast:
-	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_nodejs.dir/build.make wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_nodejs.dir/build
-.PHONY : wpm2_bringup_generate_messages_nodejs/fast
-
-# Convenience name for target.
-wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_lisp.dir/rule:
-	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f CMakeFiles/Makefile2 wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_lisp.dir/rule
-.PHONY : wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-wpm2_bringup_generate_messages_lisp: wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_lisp.dir/rule
-
-.PHONY : wpm2_bringup_generate_messages_lisp
-
-# fast build rule for target.
-wpm2_bringup_generate_messages_lisp/fast:
-	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_lisp.dir/build.make wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_lisp.dir/build
-.PHONY : wpm2_bringup_generate_messages_lisp/fast
-
-# Convenience name for target.
 wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_geneus.dir/rule:
 	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f CMakeFiles/Makefile2 wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_geneus.dir/rule
 .PHONY : wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_geneus.dir/rule
@@ -286,171 +181,6 @@ wpm2_bringup_geneus: wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_geneus.dir/rule
 wpm2_bringup_geneus/fast:
 	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_geneus.dir/build.make wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_geneus.dir/build
 .PHONY : wpm2_bringup_geneus/fast
-
-# Convenience name for target.
-wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_gencpp.dir/rule:
-	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f CMakeFiles/Makefile2 wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_gencpp.dir/rule
-.PHONY : wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_gencpp.dir/rule
-
-# Convenience name for target.
-wpm2_bringup_gencpp: wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_gencpp.dir/rule
-
-.PHONY : wpm2_bringup_gencpp
-
-# fast build rule for target.
-wpm2_bringup_gencpp/fast:
-	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_gencpp.dir/build.make wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_gencpp.dir/build
-.PHONY : wpm2_bringup_gencpp/fast
-
-# Convenience name for target.
-wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_cpp.dir/rule:
-	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f CMakeFiles/Makefile2 wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_cpp.dir/rule
-.PHONY : wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-wpm2_bringup_generate_messages_cpp: wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_cpp.dir/rule
-
-.PHONY : wpm2_bringup_generate_messages_cpp
-
-# fast build rule for target.
-wpm2_bringup_generate_messages_cpp/fast:
-	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_cpp.dir/build.make wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_cpp.dir/build
-.PHONY : wpm2_bringup_generate_messages_cpp/fast
-
-# Convenience name for target.
-wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages.dir/rule:
-	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f CMakeFiles/Makefile2 wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages.dir/rule
-.PHONY : wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages.dir/rule
-
-# Convenience name for target.
-wpm2_bringup_generate_messages: wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages.dir/rule
-
-.PHONY : wpm2_bringup_generate_messages
-
-# fast build rule for target.
-wpm2_bringup_generate_messages/fast:
-	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages.dir/build.make wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages.dir/build
-.PHONY : wpm2_bringup_generate_messages/fast
-
-# Convenience name for target.
-wpm2/wpm2_bringup/CMakeFiles/std_msgs_generate_messages_py.dir/rule:
-	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f CMakeFiles/Makefile2 wpm2/wpm2_bringup/CMakeFiles/std_msgs_generate_messages_py.dir/rule
-.PHONY : wpm2/wpm2_bringup/CMakeFiles/std_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-std_msgs_generate_messages_py: wpm2/wpm2_bringup/CMakeFiles/std_msgs_generate_messages_py.dir/rule
-
-.PHONY : std_msgs_generate_messages_py
-
-# fast build rule for target.
-std_msgs_generate_messages_py/fast:
-	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/std_msgs_generate_messages_py.dir/build.make wpm2/wpm2_bringup/CMakeFiles/std_msgs_generate_messages_py.dir/build
-.PHONY : std_msgs_generate_messages_py/fast
-
-# Convenience name for target.
-wpm2/wpm2_bringup/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f CMakeFiles/Makefile2 wpm2/wpm2_bringup/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
-.PHONY : wpm2/wpm2_bringup/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-std_msgs_generate_messages_nodejs: wpm2/wpm2_bringup/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
-
-.PHONY : std_msgs_generate_messages_nodejs
-
-# fast build rule for target.
-std_msgs_generate_messages_nodejs/fast:
-	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make wpm2/wpm2_bringup/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
-.PHONY : std_msgs_generate_messages_nodejs/fast
-
-# Convenience name for target.
-wpm2/wpm2_bringup/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule:
-	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f CMakeFiles/Makefile2 wpm2/wpm2_bringup/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
-.PHONY : wpm2/wpm2_bringup/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-std_msgs_generate_messages_cpp: wpm2/wpm2_bringup/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
-
-.PHONY : std_msgs_generate_messages_cpp
-
-# fast build rule for target.
-std_msgs_generate_messages_cpp/fast:
-	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make wpm2/wpm2_bringup/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
-.PHONY : std_msgs_generate_messages_cpp/fast
-
-# Convenience name for target.
-wpm2/wpm2_bringup/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule:
-	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f CMakeFiles/Makefile2 wpm2/wpm2_bringup/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
-.PHONY : wpm2/wpm2_bringup/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-rosgraph_msgs_generate_messages_py: wpm2/wpm2_bringup/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
-
-.PHONY : rosgraph_msgs_generate_messages_py
-
-# fast build rule for target.
-rosgraph_msgs_generate_messages_py/fast:
-	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make wpm2/wpm2_bringup/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
-.PHONY : rosgraph_msgs_generate_messages_py/fast
-
-# Convenience name for target.
-wpm2/wpm2_bringup/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f CMakeFiles/Makefile2 wpm2/wpm2_bringup/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
-.PHONY : wpm2/wpm2_bringup/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-rosgraph_msgs_generate_messages_nodejs: wpm2/wpm2_bringup/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
-
-.PHONY : rosgraph_msgs_generate_messages_nodejs
-
-# fast build rule for target.
-rosgraph_msgs_generate_messages_nodejs/fast:
-	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make wpm2/wpm2_bringup/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
-.PHONY : rosgraph_msgs_generate_messages_nodejs/fast
-
-# Convenience name for target.
-wpm2/wpm2_bringup/CMakeFiles/std_msgs_generate_messages_eus.dir/rule:
-	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f CMakeFiles/Makefile2 wpm2/wpm2_bringup/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
-.PHONY : wpm2/wpm2_bringup/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-std_msgs_generate_messages_eus: wpm2/wpm2_bringup/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
-
-.PHONY : std_msgs_generate_messages_eus
-
-# fast build rule for target.
-std_msgs_generate_messages_eus/fast:
-	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make wpm2/wpm2_bringup/CMakeFiles/std_msgs_generate_messages_eus.dir/build
-.PHONY : std_msgs_generate_messages_eus/fast
-
-# Convenience name for target.
-wpm2/wpm2_bringup/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f CMakeFiles/Makefile2 wpm2/wpm2_bringup/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/rule
-.PHONY : wpm2/wpm2_bringup/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-actionlib_msgs_generate_messages_nodejs: wpm2/wpm2_bringup/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/rule
-
-.PHONY : actionlib_msgs_generate_messages_nodejs
-
-# fast build rule for target.
-actionlib_msgs_generate_messages_nodejs/fast:
-	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/build.make wpm2/wpm2_bringup/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/build
-.PHONY : actionlib_msgs_generate_messages_nodejs/fast
-
-# Convenience name for target.
-wpm2/wpm2_bringup/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule:
-	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f CMakeFiles/Makefile2 wpm2/wpm2_bringup/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
-.PHONY : wpm2/wpm2_bringup/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-rosgraph_msgs_generate_messages_lisp: wpm2/wpm2_bringup/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
-
-.PHONY : rosgraph_msgs_generate_messages_lisp
-
-# fast build rule for target.
-rosgraph_msgs_generate_messages_lisp/fast:
-	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make wpm2/wpm2_bringup/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
-.PHONY : rosgraph_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_genlisp.dir/rule:
@@ -468,6 +198,36 @@ wpm2_bringup_genlisp/fast:
 .PHONY : wpm2_bringup_genlisp/fast
 
 # Convenience name for target.
+wpm2/wpm2_bringup/CMakeFiles/wpm2_test.dir/rule:
+	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f CMakeFiles/Makefile2 wpm2/wpm2_bringup/CMakeFiles/wpm2_test.dir/rule
+.PHONY : wpm2/wpm2_bringup/CMakeFiles/wpm2_test.dir/rule
+
+# Convenience name for target.
+wpm2_test: wpm2/wpm2_bringup/CMakeFiles/wpm2_test.dir/rule
+
+.PHONY : wpm2_test
+
+# fast build rule for target.
+wpm2_test/fast:
+	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/wpm2_test.dir/build.make wpm2/wpm2_bringup/CMakeFiles/wpm2_test.dir/build
+.PHONY : wpm2_test/fast
+
+# Convenience name for target.
+wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_genpy.dir/rule:
+	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f CMakeFiles/Makefile2 wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_genpy.dir/rule
+.PHONY : wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_genpy.dir/rule
+
+# Convenience name for target.
+wpm2_bringup_genpy: wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_genpy.dir/rule
+
+.PHONY : wpm2_bringup_genpy
+
+# fast build rule for target.
+wpm2_bringup_genpy/fast:
+	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_genpy.dir/build.make wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_genpy.dir/build
+.PHONY : wpm2_bringup_genpy/fast
+
+# Convenience name for target.
 wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_eus.dir/rule:
 	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f CMakeFiles/Makefile2 wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_eus.dir/rule
 .PHONY : wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_eus.dir/rule
@@ -483,94 +243,19 @@ wpm2_bringup_generate_messages_eus/fast:
 .PHONY : wpm2_bringup_generate_messages_eus/fast
 
 # Convenience name for target.
-wpm2/wpm2_bringup/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule:
-	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f CMakeFiles/Makefile2 wpm2/wpm2_bringup/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
-.PHONY : wpm2/wpm2_bringup/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
+wpm2/wpm2_bringup/CMakeFiles/wpm2_core.dir/rule:
+	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f CMakeFiles/Makefile2 wpm2/wpm2_bringup/CMakeFiles/wpm2_core.dir/rule
+.PHONY : wpm2/wpm2_bringup/CMakeFiles/wpm2_core.dir/rule
 
 # Convenience name for target.
-rosgraph_msgs_generate_messages_eus: wpm2/wpm2_bringup/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
+wpm2_core: wpm2/wpm2_bringup/CMakeFiles/wpm2_core.dir/rule
 
-.PHONY : rosgraph_msgs_generate_messages_eus
+.PHONY : wpm2_core
 
 # fast build rule for target.
-rosgraph_msgs_generate_messages_eus/fast:
-	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make wpm2/wpm2_bringup/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build
-.PHONY : rosgraph_msgs_generate_messages_eus/fast
-
-# Convenience name for target.
-wpm2/wpm2_bringup/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule:
-	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f CMakeFiles/Makefile2 wpm2/wpm2_bringup/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule
-.PHONY : wpm2/wpm2_bringup/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-actionlib_msgs_generate_messages_cpp: wpm2/wpm2_bringup/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule
-
-.PHONY : actionlib_msgs_generate_messages_cpp
-
-# fast build rule for target.
-actionlib_msgs_generate_messages_cpp/fast:
-	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build.make wpm2/wpm2_bringup/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build
-.PHONY : actionlib_msgs_generate_messages_cpp/fast
-
-# Convenience name for target.
-wpm2/wpm2_bringup/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule:
-	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f CMakeFiles/Makefile2 wpm2/wpm2_bringup/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
-.PHONY : wpm2/wpm2_bringup/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-std_msgs_generate_messages_lisp: wpm2/wpm2_bringup/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
-
-.PHONY : std_msgs_generate_messages_lisp
-
-# fast build rule for target.
-std_msgs_generate_messages_lisp/fast:
-	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make wpm2/wpm2_bringup/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
-.PHONY : std_msgs_generate_messages_lisp/fast
-
-# Convenience name for target.
-wpm2/wpm2_bringup/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule:
-	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f CMakeFiles/Makefile2 wpm2/wpm2_bringup/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
-.PHONY : wpm2/wpm2_bringup/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-sensor_msgs_generate_messages_cpp: wpm2/wpm2_bringup/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
-
-.PHONY : sensor_msgs_generate_messages_cpp
-
-# fast build rule for target.
-sensor_msgs_generate_messages_cpp/fast:
-	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make wpm2/wpm2_bringup/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build
-.PHONY : sensor_msgs_generate_messages_cpp/fast
-
-# Convenience name for target.
-wpm2/wpm2_bringup/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule:
-	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f CMakeFiles/Makefile2 wpm2/wpm2_bringup/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
-.PHONY : wpm2/wpm2_bringup/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-rosgraph_msgs_generate_messages_cpp: wpm2/wpm2_bringup/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
-
-.PHONY : rosgraph_msgs_generate_messages_cpp
-
-# fast build rule for target.
-rosgraph_msgs_generate_messages_cpp/fast:
-	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make wpm2/wpm2_bringup/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
-.PHONY : rosgraph_msgs_generate_messages_cpp/fast
-
-# Convenience name for target.
-wpm2/wpm2_bringup/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule:
-	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f CMakeFiles/Makefile2 wpm2/wpm2_bringup/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule
-.PHONY : wpm2/wpm2_bringup/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-sensor_msgs_generate_messages_eus: wpm2/wpm2_bringup/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule
-
-.PHONY : sensor_msgs_generate_messages_eus
-
-# fast build rule for target.
-sensor_msgs_generate_messages_eus/fast:
-	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build.make wpm2/wpm2_bringup/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build
-.PHONY : sensor_msgs_generate_messages_eus/fast
+wpm2_core/fast:
+	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/wpm2_core.dir/build.make wpm2/wpm2_bringup/CMakeFiles/wpm2_core.dir/build
+.PHONY : wpm2_core/fast
 
 # Convenience name for target.
 wpm2/wpm2_bringup/CMakeFiles/_catkin_empty_exported_target.dir/rule:
@@ -588,334 +273,124 @@ _catkin_empty_exported_target/fast:
 .PHONY : _catkin_empty_exported_target/fast
 
 # Convenience name for target.
-wpm2/wpm2_bringup/CMakeFiles/roscpp_generate_messages_lisp.dir/rule:
-	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f CMakeFiles/Makefile2 wpm2/wpm2_bringup/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
-.PHONY : wpm2/wpm2_bringup/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
+wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_lisp.dir/rule:
+	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f CMakeFiles/Makefile2 wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_lisp.dir/rule
+.PHONY : wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
-roscpp_generate_messages_lisp: wpm2/wpm2_bringup/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
+wpm2_bringup_generate_messages_lisp: wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_lisp.dir/rule
 
-.PHONY : roscpp_generate_messages_lisp
+.PHONY : wpm2_bringup_generate_messages_lisp
 
 # fast build rule for target.
-roscpp_generate_messages_lisp/fast:
-	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make wpm2/wpm2_bringup/CMakeFiles/roscpp_generate_messages_lisp.dir/build
-.PHONY : roscpp_generate_messages_lisp/fast
+wpm2_bringup_generate_messages_lisp/fast:
+	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_lisp.dir/build.make wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_lisp.dir/build
+.PHONY : wpm2_bringup_generate_messages_lisp/fast
 
 # Convenience name for target.
-wpm2/wpm2_bringup/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f CMakeFiles/Makefile2 wpm2/wpm2_bringup/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule
-.PHONY : wpm2/wpm2_bringup/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule
+wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages.dir/rule:
+	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f CMakeFiles/Makefile2 wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages.dir/rule
+.PHONY : wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages.dir/rule
 
 # Convenience name for target.
-geometry_msgs_generate_messages_nodejs: wpm2/wpm2_bringup/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule
+wpm2_bringup_generate_messages: wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages.dir/rule
 
-.PHONY : geometry_msgs_generate_messages_nodejs
+.PHONY : wpm2_bringup_generate_messages
 
 # fast build rule for target.
-geometry_msgs_generate_messages_nodejs/fast:
-	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make wpm2/wpm2_bringup/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build
-.PHONY : geometry_msgs_generate_messages_nodejs/fast
+wpm2_bringup_generate_messages/fast:
+	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages.dir/build.make wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages.dir/build
+.PHONY : wpm2_bringup_generate_messages/fast
 
 # Convenience name for target.
-wpm2/wpm2_bringup/CMakeFiles/roscpp_generate_messages_py.dir/rule:
-	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f CMakeFiles/Makefile2 wpm2/wpm2_bringup/CMakeFiles/roscpp_generate_messages_py.dir/rule
-.PHONY : wpm2/wpm2_bringup/CMakeFiles/roscpp_generate_messages_py.dir/rule
+wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_gennodejs.dir/rule:
+	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f CMakeFiles/Makefile2 wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_gennodejs.dir/rule
+.PHONY : wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_gennodejs.dir/rule
 
 # Convenience name for target.
-roscpp_generate_messages_py: wpm2/wpm2_bringup/CMakeFiles/roscpp_generate_messages_py.dir/rule
+wpm2_bringup_gennodejs: wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_gennodejs.dir/rule
 
-.PHONY : roscpp_generate_messages_py
+.PHONY : wpm2_bringup_gennodejs
 
 # fast build rule for target.
-roscpp_generate_messages_py/fast:
-	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/roscpp_generate_messages_py.dir/build.make wpm2/wpm2_bringup/CMakeFiles/roscpp_generate_messages_py.dir/build
-.PHONY : roscpp_generate_messages_py/fast
+wpm2_bringup_gennodejs/fast:
+	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_gennodejs.dir/build.make wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_gennodejs.dir/build
+.PHONY : wpm2_bringup_gennodejs/fast
 
 # Convenience name for target.
-wpm2/wpm2_bringup/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule:
-	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f CMakeFiles/Makefile2 wpm2/wpm2_bringup/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
-.PHONY : wpm2/wpm2_bringup/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
+wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_py.dir/rule:
+	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f CMakeFiles/Makefile2 wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_py.dir/rule
+.PHONY : wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_py.dir/rule
 
 # Convenience name for target.
-roscpp_generate_messages_nodejs: wpm2/wpm2_bringup/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
+wpm2_bringup_generate_messages_py: wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_py.dir/rule
 
-.PHONY : roscpp_generate_messages_nodejs
+.PHONY : wpm2_bringup_generate_messages_py
 
 # fast build rule for target.
-roscpp_generate_messages_nodejs/fast:
-	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make wpm2/wpm2_bringup/CMakeFiles/roscpp_generate_messages_nodejs.dir/build
-.PHONY : roscpp_generate_messages_nodejs/fast
+wpm2_bringup_generate_messages_py/fast:
+	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_py.dir/build.make wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_py.dir/build
+.PHONY : wpm2_bringup_generate_messages_py/fast
 
 # Convenience name for target.
-wpm2/wpm2_bringup/CMakeFiles/roscpp_generate_messages_eus.dir/rule:
-	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f CMakeFiles/Makefile2 wpm2/wpm2_bringup/CMakeFiles/roscpp_generate_messages_eus.dir/rule
-.PHONY : wpm2/wpm2_bringup/CMakeFiles/roscpp_generate_messages_eus.dir/rule
+wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_cpp.dir/rule:
+	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f CMakeFiles/Makefile2 wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_cpp.dir/rule
+.PHONY : wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
-roscpp_generate_messages_eus: wpm2/wpm2_bringup/CMakeFiles/roscpp_generate_messages_eus.dir/rule
+wpm2_bringup_generate_messages_cpp: wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_cpp.dir/rule
 
-.PHONY : roscpp_generate_messages_eus
+.PHONY : wpm2_bringup_generate_messages_cpp
 
 # fast build rule for target.
-roscpp_generate_messages_eus/fast:
-	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/roscpp_generate_messages_eus.dir/build.make wpm2/wpm2_bringup/CMakeFiles/roscpp_generate_messages_eus.dir/build
-.PHONY : roscpp_generate_messages_eus/fast
+wpm2_bringup_generate_messages_cpp/fast:
+	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_cpp.dir/build.make wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_cpp.dir/build
+.PHONY : wpm2_bringup_generate_messages_cpp/fast
 
 # Convenience name for target.
-wpm2/wpm2_bringup/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule:
-	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f CMakeFiles/Makefile2 wpm2/wpm2_bringup/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
-.PHONY : wpm2/wpm2_bringup/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
+wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_gencpp.dir/rule:
+	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f CMakeFiles/Makefile2 wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_gencpp.dir/rule
+.PHONY : wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_gencpp.dir/rule
 
 # Convenience name for target.
-geometry_msgs_generate_messages_eus: wpm2/wpm2_bringup/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
+wpm2_bringup_gencpp: wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_gencpp.dir/rule
 
-.PHONY : geometry_msgs_generate_messages_eus
+.PHONY : wpm2_bringup_gencpp
 
 # fast build rule for target.
-geometry_msgs_generate_messages_eus/fast:
-	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make wpm2/wpm2_bringup/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build
-.PHONY : geometry_msgs_generate_messages_eus/fast
+wpm2_bringup_gencpp/fast:
+	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_gencpp.dir/build.make wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_gencpp.dir/build
+.PHONY : wpm2_bringup_gencpp/fast
 
 # Convenience name for target.
-wpm2/wpm2_bringup/CMakeFiles/wpm2_test.dir/rule:
-	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f CMakeFiles/Makefile2 wpm2/wpm2_bringup/CMakeFiles/wpm2_test.dir/rule
-.PHONY : wpm2/wpm2_bringup/CMakeFiles/wpm2_test.dir/rule
+wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_nodejs.dir/rule:
+	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f CMakeFiles/Makefile2 wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_nodejs.dir/rule
+.PHONY : wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
-wpm2_test: wpm2/wpm2_bringup/CMakeFiles/wpm2_test.dir/rule
+wpm2_bringup_generate_messages_nodejs: wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_nodejs.dir/rule
 
-.PHONY : wpm2_test
+.PHONY : wpm2_bringup_generate_messages_nodejs
 
 # fast build rule for target.
-wpm2_test/fast:
-	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/wpm2_test.dir/build.make wpm2/wpm2_bringup/CMakeFiles/wpm2_test.dir/build
-.PHONY : wpm2_test/fast
+wpm2_bringup_generate_messages_nodejs/fast:
+	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_nodejs.dir/build.make wpm2/wpm2_bringup/CMakeFiles/wpm2_bringup_generate_messages_nodejs.dir/build
+.PHONY : wpm2_bringup_generate_messages_nodejs/fast
 
 # Convenience name for target.
-wpm2/wpm2_bringup/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule:
-	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f CMakeFiles/Makefile2 wpm2/wpm2_bringup/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
-.PHONY : wpm2/wpm2_bringup/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
+wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/rule:
+	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f CMakeFiles/Makefile2 wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/rule
+.PHONY : wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/rule
 
 # Convenience name for target.
-sensor_msgs_generate_messages_lisp: wpm2/wpm2_bringup/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
+wpm2_fake: wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/rule
 
-.PHONY : sensor_msgs_generate_messages_lisp
+.PHONY : wpm2_fake
 
 # fast build rule for target.
-sensor_msgs_generate_messages_lisp/fast:
-	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make wpm2/wpm2_bringup/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build
-.PHONY : sensor_msgs_generate_messages_lisp/fast
-
-# Convenience name for target.
-wpm2/wpm2_bringup/CMakeFiles/actionlib_generate_messages_cpp.dir/rule:
-	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f CMakeFiles/Makefile2 wpm2/wpm2_bringup/CMakeFiles/actionlib_generate_messages_cpp.dir/rule
-.PHONY : wpm2/wpm2_bringup/CMakeFiles/actionlib_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-actionlib_generate_messages_cpp: wpm2/wpm2_bringup/CMakeFiles/actionlib_generate_messages_cpp.dir/rule
-
-.PHONY : actionlib_generate_messages_cpp
-
-# fast build rule for target.
-actionlib_generate_messages_cpp/fast:
-	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/actionlib_generate_messages_cpp.dir/build.make wpm2/wpm2_bringup/CMakeFiles/actionlib_generate_messages_cpp.dir/build
-.PHONY : actionlib_generate_messages_cpp/fast
-
-# Convenience name for target.
-wpm2/wpm2_bringup/CMakeFiles/roscpp_generate_messages_cpp.dir/rule:
-	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f CMakeFiles/Makefile2 wpm2/wpm2_bringup/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
-.PHONY : wpm2/wpm2_bringup/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-roscpp_generate_messages_cpp: wpm2/wpm2_bringup/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
-
-.PHONY : roscpp_generate_messages_cpp
-
-# fast build rule for target.
-roscpp_generate_messages_cpp/fast:
-	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make wpm2/wpm2_bringup/CMakeFiles/roscpp_generate_messages_cpp.dir/build
-.PHONY : roscpp_generate_messages_cpp/fast
-
-# Convenience name for target.
-wpm2/wpm2_bringup/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f CMakeFiles/Makefile2 wpm2/wpm2_bringup/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/rule
-.PHONY : wpm2/wpm2_bringup/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-sensor_msgs_generate_messages_nodejs: wpm2/wpm2_bringup/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/rule
-
-.PHONY : sensor_msgs_generate_messages_nodejs
-
-# fast build rule for target.
-sensor_msgs_generate_messages_nodejs/fast:
-	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build.make wpm2/wpm2_bringup/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build
-.PHONY : sensor_msgs_generate_messages_nodejs/fast
-
-# Convenience name for target.
-wpm2/wpm2_bringup/CMakeFiles/actionlib_generate_messages_eus.dir/rule:
-	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f CMakeFiles/Makefile2 wpm2/wpm2_bringup/CMakeFiles/actionlib_generate_messages_eus.dir/rule
-.PHONY : wpm2/wpm2_bringup/CMakeFiles/actionlib_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-actionlib_generate_messages_eus: wpm2/wpm2_bringup/CMakeFiles/actionlib_generate_messages_eus.dir/rule
-
-.PHONY : actionlib_generate_messages_eus
-
-# fast build rule for target.
-actionlib_generate_messages_eus/fast:
-	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/actionlib_generate_messages_eus.dir/build.make wpm2/wpm2_bringup/CMakeFiles/actionlib_generate_messages_eus.dir/build
-.PHONY : actionlib_generate_messages_eus/fast
-
-# Convenience name for target.
-wpm2/wpm2_bringup/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule:
-	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f CMakeFiles/Makefile2 wpm2/wpm2_bringup/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
-.PHONY : wpm2/wpm2_bringup/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-sensor_msgs_generate_messages_py: wpm2/wpm2_bringup/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
-
-.PHONY : sensor_msgs_generate_messages_py
-
-# fast build rule for target.
-sensor_msgs_generate_messages_py/fast:
-	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make wpm2/wpm2_bringup/CMakeFiles/sensor_msgs_generate_messages_py.dir/build
-.PHONY : sensor_msgs_generate_messages_py/fast
-
-# Convenience name for target.
-wpm2/wpm2_bringup/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule:
-	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f CMakeFiles/Makefile2 wpm2/wpm2_bringup/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
-.PHONY : wpm2/wpm2_bringup/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-geometry_msgs_generate_messages_cpp: wpm2/wpm2_bringup/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
-
-.PHONY : geometry_msgs_generate_messages_cpp
-
-# fast build rule for target.
-geometry_msgs_generate_messages_cpp/fast:
-	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make wpm2/wpm2_bringup/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
-.PHONY : geometry_msgs_generate_messages_cpp/fast
-
-# Convenience name for target.
-wpm2/wpm2_bringup/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule:
-	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f CMakeFiles/Makefile2 wpm2/wpm2_bringup/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
-.PHONY : wpm2/wpm2_bringup/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-geometry_msgs_generate_messages_lisp: wpm2/wpm2_bringup/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
-
-.PHONY : geometry_msgs_generate_messages_lisp
-
-# fast build rule for target.
-geometry_msgs_generate_messages_lisp/fast:
-	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make wpm2/wpm2_bringup/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
-.PHONY : geometry_msgs_generate_messages_lisp/fast
-
-# Convenience name for target.
-wpm2/wpm2_bringup/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule:
-	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f CMakeFiles/Makefile2 wpm2/wpm2_bringup/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
-.PHONY : wpm2/wpm2_bringup/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-geometry_msgs_generate_messages_py: wpm2/wpm2_bringup/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
-
-.PHONY : geometry_msgs_generate_messages_py
-
-# fast build rule for target.
-geometry_msgs_generate_messages_py/fast:
-	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make wpm2/wpm2_bringup/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
-.PHONY : geometry_msgs_generate_messages_py/fast
-
-# Convenience name for target.
-wpm2/wpm2_bringup/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/rule:
-	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f CMakeFiles/Makefile2 wpm2/wpm2_bringup/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/rule
-.PHONY : wpm2/wpm2_bringup/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-actionlib_msgs_generate_messages_eus: wpm2/wpm2_bringup/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/rule
-
-.PHONY : actionlib_msgs_generate_messages_eus
-
-# fast build rule for target.
-actionlib_msgs_generate_messages_eus/fast:
-	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/build.make wpm2/wpm2_bringup/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/build
-.PHONY : actionlib_msgs_generate_messages_eus/fast
-
-# Convenience name for target.
-wpm2/wpm2_bringup/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule:
-	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f CMakeFiles/Makefile2 wpm2/wpm2_bringup/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule
-.PHONY : wpm2/wpm2_bringup/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-actionlib_msgs_generate_messages_lisp: wpm2/wpm2_bringup/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule
-
-.PHONY : actionlib_msgs_generate_messages_lisp
-
-# fast build rule for target.
-actionlib_msgs_generate_messages_lisp/fast:
-	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build.make wpm2/wpm2_bringup/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build
-.PHONY : actionlib_msgs_generate_messages_lisp/fast
-
-# Convenience name for target.
-wpm2/wpm2_bringup/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule:
-	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f CMakeFiles/Makefile2 wpm2/wpm2_bringup/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule
-.PHONY : wpm2/wpm2_bringup/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-actionlib_msgs_generate_messages_py: wpm2/wpm2_bringup/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule
-
-.PHONY : actionlib_msgs_generate_messages_py
-
-# fast build rule for target.
-actionlib_msgs_generate_messages_py/fast:
-	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build.make wpm2/wpm2_bringup/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build
-.PHONY : actionlib_msgs_generate_messages_py/fast
-
-# Convenience name for target.
-wpm2/wpm2_bringup/CMakeFiles/actionlib_generate_messages_lisp.dir/rule:
-	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f CMakeFiles/Makefile2 wpm2/wpm2_bringup/CMakeFiles/actionlib_generate_messages_lisp.dir/rule
-.PHONY : wpm2/wpm2_bringup/CMakeFiles/actionlib_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-actionlib_generate_messages_lisp: wpm2/wpm2_bringup/CMakeFiles/actionlib_generate_messages_lisp.dir/rule
-
-.PHONY : actionlib_generate_messages_lisp
-
-# fast build rule for target.
-actionlib_generate_messages_lisp/fast:
-	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/actionlib_generate_messages_lisp.dir/build.make wpm2/wpm2_bringup/CMakeFiles/actionlib_generate_messages_lisp.dir/build
-.PHONY : actionlib_generate_messages_lisp/fast
-
-# Convenience name for target.
-wpm2/wpm2_bringup/CMakeFiles/actionlib_generate_messages_nodejs.dir/rule:
-	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f CMakeFiles/Makefile2 wpm2/wpm2_bringup/CMakeFiles/actionlib_generate_messages_nodejs.dir/rule
-.PHONY : wpm2/wpm2_bringup/CMakeFiles/actionlib_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-actionlib_generate_messages_nodejs: wpm2/wpm2_bringup/CMakeFiles/actionlib_generate_messages_nodejs.dir/rule
-
-.PHONY : actionlib_generate_messages_nodejs
-
-# fast build rule for target.
-actionlib_generate_messages_nodejs/fast:
-	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/actionlib_generate_messages_nodejs.dir/build.make wpm2/wpm2_bringup/CMakeFiles/actionlib_generate_messages_nodejs.dir/build
-.PHONY : actionlib_generate_messages_nodejs/fast
-
-# Convenience name for target.
-wpm2/wpm2_bringup/CMakeFiles/actionlib_generate_messages_py.dir/rule:
-	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f CMakeFiles/Makefile2 wpm2/wpm2_bringup/CMakeFiles/actionlib_generate_messages_py.dir/rule
-.PHONY : wpm2/wpm2_bringup/CMakeFiles/actionlib_generate_messages_py.dir/rule
-
-# Convenience name for target.
-actionlib_generate_messages_py: wpm2/wpm2_bringup/CMakeFiles/actionlib_generate_messages_py.dir/rule
-
-.PHONY : actionlib_generate_messages_py
-
-# fast build rule for target.
-actionlib_generate_messages_py/fast:
-	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/actionlib_generate_messages_py.dir/build.make wpm2/wpm2_bringup/CMakeFiles/actionlib_generate_messages_py.dir/build
-.PHONY : actionlib_generate_messages_py/fast
+wpm2_fake/fast:
+	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/build.make wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/build
+.PHONY : wpm2_fake/fast
 
 src/driver/SerialCom.o: src/driver/SerialCom.cpp.o
 
@@ -923,9 +398,9 @@ src/driver/SerialCom.o: src/driver/SerialCom.cpp.o
 
 # target to build an object file
 src/driver/SerialCom.cpp.o:
-	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/build.make wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/src/driver/SerialCom.cpp.o
-	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/wpm2_core.dir/build.make wpm2/wpm2_bringup/CMakeFiles/wpm2_core.dir/src/driver/SerialCom.cpp.o
 	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/wpm2_test.dir/build.make wpm2/wpm2_bringup/CMakeFiles/wpm2_test.dir/src/driver/SerialCom.cpp.o
+	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/wpm2_core.dir/build.make wpm2/wpm2_bringup/CMakeFiles/wpm2_core.dir/src/driver/SerialCom.cpp.o
+	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/build.make wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/src/driver/SerialCom.cpp.o
 .PHONY : src/driver/SerialCom.cpp.o
 
 src/driver/SerialCom.i: src/driver/SerialCom.cpp.i
@@ -934,9 +409,9 @@ src/driver/SerialCom.i: src/driver/SerialCom.cpp.i
 
 # target to preprocess a source file
 src/driver/SerialCom.cpp.i:
-	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/build.make wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/src/driver/SerialCom.cpp.i
-	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/wpm2_core.dir/build.make wpm2/wpm2_bringup/CMakeFiles/wpm2_core.dir/src/driver/SerialCom.cpp.i
 	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/wpm2_test.dir/build.make wpm2/wpm2_bringup/CMakeFiles/wpm2_test.dir/src/driver/SerialCom.cpp.i
+	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/wpm2_core.dir/build.make wpm2/wpm2_bringup/CMakeFiles/wpm2_core.dir/src/driver/SerialCom.cpp.i
+	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/build.make wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/src/driver/SerialCom.cpp.i
 .PHONY : src/driver/SerialCom.cpp.i
 
 src/driver/SerialCom.s: src/driver/SerialCom.cpp.s
@@ -945,9 +420,9 @@ src/driver/SerialCom.s: src/driver/SerialCom.cpp.s
 
 # target to generate assembly for a file
 src/driver/SerialCom.cpp.s:
-	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/build.make wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/src/driver/SerialCom.cpp.s
-	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/wpm2_core.dir/build.make wpm2/wpm2_bringup/CMakeFiles/wpm2_core.dir/src/driver/SerialCom.cpp.s
 	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/wpm2_test.dir/build.make wpm2/wpm2_bringup/CMakeFiles/wpm2_test.dir/src/driver/SerialCom.cpp.s
+	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/wpm2_core.dir/build.make wpm2/wpm2_bringup/CMakeFiles/wpm2_core.dir/src/driver/SerialCom.cpp.s
+	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/build.make wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/src/driver/SerialCom.cpp.s
 .PHONY : src/driver/SerialCom.cpp.s
 
 src/driver/WPM2_Driver.o: src/driver/WPM2_Driver.cpp.o
@@ -956,9 +431,9 @@ src/driver/WPM2_Driver.o: src/driver/WPM2_Driver.cpp.o
 
 # target to build an object file
 src/driver/WPM2_Driver.cpp.o:
-	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/build.make wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/src/driver/WPM2_Driver.cpp.o
-	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/wpm2_core.dir/build.make wpm2/wpm2_bringup/CMakeFiles/wpm2_core.dir/src/driver/WPM2_Driver.cpp.o
 	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/wpm2_test.dir/build.make wpm2/wpm2_bringup/CMakeFiles/wpm2_test.dir/src/driver/WPM2_Driver.cpp.o
+	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/wpm2_core.dir/build.make wpm2/wpm2_bringup/CMakeFiles/wpm2_core.dir/src/driver/WPM2_Driver.cpp.o
+	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/build.make wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/src/driver/WPM2_Driver.cpp.o
 .PHONY : src/driver/WPM2_Driver.cpp.o
 
 src/driver/WPM2_Driver.i: src/driver/WPM2_Driver.cpp.i
@@ -967,9 +442,9 @@ src/driver/WPM2_Driver.i: src/driver/WPM2_Driver.cpp.i
 
 # target to preprocess a source file
 src/driver/WPM2_Driver.cpp.i:
-	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/build.make wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/src/driver/WPM2_Driver.cpp.i
-	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/wpm2_core.dir/build.make wpm2/wpm2_bringup/CMakeFiles/wpm2_core.dir/src/driver/WPM2_Driver.cpp.i
 	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/wpm2_test.dir/build.make wpm2/wpm2_bringup/CMakeFiles/wpm2_test.dir/src/driver/WPM2_Driver.cpp.i
+	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/wpm2_core.dir/build.make wpm2/wpm2_bringup/CMakeFiles/wpm2_core.dir/src/driver/WPM2_Driver.cpp.i
+	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/build.make wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/src/driver/WPM2_Driver.cpp.i
 .PHONY : src/driver/WPM2_Driver.cpp.i
 
 src/driver/WPM2_Driver.s: src/driver/WPM2_Driver.cpp.s
@@ -978,9 +453,9 @@ src/driver/WPM2_Driver.s: src/driver/WPM2_Driver.cpp.s
 
 # target to generate assembly for a file
 src/driver/WPM2_Driver.cpp.s:
-	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/build.make wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/src/driver/WPM2_Driver.cpp.s
-	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/wpm2_core.dir/build.make wpm2/wpm2_bringup/CMakeFiles/wpm2_core.dir/src/driver/WPM2_Driver.cpp.s
 	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/wpm2_test.dir/build.make wpm2/wpm2_bringup/CMakeFiles/wpm2_test.dir/src/driver/WPM2_Driver.cpp.s
+	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/wpm2_core.dir/build.make wpm2/wpm2_bringup/CMakeFiles/wpm2_core.dir/src/driver/WPM2_Driver.cpp.s
+	cd /home/haouanbo/Projects/jixiebi/ws1/build && $(MAKE) -f wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/build.make wpm2/wpm2_bringup/CMakeFiles/wpm2_fake.dir/src/driver/WPM2_Driver.cpp.s
 .PHONY : src/driver/WPM2_Driver.cpp.s
 
 src/wpm2_core.o: src/wpm2_core.cpp.o
@@ -1073,60 +548,25 @@ help:
 	@echo "... install/strip"
 	@echo "... install"
 	@echo "... list_install_components"
-	@echo "... wpm2_fake"
-	@echo "... wpm2_core"
 	@echo "... edit_cache"
-	@echo "... wpm2_bringup_genpy"
-	@echo "... wpm2_bringup_generate_messages_py"
-	@echo "... wpm2_bringup_gennodejs"
-	@echo "... wpm2_bringup_generate_messages_nodejs"
-	@echo "... wpm2_bringup_generate_messages_lisp"
 	@echo "... wpm2_bringup_geneus"
-	@echo "... wpm2_bringup_gencpp"
-	@echo "... wpm2_bringup_generate_messages_cpp"
-	@echo "... wpm2_bringup_generate_messages"
-	@echo "... std_msgs_generate_messages_py"
-	@echo "... std_msgs_generate_messages_nodejs"
-	@echo "... std_msgs_generate_messages_cpp"
-	@echo "... rosgraph_msgs_generate_messages_py"
-	@echo "... rosgraph_msgs_generate_messages_nodejs"
-	@echo "... std_msgs_generate_messages_eus"
-	@echo "... actionlib_msgs_generate_messages_nodejs"
-	@echo "... rosgraph_msgs_generate_messages_lisp"
 	@echo "... wpm2_bringup_genlisp"
-	@echo "... wpm2_bringup_generate_messages_eus"
-	@echo "... rosgraph_msgs_generate_messages_eus"
-	@echo "... actionlib_msgs_generate_messages_cpp"
-	@echo "... std_msgs_generate_messages_lisp"
-	@echo "... sensor_msgs_generate_messages_cpp"
-	@echo "... rosgraph_msgs_generate_messages_cpp"
-	@echo "... sensor_msgs_generate_messages_eus"
-	@echo "... _catkin_empty_exported_target"
-	@echo "... roscpp_generate_messages_lisp"
-	@echo "... geometry_msgs_generate_messages_nodejs"
-	@echo "... roscpp_generate_messages_py"
-	@echo "... roscpp_generate_messages_nodejs"
-	@echo "... roscpp_generate_messages_eus"
-	@echo "... geometry_msgs_generate_messages_eus"
-	@echo "... install/local"
 	@echo "... wpm2_test"
-	@echo "... sensor_msgs_generate_messages_lisp"
 	@echo "... rebuild_cache"
-	@echo "... actionlib_generate_messages_cpp"
-	@echo "... roscpp_generate_messages_cpp"
-	@echo "... sensor_msgs_generate_messages_nodejs"
-	@echo "... actionlib_generate_messages_eus"
-	@echo "... sensor_msgs_generate_messages_py"
-	@echo "... geometry_msgs_generate_messages_cpp"
-	@echo "... geometry_msgs_generate_messages_lisp"
-	@echo "... geometry_msgs_generate_messages_py"
-	@echo "... actionlib_msgs_generate_messages_eus"
-	@echo "... actionlib_msgs_generate_messages_lisp"
-	@echo "... actionlib_msgs_generate_messages_py"
-	@echo "... actionlib_generate_messages_lisp"
+	@echo "... wpm2_bringup_genpy"
+	@echo "... wpm2_bringup_generate_messages_eus"
+	@echo "... wpm2_core"
+	@echo "... _catkin_empty_exported_target"
+	@echo "... wpm2_bringup_generate_messages_lisp"
+	@echo "... wpm2_bringup_generate_messages"
+	@echo "... wpm2_bringup_gennodejs"
+	@echo "... install/local"
+	@echo "... wpm2_bringup_generate_messages_py"
+	@echo "... wpm2_bringup_generate_messages_cpp"
 	@echo "... test"
-	@echo "... actionlib_generate_messages_nodejs"
-	@echo "... actionlib_generate_messages_py"
+	@echo "... wpm2_bringup_gencpp"
+	@echo "... wpm2_bringup_generate_messages_nodejs"
+	@echo "... wpm2_fake"
 	@echo "... src/driver/SerialCom.o"
 	@echo "... src/driver/SerialCom.i"
 	@echo "... src/driver/SerialCom.s"

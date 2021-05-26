@@ -3,6 +3,10 @@
 #include<vector>
 #include "demo1/sign_position.h"
 #include "demo1/node_position.h"
+#include <Eigen/Dense>
+#define M_PI 3.14159265358
+
+typedef Eigen::Vector3d Point;
 
 using namespace std;
 typedef vector<double> Vec;
@@ -13,32 +17,25 @@ class SubscribeAndPublish
 		SubscribeAndPublish()
 		{
 			//Topic you want to publish
-			node_position_publisher = n.advertise<demo1::node_position>("node_position_info", 10);
+			node_position_publisher = n.advertise<demo1::node_position>("node_position_info", 1);
 
 			//Topic you want to subscribe
 			person_info_sub = n.subscribe("/sign_position_info", 10,
 					&SubscribeAndPublish::callback,this);
 		}
 
-		//向量内积
-		double InnerProduct3D(const Vec& x, const Vec& y)
-		{
-			assert(x.size() == y.size());       // #include <cassert>
-			double sum = 0.;
-			for (size_t i = 0; i < x.size(); ++i)
-				sum += x[i]*y[i];
-			return sum;
-		}
 
-		//向量模长
-		double norm(const Vec& x)
-		{
-			double val = 0.;
-			for(auto elem: x)
-				val += elem*elem;
-			return sqrt(val);
-			// #include <cmath>
-		}
+
+double getDegAngle(Point p1, Point p2, Point p3) {
+    Eigen::Vector3d v1 = p2 - p1;
+    Eigen::Vector3d v2 = p3 - p1;
+    double radian_angle = atan2(v1.cross(v2).norm(), v1.transpose() * v2);
+    if (v1.cross(v2).z() < 0) {
+        radian_angle = 2 * M_PI - radian_angle;
+    }
+    return radian_angle ;
+}
+
 
 		// 根据sign_position 实现求解 node_position
 		void callback(const demo1::sign_position::ConstPtr& msg)
@@ -52,40 +49,46 @@ class SubscribeAndPublish
 			sign_position_x = msg->x;
 			sign_position_y = msg->y;
 			sign_position_z = msg->z;
+
 			node_position_x = 0;
 			node_position_y = 0;
 			node_position_z = 0.6;
 
-			vector<double> v1;
-			vector<double> vx;
-			vector<double> vy;
-			vector<double> vz;
-			v1.push_back((sign_position_x - node_position_x)/(sign_position_z - node_position_z));
-			v1.push_back((sign_position_y - node_position_y)/(sign_position_z - node_position_z));
-			v1.push_back(1);
-
-			// vc=[0,1,0]
-			vx.push_back(0);
-			vx.push_back(1);
-			vx.push_back(0);
-
-			// vy=[1,0,0]
-			vy.push_back(1);
-			vy.push_back(0);
-			vy.push_back(0);
-
-			// vz=[0,0,1]
-			vz.push_back(0);
-			vz.push_back(0);
-			vz.push_back(1);
-
+			Point p1(sign_position_x - node_position_x, sign_position_y - node_position_y, sign_position_z - node_position_z),
+			 p0(0, 0, 0), p2(0, 0, 1),p3(sign_position_x - node_position_x, 0, sign_position_z - node_position_z);
+			
 
 			double theta_x = 0.0;
 			double theta_y = 0.0;
 			double theta_z = 0.0;
-			theta_x = asin(InnerProduct3D(v1,vy)/norm(v1));
-			theta_y = asin(InnerProduct3D(v1,vz)/norm(v1));
-			theta_z = 0.0;
+
+            if (sign_position_x > 0&&sign_position_y > 0)
+			{
+			    theta_x = -getDegAngle(p0, p3, p1);
+			    theta_y = getDegAngle(p0, p3, p2);
+			    theta_z = 0;
+			}
+           else if (sign_position_x > 0&&sign_position_y < 0)
+			{
+			    theta_x = getDegAngle(p0, p3, p1);
+			    theta_y = getDegAngle(p0, p3, p2);
+			    theta_z = 0;
+			}
+	      else if  (sign_position_x < 0&&sign_position_y >0)
+        
+			{
+			    theta_x =-getDegAngle(p0, p3, p1);
+			    theta_y = -getDegAngle(p0, p3, p2);
+			    theta_z = 0;
+			}
+			//else if (sign_position_x < 0&&sign_position_y <0)
+			else
+			{
+			    theta_x = getDegAngle(p0, p3, p1);
+			    theta_y =- getDegAngle(p0, p3, p2);
+			    theta_z = 0;
+			}
+
 			ROS_INFO("Subcribe sign_position Info: x:%f  y:%f  z:%f",
 					sign_position_x, sign_position_y, sign_position_z);
 			ROS_INFO("theta_x:%f  theta_y:%f  theta_z:%f",
@@ -112,7 +115,7 @@ class SubscribeAndPublish
 int main(int argc, char **argv)
 {
 	//Initiate ROS
-	ros::init(argc, argv, "sign_position_subscriber_publisher");
+	ros::init(argc, argv, "subscribe_and_publish");
 
 	//Create an object of class SubscribeAndPublish that will take care of everything
 	SubscribeAndPublish SAPObject;

@@ -1,0 +1,8 @@
+prefix=/home/haouanbo/Projects/jixiebi/ws3/install
+
+Name: keyboard
+Description: Description of keyboard
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,2 @@
+keyboard:teleop_twist_keyboard:wpm2/wpm2_bringup:wpm2/wpm2_moveit_config:wpm2/wpm2_tutorials
+-DCATKIN_DEVEL_PREFIX=/home/haouanbo/Projects/jixiebi/ws3/devel -DCMAKE_INSTALL_PREFIX=/home/haouanbo/Projects/jixiebi/ws3/install -G Unix Makefiles
