@@ -131,8 +131,6 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/haouanbo/Projects/jixiebi/ws4/build/gtest/cmake_install.cmake")
-  include("/home/haouanbo/Projects/jixiebi/ws4/build/teleop_twist_keyboard/cmake_install.cmake")
-  include("/home/haouanbo/Projects/jixiebi/ws4/build/keyboard/cmake_install.cmake")
   include("/home/haouanbo/Projects/jixiebi/ws4/build/wpm2/wpm2_bringup/cmake_install.cmake")
   include("/home/haouanbo/Projects/jixiebi/ws4/build/wpm2/wpm2_moveit_config/cmake_install.cmake")
   include("/home/haouanbo/Projects/jixiebi/ws4/build/wpm2/wpm2_tutorials/cmake_install.cmake")
